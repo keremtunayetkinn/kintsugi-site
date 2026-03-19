@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A1008"/>
+      <stop offset="100%" stop-color="#080503"/>
+    </linearGradient>
+    <radialGradient id="globe-glow" cx="50%" cy="48%" r="30%">
+      <stop offset="0%" stop-color="#C9932A" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#C9932A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#globe-glow)"/>
+  <!-- Large kanji: 今 (now/today) -->
+  <text x="800" y="620" text-anchor="middle" font-family="Georgia,serif" font-size="480"
+        fill="#C9932A" opacity="0.055">今</text>
+  <!-- Abstract world map / globe cracks — connecting global kintsugi -->
+  <g fill="none" stroke="#C9932A" stroke-linecap="round">
+    <!-- Globe outline (subtle circle) -->
+    <circle cx="800" cy="440" r="280" stroke-width="1.5" opacity="0.2"/>
+    <!-- Meridian lines (vertical) -->
+    <path d="M 800 160 C 860 280 860 600 800 720" stroke-width="1" opacity="0.15"/>
+    <path d="M 700 170 C 720 290 710 590 680 710" stroke-width="1" opacity="0.12"/>
+    <path d="M 900 170 C 920 290 930 590 920 710" stroke-width="1" opacity="0.12"/>
+    <!-- Parallel lines (horizontal) -->
+    <path d="M 540 360 C 640 350 760 346 800 346 C 840 346 960 350 1060 360" stroke-width="1" opacity="0.15"/>
+    <path d="M 530 440 C 640 436 760 434 800 434 C 840 434 960 436 1070 440" stroke-width="1" opacity="0.15"/>
+    <path d="M 540 520 C 640 514 760 512 800 512 C 840 512 960 514 1060 520" stroke-width="1" opacity="0.15"/>
+    <!-- Gold seam cracks crossing the globe — repair routes -->
+    <path d="M 560 240 L 620 290 L 590 360 L 660 420 L 630 500 L 700 560 L 670 640"
+          stroke-width="2.5" opacity="0.7"/>
+    <path d="M 620 290 L 680 270 L 740 250" stroke-width="1.5" opacity="0.45"/>
+    <path d="M 660 420 L 720 400 L 790 390" stroke-width="1.5" opacity="0.4"/>
+    <path d="M 940 220 L 980 280 L 950 360 L 1010 430 L 970 520 L 1020 600"
+          stroke-width="2.5" opacity="0.65"/>
+    <path d="M 980 280 L 1040 260 L 1100 250" stroke-width="1.5" opacity="0.4"/>
+    <path d="M 1010 430 L 1070 415 L 1130 400" stroke-width="1.5" opacity="0.35"/>
+  </g>
+  <!-- Gold nodes — cities/connection points -->
+  <g fill="#C9932A">
+    <circle cx="620" cy="290" r="4" opacity="0.9"/>
+    <circle cx="660" cy="420" r="4.5" opacity="0.9"/>
+    <circle cx="700" cy="560" r="4" opacity="0.85"/>
+    <circle cx="980" cy="280" r="4" opacity="0.9"/>
+    <circle cx="1010" cy="430" r="4.5" opacity="0.9"/>
+    <circle cx="1020" cy="600" r="4" opacity="0.85"/>
+  </g>
+  <line x1="640" y1="820" x2="960" y2="820" stroke="#C9932A" stroke-width="1" opacity="0.35"/>
+  <text x="800" y="850" text-anchor="middle" font-family="Georgia,serif" font-size="18"
+        fill="#C9932A" opacity="0.5" letter-spacing="8">今日 · KINTSUGI TODAY</text>
+</svg>

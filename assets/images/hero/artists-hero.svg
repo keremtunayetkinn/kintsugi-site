@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1C1208"/>
+      <stop offset="100%" stop-color="#080503"/>
+    </linearGradient>
+    <radialGradient id="spotlight" cx="50%" cy="45%" r="35%">
+      <stop offset="0%" stop-color="#C9932A" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#C9932A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#spotlight)"/>
+  <!-- Large kanji: 匠 (master craftsman) -->
+  <text x="800" y="630" text-anchor="middle" font-family="Georgia,serif" font-size="490"
+        fill="#C9932A" opacity="0.055">匠</text>
+  <!-- Brushstroke-style crack patterns — master's hand traces -->
+  <g fill="none" stroke="#C9932A" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Left artist's work -->
+    <path d="M 200 200 C 220 280 200 360 240 440 C 280 520 260 600 300 680"
+          stroke-width="2.5" opacity="0.65"/>
+    <path d="M 240 440 C 300 420 360 400 400 380"
+          stroke-width="1.5" opacity="0.45"/>
+    <path d="M 260 600 C 220 620 180 640 160 660"
+          stroke-width="1.5" opacity="0.4"/>
+    <!-- Center artist's work — most prominent -->
+    <path d="M 700 160 C 740 240 720 340 760 430 C 800 520 780 620 820 720"
+          stroke-width="3" opacity="0.7"/>
+    <path d="M 760 430 C 820 410 900 400 960 390"
+          stroke-width="2" opacity="0.55"/>
+    <path d="M 780 620 C 740 640 700 660 680 680"
+          stroke-width="1.5" opacity="0.4"/>
+    <path d="M 820 720 C 860 700 900 720 920 740"
+          stroke-width="1.5" opacity="0.4"/>
+    <!-- Right artist's work -->
+    <path d="M 1200 200 C 1220 300 1200 400 1240 490 C 1280 580 1260 660 1300 740"
+          stroke-width="2.5" opacity="0.6"/>
+    <path d="M 1240 490 C 1180 510 1120 520 1080 530"
+          stroke-width="1.5" opacity="0.4"/>
+    <!-- Connecting gold thread between artists -->
+    <path d="M 300 680 C 500 700 600 720 700 720 C 800 720 900 700 1060 680 C 1160 665 1240 660 1300 740"
+          stroke-width="1" opacity="0.3" stroke-dasharray="6 4"/>
+  </g>
+  <!-- Gold nodes — master's touch points -->
+  <g fill="#C9932A">
+    <circle cx="240" cy="440" r="4" opacity="0.9"/>
+    <circle cx="300" cy="680" r="3.5" opacity="0.8"/>
+    <circle cx="760" cy="430" r="5" opacity="0.95"/>
+    <circle cx="780" cy="620" r="4" opacity="0.85"/>
+    <circle cx="820" cy="720" r="4.5" opacity="0.9"/>
+    <circle cx="1240" cy="490" r="4" opacity="0.85"/>
+    <circle cx="1300" cy="740" r="3.5" opacity="0.8"/>
+  </g>
+  <line x1="640" y1="820" x2="960" y2="820" stroke="#C9932A" stroke-width="1" opacity="0.35"/>
+  <text x="800" y="850" text-anchor="middle" font-family="Georgia,serif" font-size="18"
+        fill="#C9932A" opacity="0.5" letter-spacing="8">匠 · ARTISTS</text>
+</svg>

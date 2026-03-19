@@ -1,0 +1,471 @@
+{
+  "site": {
+    "name": "Kintsugi"
+  },
+  "nav": {
+    "home":        "Home",
+    "history":     "History",
+    "philosophy":  "Philosophy",
+    "technique":   "Technique",
+    "artists":     "Artists",
+    "today":       "Kintsugi Today",
+    "gallery":     "Gallery",
+    "faq":         "FAQ"
+  },
+  "footer": {
+    "tagline": "Beauty in Imperfection",
+    "copy":    "© 2026 Kintsugi — Free educational resource"
+  },
+  "hero": {
+    "title":    "Kintsugi",
+    "subtitle": "Beauty Born from Brokenness",
+    "cta":      "Discover the Art",
+    "kanji":    "金継ぎ"
+  },
+  "home": {
+    "meta": {
+      "title":       "Kintsugi — The Art of Golden Repair",
+      "description": "Discover Kintsugi, the Japanese art of repairing broken ceramics with gold. History, philosophy, technique, artists, and more."
+    },
+    "what": {
+      "label":   "What is Kintsugi?",
+      "title":   "Repairing with Gold",
+      "body":    "<strong>Kintsugi</strong> (金継ぎ) is the centuries-old Japanese art of repairing broken ceramics with lacquer mixed with gold, silver, or platinum powder. Rather than concealing the damage, it illuminates the cracks — transforming scars into seams of gold. The repaired object becomes more beautiful, and more valuable, than before it was broken.",
+      "caption": "The crack is not the wound — it is the map."
+    },
+    "concepts": {
+      "label":   "Core Concepts",
+      "title":   "Explore",
+      "history": {
+        "title": "History",
+        "desc":  "From Ashikaga's teacups to the global stage — trace 600 years of golden joinery."
+      },
+      "philosophy": {
+        "title": "Philosophy",
+        "desc":  "Wabi-Sabi, impermanence, and the courage to wear your history visibly."
+      },
+      "technique": {
+        "title": "Technique",
+        "desc":  "Urushi lacquer, 24K gold powder, patience — the traditional six-step process."
+      }
+    },
+    "quote": {
+      "text":   "There is a crack in everything. That's how the light gets in.",
+      "author": "— Leonard Cohen (paraphrased)"
+    },
+    "explore": {
+      "label":   "All Pages",
+      "title":   "Explore the World of Kintsugi",
+      "artists": {
+        "title": "Artists",
+        "desc":  "Masters from Kyoto to Istanbul shaping the tradition today."
+      },
+      "today": {
+        "title": "Kintsugi Today",
+        "desc":  "Workshops, psychotherapy, sustainability — a global movement."
+      },
+      "gallery": {
+        "title": "Gallery",
+        "desc":  "A visual journey through traditional and contemporary Kintsugi."
+      },
+      "faq": {
+        "title": "FAQ",
+        "desc":  "Practical answers: materials, safety, learning, and more."
+      }
+    }
+  },
+  "history": {
+    "meta": {
+      "title":       "History & Origins — Kintsugi",
+      "description": "Discover how Kintsugi began with Ashikaga Yoshimasa in 15th-century Japan and shaped centuries of ceramic art."
+    },
+    "hero": {
+      "title":    "History & Origins",
+      "subtitle": "Six Centuries of Golden Repair"
+    },
+    "legend": {
+      "label": "The Origin Story",
+      "title": "Ashikaga's Broken Teapot",
+      "body":  "The story of Kintsugi begins around 1467, during the rule of <strong>Ashikaga Yoshimasa</strong>, the eighth shogun of the Ashikaga shogunate. His prized Chinese teapot broke, and he sent it back to China for repair. It returned held together with unsightly metal staples. Dissatisfied, the shogun tasked Japanese craftsmen with finding a more beautiful solution. The craftsmen responded with lacquer and gold — and Kintsugi was born. What began as an act of aesthetic dissatisfaction became a philosophy of repair, resilience, and beauty."
+    },
+    "timeline": {
+      "label": "Timeline",
+      "title": "A Chronology of Golden Repair",
+      "items": [
+        {
+          "date":  "~14,000 BCE",
+          "title": "Jomon Period",
+          "text":  "Urushi lacquer first used in Japan — the raw material that would one day make Kintsugi possible."
+        },
+        {
+          "date":  "15th Century",
+          "title": "Kintsugi Emerges",
+          "text":  "Born from Shogun Ashikaga Yoshimasa's court. The repair of a Chinese teapot sparks a new art form."
+        },
+        {
+          "date":  "16–17th Century",
+          "title": "Tea Ceremony Era",
+          "text":  "Kintsugi spreads through Chado (the Way of Tea). Wabi-Sabi aesthetics embrace visible repair as beauty."
+        },
+        {
+          "date":  "20th Century",
+          "title": "International Recognition",
+          "text":  "Western collectors and museums begin acquiring Kintsugi pieces. The philosophy resonates beyond ceramics."
+        },
+        {
+          "date":  "Today",
+          "title": "A Global Movement",
+          "text":  "Kintsugi has become a metaphor for resilience worldwide — applied in art therapy, philosophy, and design."
+        }
+      ]
+    },
+    "culture": {
+      "label": "Cultural Context",
+      "title": "Kintsugi and the Way of Tea",
+      "body":  "Kintsugi did not exist in isolation. It grew within the rich ecosystem of Japanese <span class=\"term\" data-term=\"chado\" tabindex=\"0\">Chado</span> — the Way of Tea — a practice that elevated every object in the tea room to spiritual significance. Tea masters like Sen no Rikyū championed Wabi-Sabi aesthetics: they preferred the imperfect, the weathered, the repaired over the pristine and new. A bowl repaired with gold carried more character, more history, more soul than an unbroken one. Kintsugi was not a compromise — it was an elevation."
+    }
+  },
+  "philosophy": {
+    "meta": {
+      "title":       "Philosophy — Kintsugi",
+      "description": "Explore the Wabi-Sabi philosophy behind Kintsugi and how it transforms our relationship with imperfection and repair."
+    },
+    "hero": {
+      "title":    "Philosophy",
+      "subtitle": "The Art of Embracing Imperfection"
+    },
+    "wabi_sabi": {
+      "label": "Core Philosophy",
+      "title": "Wabi-Sabi",
+      "body":  "<span class=\"term\" data-term=\"wabi_sabi\" tabindex=\"0\">Wabi-Sabi</span> is the Japanese aesthetic that finds beauty in the imperfect, impermanent, and incomplete. It is the philosophy that makes Kintsugi possible — without it, broken ceramics would simply be discarded. Wabi (侘) suggests a quiet, austere beauty. Sabi (寂) evokes the beauty that comes with age and wear. Together, they form the foundation of one of the most quietly radical ideas in the history of art: that broken things are not failed things."
+    },
+    "imperfection": {
+      "label": "The Core Idea",
+      "title": "Illuminating Flaws",
+      "body":  "Where Western tradition often seeks to hide damage — seamless restoration, invisible mending — Kintsugi does the opposite. The breaks are not concealed; they are emphasized. Lacquer mixed with powdered gold, silver, or platinum is applied to the fractures, making them the most visible part of the object. The philosophy has deep roots in Zen Buddhism: attachment to the unchanging is suffering. The bowl that has broken and been made whole again is a better teacher than the bowl that was never tested."
+    },
+    "life": {
+      "label": "Metaphor",
+      "title": "Kintsugi and the Human Experience",
+      "body":  "What we repair becomes more beautiful than what was never broken. This idea has migrated far beyond ceramics — into psychotherapy, self-help, design, and personal storytelling. The cracks in a life are not evidence of weakness. They are proof of experience, of surviving what could have ended you, of continuing. Kintsugi teaches us that the history of our wounds is worth showing — not because suffering is romantic, but because it is real, and real things have a beauty that perfection can never achieve.",
+      "quote": "The world breaks everyone, and afterward, some are strong at the broken places.",
+      "quote_author": "— Ernest Hemingway"
+    },
+    "consumerism": {
+      "label": "Sustainability",
+      "title": "Against the Throwaway Culture",
+      "body":  "Kintsugi is, among other things, a philosophy of repair over replacement. In an age of disposable consumer goods, the idea that a broken object is worth mending — and that mending can make it more valuable — is quietly revolutionary. Modern Kintsugi practitioners are increasingly drawn to eco-friendly alternatives to traditional urushi, making the practice accessible while honoring its core principle: nothing broken is beyond saving."
+    },
+    "reflection_prompt": "What is one thing in your life that, once broken, became stronger at the break?",
+    "reflection_answer": "Kintsugi teaches that our fractures are not failures — they are the places where light enters. The gold does not hide the break; it celebrates it. Your healed places are your strongest ones."
+  },
+  "technique": {
+    "meta": {
+      "title":       "Technique & Materials — Kintsugi",
+      "description": "Learn the traditional Hon-Kintsugi process: six steps, urushi lacquer, 24K gold powder, and centuries of craft."
+    },
+    "hero": {
+      "title":    "Technique & Materials",
+      "subtitle": "The Ancient Six-Step Process"
+    },
+    "hon_kintsugi": {
+      "label": "Traditional Method",
+      "title": "Hon-Kintsugi: The Authentic Process",
+      "intro": "The traditional method — <span class=\"term\" data-term=\"hon_kintsugi\" tabindex=\"0\">Hon-Kintsugi</span> — uses <span class=\"term\" data-term=\"urushi\" tabindex=\"0\">urushi</span> lacquer harvested from the urushi tree (<em>Toxicodendron vernicifluum</em>) and pure 24K gold powder. The process requires patience: each layer of lacquer must cure in controlled humidity before the next can be applied. A full traditional Kintsugi repair can take weeks or months.",
+      "steps": [
+        {
+          "title": "Clean",
+          "desc":  "Remove all debris, dust, and loose fragments from broken surfaces. The join must be clean for the lacquer to bond properly."
+        },
+        {
+          "title": "Adhere",
+          "desc":  "Apply urushi lacquer to the broken edges and press the pieces together. Precise alignment is essential — urushi bonds strongly once cured."
+        },
+        {
+          "title": "Cure",
+          "desc":  "Place the joined piece in a humidity chamber (muro) at 70–85% relative humidity and 20–25°C. Urushi cures through an oxidative polymerization process — it requires moisture, not drying."
+        },
+        {
+          "title": "Sand",
+          "desc":  "Once the lacquer has fully cured, carefully sand the surface of the joins using progressively finer wet sandpaper. This reveals the smooth seam beneath."
+        },
+        {
+          "title": "Apply Gold",
+          "desc":  "Brush a final thin layer of urushi over the seam while it is still tacky, then dust 24K gold powder onto it using a soft brush. The gold adheres to the wet lacquer."
+        },
+        {
+          "title": "Polish",
+          "desc":  "After the final cure, burnish the gold seams gently with a soft cloth or burnishing tool. The golden joins are now the most visible — and most beautiful — part of the object."
+        }
+      ]
+    },
+    "materials": {
+      "label": "Materials",
+      "title": "What You Need",
+      "columns": ["Material", "Japanese", "Role", "Notes"],
+      "rows": [
+        ["Urushi Lacquer", "漆", "Adhesive and base coating", "Traditional; requires humidity to cure. Allergy risk — see warning below."],
+        ["24K Gold Powder", "金粉", "Final seam decoration", "Pure gold ensures longevity and authentic appearance."],
+        ["Silver Powder", "銀粉", "Alternative to gold", "Creates a cooler, more restrained aesthetic."],
+        ["Platinum Powder", "白金粉", "Rare alternative", "The most durable of the three metals."],
+        ["Soft Brush", "刷毛", "Applying lacquer and metal powder", "Use natural-hair brushes; synthetic may shed."],
+        ["Wet Sandpaper", "耐水ペーパー", "Smoothing cured seams", "Grades 400–2000; use progressively finer grits."]
+      ]
+    },
+    "modern": {
+      "label": "Alternatives",
+      "title": "Traditional vs. Modern Methods",
+      "traditional": {
+        "title": "Traditional (Hon-Kintsugi)",
+        "items": [
+          "Urushi lacquer — plant-derived, durable",
+          "24K gold, silver, or platinum powder",
+          "Weeks to months per piece",
+          "Requires humidity-controlled curing",
+          "Highest durability — lasts centuries",
+          "Potential urushi allergy risk"
+        ]
+      },
+      "modern": {
+        "title": "Modern / Eco Alternatives",
+        "items": [
+          "Epoxy resin or food-safe glue",
+          "Mica powder mixed with gold paint",
+          "Hours to days per piece",
+          "Room-temperature curing",
+          "Good durability — decorative use",
+          "Generally hypoallergenic"
+        ]
+      }
+    },
+    "allergy": {
+      "title": "⚠ Urushi Allergy Warning",
+      "text":  "Urushi (raw lacquer) contains urushiol — the same compound found in poison ivy. In uncured form it can cause severe contact dermatitis. Wear nitrile gloves and work in a well-ventilated space. Fully cured urushi is considered safe. If you are sensitive to poison ivy or poison oak, consult a specialist before working with urushi."
+    }
+  },
+  "artists": {
+    "meta": {
+      "title":       "Artists — Kintsugi",
+      "description": "Meet the masters and contemporary artists keeping Kintsugi alive — from Kyoto studios to Istanbul workshops."
+    },
+    "hero": {
+      "title":    "Artists",
+      "subtitle": "Masters of the Golden Seam"
+    },
+    "traditional": {
+      "label": "Traditional Masters",
+      "title": "Japanese Masters",
+      "items": [
+        {
+          "name": "Nobuyasu Suginaka",
+          "role": "Traditional Kintsugi Master, Kyoto",
+          "bio":  "A third-generation lacquerware artisan in Kyoto, Suginaka has spent over forty years perfecting the traditional Hon-Kintsugi method. His work is held in museum collections across Japan and he teaches the craft through a small, intensive apprenticeship programme."
+        },
+        {
+          "name": "Seisaku Nakajima",
+          "role": "Lacquer Artist & Restorer",
+          "bio":  "Nakajima specialises in the restoration of historic tea ceramics, applying Kintsugi only where the original craftsmen would have sanctioned it. His approach is deeply reverential — the gold follows the exact line of the break, never added for decoration alone."
+        },
+        {
+          "name": "Keiko Hata",
+          "role": "Ceramic Conservator, Tokyo National Museum",
+          "bio":  "One of the few women to reach the highest levels of traditional Kintsugi, Hata has restored pieces from the Edo period and led workshops in cultural preservation at the Tokyo National Museum."
+        },
+        {
+          "name": "Maki Mizuno",
+          "role": "Contemporary Kintsugi Artist, Osaka",
+          "bio":  "Mizuno blends traditional technique with a contemporary visual language, applying Kintsugi to mass-produced ceramics to raise questions about value, perfection, and the culture of disposal."
+        },
+        {
+          "name": "Rio Hashimoto",
+          "role": "Kintsugi Educator & Author",
+          "bio":  "Hashimoto has written two influential books on Kintsugi technique and runs workshops across Japan and internationally. She is known for making the craft accessible to beginners without compromising its philosophical depth."
+        }
+      ]
+    },
+    "contemporary": {
+      "label": "Contemporary Artists",
+      "title": "Beyond the Studio",
+      "items": [
+        {
+          "name": "Yoko Ono",
+          "role": "Conceptual Artist",
+          "bio":  "Yoko Ono's ceramic collection, particularly her ongoing project <em>Mend Piece</em> (first shown in 1966), invites participants to mend broken cups using any available material. The work draws directly on the spirit of Kintsugi — that repair is a creative, healing act — without the traditional lacquer technique."
+        },
+        {
+          "name": "Tomomi Kamoshita",
+          "role": "Contemporary Ceramicist",
+          "bio":  "Known for her series <em>Gift From Ten Waves</em>, Kamoshita creates ceramics that appear to have already been broken and repaired — the gold veins are built into the original form. She questions what it means for repair to be authentic when brokenness was always the plan."
+        }
+      ]
+    },
+    "turkey": {
+      "label": "Kintsugi in Turkey",
+      "title": "Artists from Turkey",
+      "items": [
+        {
+          "name": "Özlem Kevser Birkan",
+          "role": "Kintsugi Master & Educator, Istanbul",
+          "bio":  "Özlem Kevser Birkan is widely credited with bringing authentic Kintsugi practice to Turkey. Her path began with a deep interest in Japanese aesthetics, leading her to train in Japan under traditional masters. On returning to Istanbul, she founded her studio and teaching practice at Lotus5, introducing both the technique and the Wabi-Sabi philosophy to a new audience. She teaches using both traditional urushi and eco-friendly alternatives, making the art accessible while preserving its essence."
+        }
+      ]
+    }
+  },
+  "today": {
+    "meta": {
+      "title":       "Kintsugi Today — Kintsugi",
+      "description": "How Kintsugi has spread worldwide — from Japanese studios to Turkish workshops, therapy rooms, and sustainability movements."
+    },
+    "hero": {
+      "title":    "Kintsugi Today",
+      "subtitle": "A Global Practice of Repair"
+    },
+    "global": {
+      "label": "Global Reach",
+      "title": "From Japan to the World",
+      "body":  "What began as a Japanese court art has become a worldwide practice. Kintsugi communities exist in Japan, South Korea, Turkey, the United Kingdom, the United States, and Australia — and the philosophy has penetrated far beyond the ceramic studio into psychology, design, and popular culture. The map below shows the countries with active Kintsugi teaching communities."
+    },
+    "workshops": {
+      "label": "Where to Learn",
+      "title": "Workshops & Learning",
+      "home": {
+        "title": "Learn at Home",
+        "items": [
+          "DIY Kintsugi kits (eco resin-based) available online",
+          "YouTube tutorials in English, Japanese, and Turkish",
+          "Books: Rio Hashimoto's guides are widely recommended",
+          "Community forums and Discord groups for beginners"
+        ]
+      },
+      "kyoto": {
+        "title": "In Kyoto, Japan",
+        "items": [
+          "Kintsugi Kyoto studio — hands-on day workshops",
+          "Nishiki Kintsugi — traditional Hon-Kintsugi intensive",
+          "Multiple studios offer English-language sessions for visitors",
+          "Apprenticeship programmes for serious students"
+        ]
+      },
+      "turkey": {
+        "title": "In Turkey",
+        "items": [
+          "Lotus5 Studio, Istanbul — Özlem Kevser Birkan",
+          "Both traditional urushi and eco alternatives offered",
+          "Weekend and weekly workshop formats",
+          "Online sessions available for Turkey-wide participants"
+        ]
+      }
+    },
+    "culture": {
+      "label": "Popular Culture",
+      "title": "Kintsugi Beyond Ceramics",
+      "items": [
+        {
+          "icon":  "🧠",
+          "title": "Psychotherapy",
+          "text":  "Therapists have adopted Kintsugi as a metaphor for trauma recovery — the idea that healing does not mean returning to who you were before, but becoming stronger at the broken places. The metaphor is used in CBT, somatic therapy, and grief counselling."
+        },
+        {
+          "icon":  "💍",
+          "title": "Jewellery & Design",
+          "text":  "The aesthetic of gold-veined ceramics has influenced jewellery design, fashion textiles, and interior design. Cracked-glaze ceramics with golden fills are now commercially produced worldwide."
+        },
+        {
+          "icon":  "📱",
+          "title": "Social Media",
+          "text":  "The #kintsugi hashtag has millions of posts on Instagram — a mixture of genuine practice, philosophical reflection, and the art's visual power. The image of golden cracks has become one of the most recognisable symbols of resilience in digital culture."
+        }
+      ]
+    },
+    "sustainability": {
+      "label": "Eco-Kintsugi",
+      "title": "Repair Culture & Sustainability",
+      "body":  "Traditional Kintsugi is inherently sustainable — it extends the life of an object rather than discarding it. Modern eco-Kintsugi practitioners go further: replacing urushi with plant-based or mineral adhesives, using mica instead of mined gold, and advocating for repair culture as a response to consumer waste. The principle is unchanged: a broken thing, thoughtfully mended, becomes more valuable than it was."
+    }
+  },
+  "gallery": {
+    "meta": {
+      "title":       "Gallery — Kintsugi",
+      "description": "A visual journey through traditional and contemporary Kintsugi ceramics."
+    },
+    "hero": {
+      "title":    "Gallery",
+      "subtitle": "The Seams of Gold"
+    },
+    "filter": {
+      "all":          "All",
+      "traditional":  "Traditional",
+      "contemporary": "Contemporary",
+      "process":      "Process",
+      "turkey":       "Turkey"
+    },
+    "items": [
+      { "caption": "Traditional Kintsugi bowl, Edo period technique",         "category": "traditional"  },
+      { "caption": "Gold seam repair on a contemporary celadon piece",        "category": "contemporary" },
+      { "caption": "Applying urushi lacquer — the adhesion stage",            "category": "process"      },
+      { "caption": "Close-up of a gold seam on a 19th-century teacup",       "category": "traditional"  },
+      { "caption": "Contemporary vessel with deliberate gold veining",        "category": "contemporary" },
+      { "caption": "Dusting gold powder onto a still-tacky lacquer seam",    "category": "process"      },
+      { "caption": "Kintsugi plate from a Turkish workshop, Istanbul",        "category": "turkey"       },
+      { "caption": "Multiple repairs creating a map of restoration",         "category": "traditional"  },
+      { "caption": "Eco-Kintsugi with mica powder, Istanbul workshop",       "category": "turkey"       },
+      { "caption": "The complete repair — bowl reunited through gold",       "category": "process"      },
+      { "caption": "Silver-seamed contemporary earthenware",                  "category": "contemporary" },
+      { "caption": "Traditional Hon-Kintsugi tea bowl, Kyoto",               "category": "traditional"  }
+    ]
+  },
+  "faq": {
+    "meta": {
+      "title":       "FAQ — Kintsugi",
+      "description": "Practical answers to common questions about Kintsugi — materials, safety, learning, and workshops."
+    },
+    "hero": {
+      "title":    "Frequently Asked Questions",
+      "subtitle": "Practical Answers"
+    },
+    "items": [
+      {
+        "question": "Is Kintsugi difficult to learn?",
+        "answer":   "The basic technique can be learned in a single workshop session. Traditional Hon-Kintsugi with urushi lacquer requires more practice — especially managing the humidity-dependent curing process — but modern eco-Kintsugi with resin adhesives is accessible to complete beginners within a day."
+      },
+      {
+        "question": "What materials do I need to get started?",
+        "answer":   "For eco-Kintsugi: a two-part epoxy resin, gold mica powder, nitrile gloves, soft brushes, and a broken ceramic piece. For traditional Kintsugi: urushi lacquer, gold powder (24K), wet sandpaper, a humidity chamber, and patience. Full kits for both methods are available online."
+      },
+      {
+        "question": "Can I practise Kintsugi at home?",
+        "answer":   "Yes, especially with eco-friendly kits. Traditional urushi-based Kintsugi is more challenging at home — it requires humidity control and careful handling of the raw lacquer (urushiol allergy risk). Eco-resin methods are safe, affordable, and produce beautiful results."
+      },
+      {
+        "question": "Is urushi allergy dangerous?",
+        "answer":   "Raw urushi contains urushiol, which causes contact dermatitis similar to poison ivy — itching, redness, blistering. In rare cases, reactions can be severe. Always wear nitrile gloves and work in a ventilated space. Fully cured urushi is inert and considered safe. If you have a known sensitivity to poison ivy or oak, use modern alternatives."
+      },
+      {
+        "question": "Are Kintsugi-repaired vessels food-safe?",
+        "answer":   "Fully cured traditional urushi is generally considered food-safe. However, the repaired seam is fragile and should not be exposed to high heat (dishwasher, microwave) or acidic foods for extended periods. Eco-resin repairs depend on the specific product — check the manufacturer's food-safety rating."
+      },
+      {
+        "question": "What materials can be repaired with Kintsugi?",
+        "answer":   "Primarily ceramic, porcelain, and stoneware. The technique can also be applied to glass and some stone materials. It is not suitable for metal, wood, or plastic. The object must be breakable — and worth the effort of repair."
+      },
+      {
+        "question": "How long does a Kintsugi piece take to complete?",
+        "answer":   "Traditional Hon-Kintsugi: several weeks to months, as each urushi layer requires 1–7 days to cure. Eco-Kintsugi: typically 24–72 hours total, including adhesive curing and finishing. The timeline depends on how many breaks are being repaired and how complex the joins are."
+      },
+      {
+        "question": "Are there Kintsugi workshops in Turkey?",
+        "answer":   "Yes. Lotus5 Studio in Istanbul, led by Özlem Kevser Birkan, offers both traditional and eco-Kintsugi workshops in Turkish and English — in-person and online. She is a pioneer in bringing authentic Kintsugi practice to Turkey."
+      }
+    ]
+  },
+  "terms": {
+    "kintsugi":    "The Japanese art of repairing broken ceramics with gold, silver, or platinum lacquer — treating the repair as part of the object's beauty, not a flaw to be hidden.",
+    "wabi_sabi":   "A Japanese aesthetic philosophy that finds beauty in imperfection, impermanence, and incompleteness. The philosophical foundation of Kintsugi.",
+    "urushi":      "Traditional Japanese lacquer derived from the sap of the urushi tree (Toxicodendron vernicifluum). The binding agent in authentic Kintsugi. Contains urushiol — handle with care.",
+    "maki_e":      "A lacquerware decoration technique in which gold or silver powder is dusted onto wet lacquer to create intricate designs. Related to, but distinct from, Kintsugi.",
+    "nashiji":     "A Maki-e technique creating a dense, glittering texture of gold flakes that resembles the skin of a Japanese pear (nashi). Used in fine lacquerware decoration.",
+    "hon_kintsugi":"The authentic, traditional form of Kintsugi using real urushi lacquer and 24K gold powder. Distinguished from modern eco-alternatives by its use of plant-derived lacquer.",
+    "chado":       "The Way of Tea — the Japanese tea ceremony. A ritualized practice in which the preparation and drinking of matcha tea is elevated to a spiritual and aesthetic experience. Kintsugi was born within this tradition.",
+    "jomon":       "Japan's earliest known culture, lasting from approximately 14,000 BCE to 300 BCE. The Jomon people are among the earliest known users of urushi lacquer."
+  }
+}

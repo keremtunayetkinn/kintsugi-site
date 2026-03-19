@@ -1,0 +1,471 @@
+{
+  "site": {
+    "name": "Kintsugi"
+  },
+  "nav": {
+    "home":        "Ana Sayfa",
+    "history":     "Tarih",
+    "philosophy":  "Felsefe",
+    "technique":   "Teknik",
+    "artists":     "Sanatçılar",
+    "today":       "Kintsugi Bugün",
+    "gallery":     "Galeri",
+    "faq":         "SSS"
+  },
+  "footer": {
+    "tagline": "Kusursuzluğun Güzelliği",
+    "copy":    "© 2026 Kintsugi — Ücretsiz eğitim kaynağı"
+  },
+  "hero": {
+    "title":    "Kintsugi",
+    "subtitle": "Kırıklıktan Doğan Güzellik",
+    "cta":      "Sanatı Keşfedin",
+    "kanji":    "金継ぎ"
+  },
+  "home": {
+    "meta": {
+      "title":       "Kintsugi — Altın Onarım Sanatı",
+      "description": "Kırık seramikleri altınla onaran Japon sanatı Kintsugi'yi keşfedin. Tarih, felsefe, teknik, sanatçılar ve daha fazlası."
+    },
+    "what": {
+      "label":   "Kintsugi Nedir?",
+      "title":   "Altınla Onarmak",
+      "body":    "<strong>Kintsugi</strong> (金継ぎ), kırık seramikleri altın, gümüş veya platin tozu karıştırılmış lak ile onaran yüzyıllık bir Japon sanatıdır. Hasarı gizlemek yerine kırıkları aydınlatır — yaraları altın dikiş izlerine dönüştürür. Onarılan nesne, kırılmadan öncekinden daha güzel ve daha değerli hale gelir.",
+      "caption": "Kırık bir yara değildir — o bir haritadır."
+    },
+    "concepts": {
+      "label":   "Temel Kavramlar",
+      "title":   "Keşfet",
+      "history": {
+        "title": "Tarih",
+        "desc":  "Ashikaga'nın çay bardaklarından küresel sahneye — 600 yıllık altın birleştirmenin izleri."
+      },
+      "philosophy": {
+        "title": "Felsefe",
+        "desc":  "Wabi-Sabi, geçicilik ve geçmişinizi görünür kılma cesareti."
+      },
+      "technique": {
+        "title": "Teknik",
+        "desc":  "Urushi lak, 24 ayar altın tozu, sabır — geleneksel altı adımlı süreç."
+      }
+    },
+    "quote": {
+      "text":   "Her şeyde bir çatlak vardır. Işık oradan girer.",
+      "author": "— Leonard Cohen (serbest çeviri)"
+    },
+    "explore": {
+      "label":   "Tüm Sayfalar",
+      "title":   "Kintsugi Dünyasını Keşfedin",
+      "artists": {
+        "title": "Sanatçılar",
+        "desc":  "Kyoto'dan İstanbul'a geleneği bugün şekillendiren ustalar."
+      },
+      "today": {
+        "title": "Kintsugi Bugün",
+        "desc":  "Atölyeler, terapi, sürdürülebilirlik — küresel bir hareket."
+      },
+      "gallery": {
+        "title": "Galeri",
+        "desc":  "Geleneksel ve çağdaş Kintsugi'de görsel bir yolculuk."
+      },
+      "faq": {
+        "title": "SSS",
+        "desc":  "Malzemeler, güvenlik, öğrenme ve daha fazlasına pratik yanıtlar."
+      }
+    }
+  },
+  "history": {
+    "meta": {
+      "title":       "Tarih ve Kökenler — Kintsugi",
+      "description": "Kintsugi'nin 15. yüzyılda Ashikaga Yoshimasa ile nasıl başladığını ve yüzyıllar boyunca seramik sanatını nasıl şekillendirdiğini keşfedin."
+    },
+    "hero": {
+      "title":    "Tarih ve Kökenler",
+      "subtitle": "Altı Asırlık Altın Onarım"
+    },
+    "legend": {
+      "label": "Kökeni",
+      "title": "Ashikaga'nın Kırık Çay Bardağı",
+      "body":  "Kintsugi'nin hikâyesi, Ashikaga Shogunluğu'nun sekizinci shogun'u <strong>Ashikaga Yoshimasa</strong>'nın yönetimi döneminde, yaklaşık 1467 yılında başlar. Onun değerli Çin çay bardağı kırılır ve onarım için Çin'e gönderilir. Metal zımbalarla tutturulmuş hâlde geri döner. Memnun olmayan shogun, Japon zanaatkârlara daha güzel bir çözüm bulmaları görevini verir. Zanaatkârlar lak ve altınla karşılık verir — ve Kintsugi doğar. Estetik memnuniyetsizlikle başlayan şey, onarım, dayanıklılık ve güzellik felsefesine dönüşür."
+    },
+    "timeline": {
+      "label": "Kronoloji",
+      "title": "Altın Onarımın Tarihi",
+      "items": [
+        {
+          "date":  "~M.Ö. 14.000",
+          "title": "Jomon Dönemi",
+          "text":  "Urushi lak, Japonya'da ilk kez kullanılır — bir gün Kintsugi'yi mümkün kılacak hammadde."
+        },
+        {
+          "date":  "15. Yüzyıl",
+          "title": "Kintsugi'nin Doğuşu",
+          "text":  "Shogun Ashikaga Yoshimasa'nın sarayında doğar. Bir Çin çay bardağının onarılması yeni bir sanat formunu ateşler."
+        },
+        {
+          "date":  "16–17. Yüzyıl",
+          "title": "Çay Töreni Çağı",
+          "text":  "Kintsugi, Chado (Çay Yolu) aracılığıyla yayılır. Wabi-Sabi estetiği görünür onarımı güzellik olarak benimser."
+        },
+        {
+          "date":  "20. Yüzyıl",
+          "title": "Uluslararası Tanınma",
+          "text":  "Batılı koleksiyoncular ve müzeler Kintsugi eserlerini edinmeye başlar. Felsefe seramiklerin ötesine geçer."
+        },
+        {
+          "date":  "Bugün",
+          "title": "Küresel Bir Hareket",
+          "text":  "Kintsugi, dünya genelinde dayanıklılığın metaforu hâline geldi — sanat terapisinde, felsefede ve tasarımda uygulanıyor."
+        }
+      ]
+    },
+    "culture": {
+      "label": "Kültürel Bağlam",
+      "title": "Kintsugi ve Çay Yolu",
+      "body":  "Kintsugi yalnız değildi. Japon <span class=\"term\" data-term=\"chado\" tabindex=\"0\">Chado</span>'nun — Çay Yolu'nun — zengin ekosisteminde büyüdü; bu uygulama, çay odasındaki her nesneyi manevi bir anlam taşıyan bir şeye yükseltti. Sen no Rikyū gibi çay ustaları Wabi-Sabi estetiğini savundu: kusursuzu, eskimiş olanı, onarılmış olanı safi ve yeninin önünde tercih ettiler. Altınla onarılmış bir kâse, kırılmamış bir kâseden daha fazla karakter, tarih ve ruh taşıyordu. Kintsugi bir uzlaşma değildi — bir yükselmeydi."
+    }
+  },
+  "philosophy": {
+    "meta": {
+      "title":       "Felsefe — Kintsugi",
+      "description": "Kintsugi'nin arkasındaki Wabi-Sabi felsefesini ve kusurluluğa bakışımızı nasıl dönüştürdüğünü keşfedin."
+    },
+    "hero": {
+      "title":    "Felsefe",
+      "subtitle": "Kusursuzluğu Kucaklamanın Sanatı"
+    },
+    "wabi_sabi": {
+      "label": "Temel Felsefe",
+      "title": "Wabi-Sabi",
+      "body":  "<span class=\"term\" data-term=\"wabi_sabi\" tabindex=\"0\">Wabi-Sabi</span>, kusurlu, geçici ve eksik olanda güzellik bulan Japon estetiğidir. Kintsugi'yi mümkün kılan felsefedir — onsuz kırık seramikler basitçe atılırdı. Wabi (侘) sessiz, sade bir güzelliği çağrıştırır. Sabi (寂) yaş ve aşınmayla gelen güzelliği anlatır. Birlikte, sanat tarihinin en sessiz sedasız devrimci fikirlerinden birinin temelini oluştururlar: kırık şeyler başarısız şeyler değildir."
+    },
+    "imperfection": {
+      "label": "Temel Fikir",
+      "title": "Kusurları Aydınlatmak",
+      "body":  "Batı geleneği hasarı genellikle gizlemeye çalışırken — kusursuz restorasyon, görünmez onarım — Kintsugi tam tersini yapar. Kırıklar gizlenmez; vurgulanır. Altın, gümüş veya platin tozu karıştırılmış lak kırıklara uygulanır ve nesnenin en görünür parçası hâline getirilir. Bu felsefenin Zen Budizm'de derin kökleri vardır: değişmeyene bağlanmak acıdır. Kırılmış ve bütünlenmiş kâse, hiç sınanmamış kâseden daha iyi bir öğretmendir."
+    },
+    "life": {
+      "label": "Metafor",
+      "title": "Kintsugi ve İnsan Deneyimi",
+      "body":  "Onarılan şey, hiç kırılmamış olandan daha güzel hâle gelir. Bu fikir seramiklerin çok ötesine geçti — psikoterapiye, kişisel gelişime, tasarıma ve kişisel anlatılara sızdı. Bir yaşamdaki çatlaklar zayıflığın kanıtı değildir. Deneyimin, sizi bitirebilecek olandan sağ çıkmanın, devam etmenin kanıtıdır. Kintsugi bize yaralarımızın tarihini göstermeye değer olduğunu öğretir — acı romantik olduğu için değil, gerçek olduğu için; ve gerçek şeylerin mükemmelliğin asla ulaşamayacağı bir güzelliği vardır.",
+      "quote": "Dünya herkesi kırar, ve sonrasında bazıları kırılan yerlerde güçlenir.",
+      "quote_author": "— Ernest Hemingway"
+    },
+    "consumerism": {
+      "label": "Sürdürülebilirlik",
+      "title": "Tüketim Kültürüne Karşı",
+      "body":  "Kintsugi, her şeyden önce değiştirmek yerine onarmak felsefesidir. Tek kullanımlık tüketici ürünlerinin çağında, kırık bir nesneyi onarmaya değer olduğu — ve onarımın onu daha değerli kılabileceği — fikri sessiz bir devrimdir. Modern Kintsugi uygulayıcıları giderek daha fazla çevre dostu alternatiflere yöneliyor; pratiği erişilebilir kılarken temel ilkesine sadık kalıyorlar: kırılan hiçbir şey kurtarılamayacak kadar mahvolmuş değildir."
+    },
+    "reflection_prompt": "Hayatınızda kırıldıktan sonra kırıldığı yerden daha güçlü hâle gelen bir şey nedir?",
+    "reflection_answer": "Kintsugi bize kırıklarımızın başarısızlık olmadığını öğretir — onlar ışığın girdiği yerlerdir. Altın kırığı gizlemez; onu kutlar. İyileşmiş yerleriniz en güçlü yerlerinizdir."
+  },
+  "technique": {
+    "meta": {
+      "title":       "Teknik ve Malzemeler — Kintsugi",
+      "description": "Geleneksel Hon-Kintsugi sürecini öğrenin: altı adım, urushi lak, 24 ayar altın tozu ve yüzyıllık zanaatkârlık."
+    },
+    "hero": {
+      "title":    "Teknik ve Malzemeler",
+      "subtitle": "Kadim Altı Adımlı Süreç"
+    },
+    "hon_kintsugi": {
+      "label": "Geleneksel Yöntem",
+      "title": "Hon-Kintsugi: Özgün Süreç",
+      "intro": "Geleneksel yöntem — <span class=\"term\" data-term=\"hon_kintsugi\" tabindex=\"0\">Hon-Kintsugi</span> — urushi ağacından (<em>Toxicodendron vernicifluum</em>) elde edilen <span class=\"term\" data-term=\"urushi\" tabindex=\"0\">urushi</span> lak ve saf 24 ayar altın tozu kullanır. Süreç sabır gerektirir: her lak katmanı, bir sonraki uygulanmadan önce kontrollü nemde kürlenmelidir. Tam geleneksel bir Kintsugi onarımı haftalar veya aylar sürebilir.",
+      "steps": [
+        {
+          "title": "Temizle",
+          "desc":  "Kırık yüzeylerdeki tüm döküntü, toz ve gevşek parçaları temizleyin. Bağın düzgün kurulabilmesi için birleşim yeri temiz olmalıdır."
+        },
+        {
+          "title": "Yapıştır",
+          "desc":  "Kırık kenarlara urushi lak sürerek parçaları bir araya getirin. Hassas hizalama şarttır — urushi kürlendiğinde güçlü bir bağ oluşturur."
+        },
+        {
+          "title": "Kürleme",
+          "desc":  "Birleştirilmiş parçayı %70–85 bağıl nem ve 20–25°C sıcaklığındaki bir nem odasına (muro) yerleştirin. Urushi, oksitatif polimerizasyon yoluyla kürlendiği için nem gerektirir — kurumaz, polymerize olur."
+        },
+        {
+          "title": "Zımpara",
+          "desc":  "Lak tam olarak kürlendikten sonra, birleşim yüzeyini giderek daha ince ıslak zımparalarla dikkatli şekilde zımparalayın. Bu işlem altındaki pürüzsüz dikişi ortaya çıkarır."
+        },
+        {
+          "title": "Altın Uygula",
+          "desc":  "Dikiş hâlâ yapışkanken son ince bir urushi katmanı sürün, ardından yumuşak bir fırçayla 24 ayar altın tozu serpin. Altın, ıslak laka yapışır."
+        },
+        {
+          "title": "Cilala",
+          "desc":  "Son kürlemeden sonra altın dikişleri yumuşak bir bez veya parlatma aletiyle nazikçe parlatın. Altın birleşimler artık nesnenin en görünür — ve en güzel — parçasıdır."
+        }
+      ]
+    },
+    "materials": {
+      "label": "Malzemeler",
+      "title": "Ne Gerekir",
+      "columns": ["Malzeme", "Japonca", "Rol", "Notlar"],
+      "rows": [
+        ["Urushi Lak", "漆", "Yapıştırıcı ve baz kaplama", "Geleneksel; kürlenme için nem gerektirir. Alerji riski — aşağıdaki uyarıya bakın."],
+        ["24 Ayar Altın Tozu", "金粉", "Nihai dikiş dekorasyonu", "Saf altın uzun ömür ve özgün görünüm sağlar."],
+        ["Gümüş Tozu", "銀粉", "Altına alternatif", "Daha serin, daha ölçülü bir estetik yaratır."],
+        ["Platin Tozu", "白金粉", "Nadir alternatif", "Üç metalin en dayanıklısı."],
+        ["Yumuşak Fırça", "刷毛", "Lak ve metal tozu uygulama", "Doğal kıllı fırçalar kullanın; sentetikler dökebilir."],
+        ["Islak Zımpara", "耐水ペーパー", "Kürlenen dikişleri düzleştirme", "400–2000 kum; giderek daha ince taneler kullanın."]
+      ]
+    },
+    "modern": {
+      "label": "Alternatifler",
+      "title": "Geleneksel ve Modern Yöntemler",
+      "traditional": {
+        "title": "Geleneksel (Hon-Kintsugi)",
+        "items": [
+          "Urushi lak — bitkisel kökenli, dayanıklı",
+          "24 ayar altın, gümüş veya platin tozu",
+          "Parça başına haftalar ila aylar",
+          "Nem kontrollü kürleme gerektirir",
+          "En yüksek dayanıklılık — yüzyıllarca dayanır",
+          "Potansiyel urushi alerji riski"
+        ]
+      },
+      "modern": {
+        "title": "Modern / Eko Alternatifler",
+        "items": [
+          "Epoksi reçine veya gıdaya güvenli yapıştırıcı",
+          "Altın boyayla karıştırılmış mika tozu",
+          "Parça başına saatler ila günler",
+          "Oda sıcaklığında kürleme",
+          "İyi dayanıklılık — dekoratif kullanım",
+          "Genellikle hipoalerjenik"
+        ]
+      }
+    },
+    "allergy": {
+      "title": "⚠ Urushi Alerji Uyarısı",
+      "text":  "Urushi (ham lak) urushiol içerir — zehirli sarmaşıkta bulunan bileşikle aynıdır. Kürlenmemiş hâlde ciddi temas dermatitine neden olabilir. Nitril eldiven takın ve iyi havalandırılan bir alanda çalışın. Tam kürlendikten sonra urushi güvenli kabul edilir. Zehirli sarmaşık veya meşe için hassasiyetiniz varsa, urushi ile çalışmadan önce bir uzmanla görüşün."
+    }
+  },
+  "artists": {
+    "meta": {
+      "title":       "Sanatçılar — Kintsugi",
+      "description": "Kintsugi'yi yaşatan ustaları ve çağdaş sanatçıları tanıyın — Kyoto stüdyolarından İstanbul atölyelerine."
+    },
+    "hero": {
+      "title":    "Sanatçılar",
+      "subtitle": "Altın Dikiş Ustaları"
+    },
+    "traditional": {
+      "label": "Geleneksel Ustalar",
+      "title": "Japon Ustalar",
+      "items": [
+        {
+          "name": "Nobuyasu Suginaka",
+          "role": "Geleneksel Kintsugi Ustası, Kyoto",
+          "bio":  "Kyoto'da üçüncü nesil bir lake işçisi olan Suginaka, kırk yılı aşkın süredir geleneksel Hon-Kintsugi yöntemini mükemmelleştiriyor. Çalışmaları Japonya genelindeki müze koleksiyonlarında yer alıyor; küçük, yoğun bir çıraklık programıyla el sanatını öğretiyor."
+        },
+        {
+          "name": "Seisaku Nakajima",
+          "role": "Lake Sanatçısı ve Restoratör",
+          "bio":  "Nakajima, tarihi çay seramiklerinin restorasyonunda uzmanlaşmış; yalnızca özgün zanaatkârların onaylayacağı yerlerde Kintsugi uygular. Yaklaşımı derin bir saygı içerir — altın, kırığın tam çizgisini izler, yalnızca dekorasyon amacıyla hiçbir zaman eklenmez."
+        },
+        {
+          "name": "Keiko Hata",
+          "role": "Seramik Konservatörü, Tokyo Ulusal Müzesi",
+          "bio":  "Geleneksel Kintsugi'nin en yüksek düzeyine ulaşan az sayıdaki kadından biri olan Hata, Edo dönemi parçalarını restore etmiş ve Tokyo Ulusal Müzesi'nde kültürel koruma atölyeleri yönetmiştir."
+        },
+        {
+          "name": "Maki Mizuno",
+          "role": "Çağdaş Kintsugi Sanatçısı, Osaka",
+          "bio":  "Mizuno, geleneksel tekniği çağdaş bir görsel dille harmanlayarak seri üretim seramiklere Kintsugi uygular ve değer, mükemmellik ile atık kültürü üzerine sorular sorar."
+        },
+        {
+          "name": "Rio Hashimoto",
+          "role": "Kintsugi Eğitimcisi ve Yazar",
+          "bio":  "Hashimoto, Kintsugi tekniği üzerine iki etkili kitap yazmış ve Japonya ile uluslararası alanda atölyeler düzenlemektedir. Felsefik derinliğinden ödün vermeksizin el sanatını yeni başlayanlar için erişilebilir kılmasıyla tanınır."
+        }
+      ]
+    },
+    "contemporary": {
+      "label": "Çağdaş Sanatçılar",
+      "title": "Stüdyonun Ötesinde",
+      "items": [
+        {
+          "name": "Yoko Ono",
+          "role": "Kavramsal Sanatçı",
+          "bio":  "Yoko Ono'nun seramik koleksiyonu, özellikle devam eden projesi <em>Mend Piece</em> (ilk kez 1966'da sergilendi), katılımcıları kırık bardakları herhangi bir malzemeyle onarmaya davet eder. Çalışma, geleneksel lak tekniği olmaksızın doğrudan Kintsugi'nin ruhundan beslenir — onarım yaratıcı ve iyileştirici bir eylemdir."
+        },
+        {
+          "name": "Tomomi Kamoshita",
+          "role": "Çağdaş Seramikçi",
+          "bio":  "<em>Gift From Ten Waves</em> serisiyle tanınan Kamoshita, daha baştan kırılmış ve onarılmış gibi görünen seramikler üretir — altın damarlar özgün biçime dahil edilmiştir. Kırıklık her zaman planlıysa onarımın özgün olup olmadığını sorgular."
+        }
+      ]
+    },
+    "turkey": {
+      "label": "Türkiye'de Kintsugi",
+      "title": "Türkiyeli Sanatçılar",
+      "items": [
+        {
+          "name": "Özlem Kevser Birkan",
+          "role": "Kintsugi Ustası ve Eğitimcisi, İstanbul",
+          "bio":  "Özlem Kevser Birkan, özgün Kintsugi pratiğini Türkiye'ye taşıyan kişi olarak geniş çevrelerce tanınır. Yolculuğu Japon estetiğine derin bir ilgiyle başladı ve onu Japonya'da geleneksel ustalar yanında eğitim almaya yöneltti. İstanbul'a döndüğünde Lotus5'te stüdyosunu ve öğretim pratiğini kurdu; tekniği ve Wabi-Sabi felsefesini yeni bir kitleyle buluşturdu. Hem geleneksel urushi hem de çevre dostu alternatifler kullanarak öğreterek sanatı erişilebilir kılarken özünü korur."
+        }
+      ]
+    }
+  },
+  "today": {
+    "meta": {
+      "title":       "Kintsugi Bugün — Kintsugi",
+      "description": "Kintsugi'nin dünya genelinde nasıl yayıldığı — Japon stüdyolarından Türk atölyelerine, terapi odalarına ve sürdürülebilirlik hareketlerine."
+    },
+    "hero": {
+      "title":    "Kintsugi Bugün",
+      "subtitle": "Küresel Bir Onarım Pratiği"
+    },
+    "global": {
+      "label": "Küresel Erişim",
+      "title": "Japonya'dan Dünyaya",
+      "body":  "Bir Japon saray sanatı olarak başlayan şey artık dünya çapında bir pratik hâline geldi. Japonya, Güney Kore, Türkiye, Birleşik Krallık, Amerika Birleşik Devletleri ve Avustralya'da aktif Kintsugi toplulukları var — ve felsefe, seramik stüdyosunun çok ötesine geçerek psikoloji, tasarım ve popüler kültüre sızdı."
+    },
+    "workshops": {
+      "label": "Nerede Öğrenilir",
+      "title": "Atölyeler ve Öğrenim",
+      "home": {
+        "title": "Evde Öğren",
+        "items": [
+          "Çevrimiçi satışta eko reçine bazlı kendin-yap Kintsugi kitleri",
+          "İngilizce, Japonca ve Türkçe YouTube eğitimleri",
+          "Kitaplar: Rio Hashimoto'nun rehberleri yaygın olarak önerilir",
+          "Yeni başlayanlar için topluluk forumları ve Discord grupları"
+        ]
+      },
+      "kyoto": {
+        "title": "Kyoto, Japonya'da",
+        "items": [
+          "Kintsugi Kyoto stüdyosu — uygulamalı günlük atölyeler",
+          "Nishiki Kintsugi — geleneksel Hon-Kintsugi yoğun kursu",
+          "Birçok stüdyo ziyaretçiler için İngilizce oturumlar sunuyor",
+          "Ciddi öğrenciler için çıraklık programları"
+        ]
+      },
+      "turkey": {
+        "title": "Türkiye'de",
+        "items": [
+          "Lotus5 Stüdyo, İstanbul — Özlem Kevser Birkan",
+          "Hem geleneksel urushi hem de eko alternatifler sunuluyor",
+          "Hafta sonu ve haftalık atölye formatları",
+          "Türkiye genelindeki katılımcılar için çevrimiçi oturumlar"
+        ]
+      }
+    },
+    "culture": {
+      "label": "Popüler Kültür",
+      "title": "Seramiğin Ötesinde Kintsugi",
+      "items": [
+        {
+          "icon":  "🧠",
+          "title": "Psikoterapi",
+          "text":  "Terapistler Kintsugi'yi travma iyileşmesi için bir metafor olarak benimsedi — iyileşmenin kırılmadan önceki hâle dönmek değil, kırılan yerlerde güçlenmek anlamına geldiği fikri. BDT, somatik terapi ve yas danışmanlığında kullanılıyor."
+        },
+        {
+          "icon":  "💍",
+          "title": "Takı ve Tasarım",
+          "text":  "Altın damarlı seramik estetiği mücevher tasarımını, moda tekstilini ve iç mekân tasarımını etkiledi. Altın dolgulu çatlak sırlı seramikler artık dünya çapında ticari olarak üretiliyor."
+        },
+        {
+          "icon":  "📱",
+          "title": "Sosyal Medya",
+          "text":  "#kintsugi hashtag'i Instagram'da milyonlarca gönderi aldı — gerçek pratik, felsefi düşünce ve sanatın görsel gücünün karışımı. Altın çatlaklar görüntüsü, dijital kültürde dayanıklılığın en tanınmış sembollerinden biri hâline geldi."
+        }
+      ]
+    },
+    "sustainability": {
+      "label": "Eko-Kintsugi",
+      "title": "Onarım Kültürü ve Sürdürülebilirlik",
+      "body":  "Geleneksel Kintsugi özünde sürdürülebilirdir — bir nesnenin ömrünü atılmasından çok uzatır. Modern eko-Kintsugi uygulayıcıları daha da ileri gidiyor: urushi'nin yerine bitkisel veya mineral yapıştırıcılar kullanıyor, madencilik yerine mika tercih ediyor ve tüketici israfına yanıt olarak onarım kültürünü savunuyor. İlke değişmez: kırılan hiçbir şey kurtarılamayacak kadar mahvolmuş değildir."
+    }
+  },
+  "gallery": {
+    "meta": {
+      "title":       "Galeri — Kintsugi",
+      "description": "Geleneksel ve çağdaş Kintsugi seramiklerinde görsel bir yolculuk."
+    },
+    "hero": {
+      "title":    "Galeri",
+      "subtitle": "Altın Dikişler"
+    },
+    "filter": {
+      "all":          "Tümü",
+      "traditional":  "Geleneksel",
+      "contemporary": "Çağdaş",
+      "process":      "Süreç",
+      "turkey":       "Türkiye"
+    },
+    "items": [
+      { "caption": "Edo dönemi tekniğiyle geleneksel Kintsugi kâse",          "category": "traditional"  },
+      { "caption": "Çağdaş seladon parçada altın dikiş onarımı",             "category": "contemporary" },
+      { "caption": "Urushi lak uygulama — yapışma aşaması",                  "category": "process"      },
+      { "caption": "19. yüzyıl çay fincanında altın dikiş yakın çekimi",     "category": "traditional"  },
+      { "caption": "Kasıtlı altın damarlı çağdaş kap",                       "category": "contemporary" },
+      { "caption": "Hâlâ yapışkan lak dikişine altın tozu serpme",           "category": "process"      },
+      { "caption": "Türk atölyesinden Kintsugi tabak, İstanbul",             "category": "turkey"       },
+      { "caption": "Restorasyon haritası oluşturan çoklu onarımlar",         "category": "traditional"  },
+      { "caption": "İstanbul atölyesinde mika tozuyla eko-Kintsugi",         "category": "turkey"       },
+      { "caption": "Tamamlanmış onarım — kâse altınla yeniden bütünleşti",  "category": "process"      },
+      { "caption": "Gümüş dikişli çağdaş toprak kap",                        "category": "contemporary" },
+      { "caption": "Geleneksel Hon-Kintsugi çay kâsesi, Kyoto",              "category": "traditional"  }
+    ]
+  },
+  "faq": {
+    "meta": {
+      "title":       "SSS — Kintsugi",
+      "description": "Kintsugi hakkında sık sorulan sorulara pratik yanıtlar — malzemeler, güvenlik, öğrenim ve atölyeler."
+    },
+    "hero": {
+      "title":    "Sık Sorulan Sorular",
+      "subtitle": "Pratik Yanıtlar"
+    },
+    "items": [
+      {
+        "question": "Kintsugi öğrenmesi zor mu?",
+        "answer":   "Temel teknik tek bir atölye oturumunda öğrenilebilir. Urushi lak kullanan geleneksel Hon-Kintsugi daha fazla pratik gerektirir — özellikle neme bağlı kürleme sürecini yönetmek. Ancak reçine yapıştırıcılı modern eko-Kintsugi, tam yeniler için bir gün içinde erişilebilir."
+      },
+      {
+        "question": "Başlamak için hangi malzemelere ihtiyacım var?",
+        "answer":   "Eko-Kintsugi için: iki bileşenli epoksi reçine, altın mika tozu, nitril eldiven, yumuşak fırçalar ve kırık bir seramik parça. Geleneksel Kintsugi için: urushi lak, altın tozu (24 ayar), ıslak zımpara, nem odası ve sabır. Her iki yöntem için eksiksiz kitler çevrimiçi mevcuttur."
+      },
+      {
+        "question": "Evde Kintsugi yapabilir miyim?",
+        "answer":   "Evet, özellikle çevre dostu kitlerle. Geleneksel urushi bazlı Kintsugi evde daha zorludur — nem kontrolü ve ham lakla dikkatli çalışma gerektirir (urushiol alerji riski). Eko-reçine yöntemleri güvenli, uygun fiyatlı ve güzel sonuçlar verir."
+      },
+      {
+        "question": "Urushi alerjisi tehlikeli mi?",
+        "answer":   "Ham urushi, zehirli sarmaşığa benzer temas dermatitine neden olan urushiol içerir — kaşıntı, kızarıklık, su toplaması. Nadir durumlarda tepkiler şiddetli olabilir. Her zaman nitril eldiven takın ve havalandırılan alanda çalışın. Tam kürlenen urushi inert ve güvenli kabul edilir. Zehirli sarmaşık veya meşeye bilinen bir hassasiyetiniz varsa modern alternatifleri kullanın."
+      },
+      {
+        "question": "Kintsugi ile onarılan kaplar gıdaya güvenli mi?",
+        "answer":   "Tam kürlenen geleneksel urushi genellikle gıdaya güvenli kabul edilir. Ancak onarılan dikiş kırılgandır ve uzun süre yüksek ısıya (bulaşık makinesi, mikrodalga) veya asitli gıdalara maruz kalmamalıdır. Eko-reçine onarımlar ürüne göre değişir — üreticinin gıda güvenliği derecesini kontrol edin."
+      },
+      {
+        "question": "Kintsugi ile hangi malzemeler onarılabilir?",
+        "answer":   "Başta seramik, porselen ve taş eşya. Teknik cama ve bazı taş malzemelere de uygulanabilir. Metal, ahşap veya plastik için uygun değildir. Nesne kırılabilir olmalıdır — ve onarım çabasına değer."
+      },
+      {
+        "question": "Bir Kintsugi parçasının tamamlanması ne kadar sürer?",
+        "answer":   "Geleneksel Hon-Kintsugi: her urushi katmanı 1–7 gün kürlenme gerektirdiğinden birkaç hafta ila ay. Eko-Kintsugi: yapıştırıcı kürleme ve bitirme dahil genellikle 24–72 saat. Süre, onarılan kırık sayısına ve birleşimlerin karmaşıklığına bağlıdır."
+      },
+      {
+        "question": "Türkiye'de Kintsugi atölyeleri var mı?",
+        "answer":   "Evet. İstanbul'daki Lotus5 Stüdyo, Özlem Kevser Birkan önderliğinde Türkçe ve İngilizce — yüz yüze ve çevrimiçi — hem geleneksel hem de eko-Kintsugi atölyeleri sunmaktadır. Özgün Kintsugi pratiğini Türkiye'ye taşıyan öncüdür."
+      }
+    ]
+  },
+  "terms": {
+    "kintsugi":    "Kırık seramikleri altın, gümüş veya platin lak ile onaran Japon sanatı — onarımı nesnenin güzelliğinin bir parçası olarak ele alır, gizlenecek bir kusur olarak değil.",
+    "wabi_sabi":   "Kusurlu, geçici ve eksik olanda güzellik bulan Japon estetik felsefesi. Kintsugi'nin felsefi temeli.",
+    "urushi":      "Urushi ağacının (Toxicodendron vernicifluum) özünden elde edilen geleneksel Japon lakı. Özgün Kintsugi'deki bağlayıcı madde. Urushiol içerir — dikkatli kullanın.",
+    "maki_e":      "Karmaşık tasarımlar oluşturmak amacıyla ıslak lak üzerine altın veya gümüş tozu serpilen bir lake dekorasyon tekniği. Kintsugi ile ilgili ancak farklı bir teknik.",
+    "nashiji":     "Japon armudu (nashi) kabuğunu andıran yoğun, parıltılı altın pullu bir doku oluşturan Maki-e tekniği. İnce lake dekorasyonunda kullanılır.",
+    "hon_kintsugi":"Gerçek urushi lak ve 24 ayar altın tozu kullanan özgün, geleneksel Kintsugi formu. Modern eko-alternatiflerden bitkisel kökenli lak kullanımıyla ayrılır.",
+    "chado":       "Çay Yolu — Japon çay töreni. Matcha çayının hazırlanması ve içilmesinin manevi ve estetik bir deneyime yükseltildiği ritüelleştirilmiş bir pratik. Kintsugi bu geleneğin içinde doğdu.",
+    "jomon":       "Japonya'nın yaklaşık M.Ö. 14.000'den M.Ö. 300'e kadar süren en eski bilinen kültürü. Jomon halkı, urushi lakının bilinen en eski kullanıcıları arasındadır."
+  }
+}

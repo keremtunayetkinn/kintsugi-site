@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#1A1408"/>
+      <stop offset="100%" stop-color="#080603"/>
+    </linearGradient>
+    <linearGradient id="bowl-grad" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#302418"/>
+      <stop offset="100%" stop-color="#161006"/>
+    </linearGradient>
+    <radialGradient id="mica-glow" cx="50%" cy="45%" r="40%">
+      <stop offset="0%" stop-color="#FFD700" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#FFD700" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#bg)"/>
+  <!-- Eco-Kintsugi bowl with mica powder — Istanbul workshop -->
+  <ellipse cx="300" cy="270" rx="205" ry="30" fill="#2A1A08" stroke="#4A3520" stroke-width="2" opacity="0.8"/>
+  <path d="M 95 270 C 75 375 95 525 300 578 C 505 525 525 375 505 270"
+        fill="url(#bowl-grad)" stroke="#4A3520" stroke-width="2"/>
+  <ellipse cx="300" cy="270" rx="190" ry="26" fill="none" stroke="#3A2818" stroke-width="1.5" opacity="0.5"/>
+  <!-- Interior (lighter, showing mica sheen) -->
+  <path d="M 108 282 C 94 380 112 515 300 562 C 488 515 506 380 492 282"
+        fill="#1E1409" opacity="0.5"/>
+  <rect x="95" y="270" width="410" height="310" fill="url(#mica-glow)" opacity="1"/>
+  <!-- Eco-Kintsugi seams — mica powder gives sparkly gold effect, slightly less precise -->
+  <g fill="none" stroke="#C9932A" stroke-linecap="round">
+    <!-- Primary repair seam with broader mica glow -->
+    <path d="M 190 285 L 210 350 L 195 425 L 225 500 L 210 555"
+          stroke-width="4" opacity="0.75"/>
+    <!-- Mica bleeding / soft edges -->
+    <path d="M 190 285 L 210 350 L 195 425 L 225 500 L 210 555"
+          stroke-width="8" opacity="0.18" stroke="#FFD700"/>
+    <path d="M 210 350 L 260 338 L 310 325" stroke-width="2" opacity="0.6"/>
+    <path d="M 195 425 L 145 435 L 115 440" stroke-width="2" opacity="0.55"/>
+    <!-- Secondary seam -->
+    <path d="M 360 290 L 380 370 L 360 450 L 390 530"
+          stroke-width="3" opacity="0.7"/>
+    <path d="M 360 290 L 380 370 L 360 450 L 390 530"
+          stroke-width="7" opacity="0.15" stroke="#FFD700"/>
+    <path d="M 380 370 L 430 358 L 475 345" stroke-width="1.5" opacity="0.5"/>
+    <path d="M 360 450 L 310 460 L 275 465" stroke-width="1.5" opacity="0.45"/>
+  </g>
+  <!-- Mica sparkle dots (more numerous, slightly irregular) -->
+  <g fill="#FFD700">
+    <circle cx="210" cy="350" r="4" opacity="0.8"/>
+    <circle cx="195" cy="425" r="3.5" opacity="0.75"/>
+    <circle cx="225" cy="500" r="4" opacity="0.8"/>
+    <circle cx="380" cy="370" r="3.5" opacity="0.75"/>
+    <circle cx="360" cy="450" r="4" opacity="0.8"/>
+    <!-- Scattered mica flakes -->
+    <circle cx="230" cy="340" r="1.5" opacity="0.5"/>
+    <circle cx="202" cy="465" r="1" opacity="0.45"/>
+    <circle cx="228" cy="485" r="1.5" opacity="0.5"/>
+    <circle cx="370" cy="358" r="1.5" opacity="0.45"/>
+    <circle cx="368" cy="430" r="1" opacity="0.45"/>
+  </g>
+  <text x="300" y="640" text-anchor="middle" font-family="Georgia,serif" font-size="11"
+        fill="#C9932A" opacity="0.3" letter-spacing="2" font-style="italic">İstanbul · eco-Kintsugi</text>
+  <rect x="0" y="740" width="600" height="60" fill="#080603" opacity="0.85"/>
+  <line x1="40" y1="750" x2="560" y2="750" stroke="#C9932A" stroke-width="1" opacity="0.4"/>
+  <text x="300" y="778" text-anchor="middle" font-family="Georgia,serif" font-size="13"
+        fill="#C9932A" opacity="0.7" letter-spacing="4">TURKEY</text>
+</svg>

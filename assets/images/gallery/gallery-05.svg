@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#18201C"/>
+      <stop offset="100%" stop-color="#080A07"/>
+    </linearGradient>
+    <linearGradient id="vessel-grad" x1="10%" y1="0%" x2="90%" y2="100%">
+      <stop offset="0%" stop-color="#253028"/>
+      <stop offset="100%" stop-color="#101510"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#bg)"/>
+  <!-- Contemporary tall vessel — deliberate gold veining -->
+  <!-- Narrow neck -->
+  <path d="M 260 100 C 255 150 255 180 250 210 L 350 210 C 345 180 345 150 340 100 Z"
+        fill="url(#vessel-grad)" stroke="#354030" stroke-width="1.5"/>
+  <!-- Neck-to-body transition -->
+  <path d="M 240 210 C 235 230 220 250 210 270 L 390 270 C 380 250 365 230 360 210 Z"
+        fill="url(#vessel-grad)" stroke="#354030" stroke-width="1.5"/>
+  <!-- Body (tall oval) -->
+  <path d="M 150 270 C 120 370 120 530 140 640 C 160 700 220 730 300 732 C 380 730 440 700 460 640 C 480 530 480 370 450 270 Z"
+        fill="url(#vessel-grad)" stroke="#354030" stroke-width="2"/>
+  <!-- Deliberate gold veining — intentional fracture lines (not repairs, but artistic) -->
+  <g fill="none" stroke="#C9932A" stroke-linecap="round">
+    <!-- Primary vein - runs the full height -->
+    <path d="M 300 110 L 295 180 L 305 260 L 290 350 L 310 460 L 290 560 L 305 660 L 300 720"
+          stroke-width="2.5" opacity="0.85"/>
+    <!-- Secondary veins branching organically -->
+    <path d="M 290 350 L 240 320 L 190 300 L 160 290" stroke-width="1.5" opacity="0.6"/>
+    <path d="M 310 460 L 360 440 L 410 420 L 445 400" stroke-width="1.5" opacity="0.6"/>
+    <path d="M 290 560 L 240 555 L 200 540" stroke-width="1.5" opacity="0.55"/>
+    <path d="M 305 660 L 350 655 L 390 645" stroke-width="1" opacity="0.45"/>
+    <!-- Tertiary micro-veins -->
+    <path d="M 240 320 L 220 350 L 215 380" stroke-width="1" opacity="0.4"/>
+    <path d="M 360 440 L 380 470 L 385 500" stroke-width="1" opacity="0.4"/>
+    <path d="M 240 555 L 220 580 L 215 610" stroke-width="1" opacity="0.35"/>
+  </g>
+  <g fill="#C9932A">
+    <circle cx="295" cy="180" r="2.5" opacity="0.8"/>
+    <circle cx="305" cy="260" r="3" opacity="0.85"/>
+    <circle cx="290" cy="350" r="3.5" opacity="0.9"/>
+    <circle cx="310" cy="460" r="3.5" opacity="0.9"/>
+    <circle cx="290" cy="560" r="3" opacity="0.85"/>
+    <circle cx="305" cy="660" r="3" opacity="0.85"/>
+  </g>
+  <rect x="0" y="740" width="600" height="60" fill="#080A07" opacity="0.85"/>
+  <line x1="40" y1="750" x2="560" y2="750" stroke="#C9932A" stroke-width="1" opacity="0.4"/>
+  <text x="300" y="778" text-anchor="middle" font-family="Georgia,serif" font-size="13"
+        fill="#C9932A" opacity="0.7" letter-spacing="4">CONTEMPORARY</text>
+</svg>

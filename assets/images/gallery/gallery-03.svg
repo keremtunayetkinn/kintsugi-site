@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#201408"/>
+      <stop offset="100%" stop-color="#0A0603"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#bg)"/>
+  <!-- Broken bowl pieces (two halves, slightly separated) -->
+  <!-- Left half -->
+  <path d="M 80 280 C 60 380 80 520 280 570 L 280 280 Z"
+        fill="#2E1E10" stroke="#3E2A18" stroke-width="1.5"/>
+  <!-- Right half -->
+  <path d="M 320 280 L 320 570 C 520 520 540 380 520 280 Z"
+        fill="#2E1E10" stroke="#3E2A18" stroke-width="1.5"/>
+  <!-- Bowl rim ellipse halves -->
+  <path d="M 80 280 C 80 295 180 308 280 308" fill="none" stroke="#3E2A18" stroke-width="1.5" opacity="0.7"/>
+  <path d="M 320 308 C 420 308 520 295 520 280" fill="none" stroke="#3E2A18" stroke-width="1.5" opacity="0.7"/>
+  <!-- Gap between the two halves — the break -->
+  <rect x="278" y="250" width="44" height="320" fill="url(#bg)"/>
+  <!-- Urushi lacquer being applied — gold line bridging the gap -->
+  <g fill="none" stroke="#C9932A" stroke-linecap="round">
+    <!-- The seam line — lacquer application -->
+    <path d="M 300 270 L 295 340 L 305 420 L 295 500 L 305 570"
+          stroke-width="4" opacity="0.85"/>
+    <!-- Lacquer drips/flow -->
+    <path d="M 295 340 L 260 350 L 230 340" stroke-width="2" opacity="0.6"/>
+    <path d="M 305 420 L 340 410 L 370 400" stroke-width="2" opacity="0.55"/>
+    <path d="M 295 500 L 260 510 L 240 515" stroke-width="1.5" opacity="0.5"/>
+    <!-- Fine brush strokes around the main seam -->
+    <path d="M 292 290 L 285 285" stroke-width="1" opacity="0.5"/>
+    <path d="M 308 290 L 315 285" stroke-width="1" opacity="0.5"/>
+    <path d="M 292 380 L 282 378" stroke-width="1" opacity="0.45"/>
+    <path d="M 308 380 L 318 378" stroke-width="1" opacity="0.45"/>
+  </g>
+  <!-- Gold dots -->
+  <g fill="#C9932A">
+    <circle cx="295" cy="340" r="4" opacity="0.95"/>
+    <circle cx="305" cy="420" r="4" opacity="0.95"/>
+    <circle cx="295" cy="500" r="3.5" opacity="0.9"/>
+    <circle cx="305" cy="570" r="3.5" opacity="0.9"/>
+  </g>
+  <!-- Process label context text -->
+  <text x="300" y="640" text-anchor="middle" font-family="Georgia,serif" font-size="11"
+        fill="#C9932A" opacity="0.35" letter-spacing="2" font-style="italic">urushi · 漆</text>
+  <rect x="0" y="740" width="600" height="60" fill="#0A0603" opacity="0.85"/>
+  <line x1="40" y1="750" x2="560" y2="750" stroke="#C9932A" stroke-width="1" opacity="0.4"/>
+  <text x="300" y="778" text-anchor="middle" font-family="Georgia,serif" font-size="13"
+        fill="#C9932A" opacity="0.7" letter-spacing="4">PROCESS</text>
+</svg>

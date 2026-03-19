@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#201408"/>
+      <stop offset="100%" stop-color="#0A0603"/>
+    </linearGradient>
+    <linearGradient id="bowl-grad" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#352515"/>
+      <stop offset="100%" stop-color="#180E06"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#bg)"/>
+  <!-- Traditional bowl — many repairs, complex map of restoration -->
+  <ellipse cx="300" cy="260" rx="210" ry="32" fill="#2A1A0A" stroke="#4A3520" stroke-width="2" opacity="0.8"/>
+  <path d="M 90 260 C 70 370 90 520 300 575 C 510 520 530 370 510 260"
+        fill="url(#bowl-grad)" stroke="#4A3520" stroke-width="2"/>
+  <ellipse cx="300" cy="260" rx="196" ry="27" fill="none" stroke="#3A2818" stroke-width="1.5" opacity="0.6"/>
+  <path d="M 106 272 C 90 372 108 510 300 560 C 492 510 510 372 494 272"
+        fill="#1A1008" opacity="0.5"/>
+  <!-- Multiple gold seams — a complex map of many repairs -->
+  <g fill="none" stroke="#C9932A" stroke-linecap="round">
+    <!-- Primary seam: diagonal across the bowl -->
+    <path d="M 120 300 L 170 360 L 150 430 L 210 490 L 185 545"
+          stroke-width="2.5" opacity="0.85"/>
+    <path d="M 170 360 L 220 345 L 260 330" stroke-width="1.5" opacity="0.6"/>
+    <path d="M 150 430 L 100 450 L 80 465" stroke-width="1.5" opacity="0.55"/>
+    <!-- Second seam: runs roughly horizontal -->
+    <path d="M 130 410 L 200 405 L 300 415 L 400 405 L 470 410"
+          stroke-width="2" opacity="0.75"/>
+    <path d="M 200 405 L 195 360 L 210 320" stroke-width="1.5" opacity="0.5"/>
+    <path d="M 400 405 L 405 360 L 390 310" stroke-width="1.5" opacity="0.5"/>
+    <!-- Third seam: shorter, bottom portion -->
+    <path d="M 240 480 L 300 490 L 360 480 L 390 520 L 370 555"
+          stroke-width="2" opacity="0.7"/>
+    <path d="M 300 490 L 298 540 L 302 565" stroke-width="1.5" opacity="0.55"/>
+    <!-- Fourth seam: right side, vertical -->
+    <path d="M 430 290 L 445 360 L 425 440 L 445 515"
+          stroke-width="2" opacity="0.7"/>
+    <path d="M 445 360 L 480 350 L 505 340" stroke-width="1.5" opacity="0.45"/>
+    <!-- Fine hairline cracks (age) -->
+    <path d="M 175 295 L 165 310 L 158 325" stroke-width="0.8" opacity="0.4"/>
+    <path d="M 330 270 L 336 290 L 332 310" stroke-width="0.8" opacity="0.35"/>
+    <path d="M 350 450 L 365 460 L 372 475" stroke-width="0.8" opacity="0.35"/>
+  </g>
+  <!-- Many gold dots — complex repair history -->
+  <g fill="#C9932A">
+    <circle cx="170" cy="360" r="3.5" opacity="0.9"/>
+    <circle cx="150" cy="430" r="3.5" opacity="0.9"/>
+    <circle cx="210" cy="490" r="4" opacity="0.95"/>
+    <circle cx="200" cy="405" r="3" opacity="0.85"/>
+    <circle cx="300" cy="415" r="4" opacity="0.9"/>
+    <circle cx="400" cy="405" r="3" opacity="0.85"/>
+    <circle cx="300" cy="490" r="3.5" opacity="0.9"/>
+    <circle cx="390" cy="520" r="3" opacity="0.85"/>
+    <circle cx="445" cy="360" r="3" opacity="0.85"/>
+    <circle cx="425" cy="440" r="3" opacity="0.85"/>
+  </g>
+  <rect x="0" y="740" width="600" height="60" fill="#0A0603" opacity="0.85"/>
+  <line x1="40" y1="750" x2="560" y2="750" stroke="#C9932A" stroke-width="1" opacity="0.4"/>
+  <text x="300" y="778" text-anchor="middle" font-family="Georgia,serif" font-size="13"
+        fill="#C9932A" opacity="0.7" letter-spacing="4">TRADITIONAL</text>
+</svg>

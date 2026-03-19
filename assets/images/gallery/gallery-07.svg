@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#1A1608"/>
+      <stop offset="100%" stop-color="#080703"/>
+    </linearGradient>
+    <linearGradient id="plate-grad" x1="20%" y1="20%" x2="80%" y2="80%">
+      <stop offset="0%" stop-color="#2E2A18"/>
+      <stop offset="100%" stop-color="#141208"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#bg)"/>
+  <!-- Turkish workshop plate — viewed from slight angle, circular plate -->
+  <!-- Plate outer -->
+  <ellipse cx="300" cy="380" rx="230" ry="230" fill="url(#plate-grad)" stroke="#4A4020" stroke-width="2"/>
+  <!-- Plate rim -->
+  <ellipse cx="300" cy="380" rx="215" ry="215" fill="none" stroke="#3A3018" stroke-width="8" opacity="0.5"/>
+  <!-- Plate inner well -->
+  <ellipse cx="300" cy="380" rx="175" ry="175" fill="#100E06" opacity="0.4"/>
+  <!-- Turkish motif crack — star/crescent pattern (Islamic geometric feel) -->
+  <g fill="none" stroke="#C9932A" stroke-linecap="round">
+    <!-- Radial cracks — 6-pointed star pattern -->
+    <path d="M 300 380 L 300 190" stroke-width="2.5" opacity="0.8"/>
+    <path d="M 300 380 L 465 475" stroke-width="2.5" opacity="0.8"/>
+    <path d="M 300 380 L 135 475" stroke-width="2.5" opacity="0.8"/>
+    <path d="M 300 380 L 300 570" stroke-width="2" opacity="0.7"/>
+    <path d="M 300 380 L 135 285" stroke-width="2" opacity="0.7"/>
+    <path d="M 300 380 L 465 285" stroke-width="2" opacity="0.7"/>
+    <!-- Crescent arc — Turkish motif -->
+    <path d="M 230 220 C 200 260 195 300 230 330" stroke-width="2" opacity="0.6" fill="none"/>
+    <!-- Cross connections (hexagonal) -->
+    <path d="M 300 190 L 465 285" stroke-width="1.5" opacity="0.4"/>
+    <path d="M 465 285 L 465 475" stroke-width="1.5" opacity="0.4"/>
+    <path d="M 465 475 L 300 570" stroke-width="1.5" opacity="0.4"/>
+    <path d="M 300 570 L 135 475" stroke-width="1.5" opacity="0.4"/>
+    <path d="M 135 475 L 135 285" stroke-width="1.5" opacity="0.4"/>
+    <path d="M 135 285 L 300 190" stroke-width="1.5" opacity="0.4"/>
+  </g>
+  <!-- Gold dots at star points and center -->
+  <g fill="#C9932A">
+    <circle cx="300" cy="380" r="5" opacity="0.95"/>
+    <circle cx="300" cy="190" r="4" opacity="0.9"/>
+    <circle cx="465" cy="475" r="4" opacity="0.9"/>
+    <circle cx="135" cy="475" r="4" opacity="0.9"/>
+    <circle cx="300" cy="570" r="4" opacity="0.85"/>
+    <circle cx="135" cy="285" r="3.5" opacity="0.85"/>
+    <circle cx="465" cy="285" r="3.5" opacity="0.85"/>
+  </g>
+  <rect x="0" y="740" width="600" height="60" fill="#080703" opacity="0.85"/>
+  <line x1="40" y1="750" x2="560" y2="750" stroke="#C9932A" stroke-width="1" opacity="0.4"/>
+  <text x="300" y="778" text-anchor="middle" font-family="Georgia,serif" font-size="13"
+        fill="#C9932A" opacity="0.7" letter-spacing="4">TURKEY</text>
+</svg>

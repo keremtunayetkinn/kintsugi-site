@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Discover Kintsugi, the Japanese art of repairing broken ceramics with gold. History, philosophy, technique, artists, and more." />
+  <title data-i18n="home.meta.title">Kintsugi — The Art of Golden Repair</title>
+  <link rel="stylesheet" href="/assets/css/main.css" />
+</head>
+<body>
+
+  <!-- Skip Link -->
+  <a class="skip-link" href="#main-content" data-i18n="skip_link">Skip to content</a>
+
+  <!-- Screen reader language announcer -->
+  <div id="lang-announcer" role="status" aria-live="polite" class="sr-only"></div>
+
+  <!-- ═══════════════════════════════════════════════════════
+       SITE HEADER
+  ════════════════════════════════════════════════════════════ -->
+  <header class="site-header">
+    <a class="logo" href="/index.html" aria-label="Kintsugi — Home">
+      <span class="logo__kanji" aria-hidden="true">金継ぎ</span>
+      <span class="logo__text" data-i18n="site.name">Kintsugi</span>
+    </a>
+
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul role="list">
+        <li><a href="/index.html"          data-i18n="nav.home">Home</a></li>
+        <li><a href="/history.html"        data-i18n="nav.history">History</a></li>
+        <li><a href="/philosophy.html"     data-i18n="nav.philosophy">Philosophy</a></li>
+        <li><a href="/technique.html"      data-i18n="nav.technique">Technique</a></li>
+        <li><a href="/artists.html"        data-i18n="nav.artists">Artists</a></li>
+        <li><a href="/kintsugi-today.html" data-i18n="nav.today">Kintsugi Today</a></li>
+        <li><a href="/gallery.html"        data-i18n="nav.gallery">Gallery</a></li>
+        <li><a href="/faq.html"            data-i18n="nav.faq">FAQ</a></li>
+      </ul>
+    </nav>
+
+    <div class="lang-switcher" role="navigation" aria-label="Language selection">
+      <button class="lang-btn active" data-lang="en" onclick="Lang.set('en')" aria-pressed="true">EN</button>
+      <span class="lang-divider" aria-hidden="true">|</span>
+      <button class="lang-btn" data-lang="tr" onclick="Lang.set('tr')" aria-pressed="false">TR</button>
+      <span class="lang-divider" aria-hidden="true">|</span>
+      <button class="lang-btn" data-lang="ja" onclick="Lang.set('ja')" aria-pressed="false">日本語</button>
+    </div>
+
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ═══════════════════════════════════════════════════════
+       MAIN CONTENT
+  ════════════════════════════════════════════════════════════ -->
+  <main id="main-content">
+
+    <!-- ── 1. HERO ─────────────────────────────────────────── -->
+    <section class="hero" aria-label="Hero">
+      <picture>
+        <img
+          class="hero__bg"
+          src="/assets/images/hero/home-hero.svg"
+          alt=""
+          role="presentation"
+          width="1600"
+          height="900"
+          loading="eager"
+        />
+      </picture>
+      <div class="hero__overlay" aria-hidden="true"></div>
+
+      <!-- Decorative gold crack SVG overlay -->
+      <svg class="hero__crack" aria-hidden="true" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid meet">
+        <g fill="none" stroke="#C9932A" stroke-width="1.5" opacity="0.35">
+          <path d="M300,50 L270,130 L310,200 L280,290 L320,380" />
+          <path d="M270,130 L200,160 L170,210" />
+          <path d="M310,200 L380,220 L420,270" />
+          <path d="M280,290 L230,320 L200,380" />
+          <path d="M320,380 L360,340 L400,370" />
+        </g>
+      </svg>
+
+      <div class="hero__content">
+        <p class="hero__kanji" aria-hidden="true">金継ぎ</p>
+        <h1 class="hero__title" data-i18n="hero.title">Kintsugi</h1>
+        <p class="hero__subtitle" data-i18n="hero.subtitle">Beauty Born from Brokenness</p>
+        <a href="/history.html" class="btn btn--outline" data-i18n="hero.cta">Discover the Art</a>
+      </div>
+    </section>
+
+    <!-- ── 2. WHAT IS KINTSUGI ─────────────────────────────── -->
+    <section class="section" aria-labelledby="what-title">
+      <div class="section__inner">
+        <div class="two-col">
+          <div class="what__text">
+            <span class="section-label" data-i18n="home.what.label">What is Kintsugi?</span>
+            <h2 id="what-title" class="section__title" data-i18n="home.what.title">Repairing with Gold</h2>
+            <div data-i18n-html="home.what.body">
+              <strong>Kintsugi</strong> (金継ぎ) is the centuries-old Japanese art of repairing broken ceramics
+              with lacquer mixed with gold, silver, or platinum powder. Rather than concealing the damage,
+              it illuminates the cracks — transforming scars into seams of gold.
+            </div>
+            <p class="caption" style="margin-top: var(--space-6);" data-i18n="home.what.caption">
+              The crack is not the wound — it is the map.
+            </p>
+          </div>
+
+          <!-- Decorative Gold Crack SVG -->
+          <div class="what__visual" aria-hidden="true">
+            <svg class="crack-svg" viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Decorative gold crack illustration">
+              <!-- Bowl outline -->
+              <ellipse cx="200" cy="460" rx="160" ry="30" fill="none" stroke="#D4C4A8" stroke-width="2" />
+              <path d="M40,460 Q20,280 80,150 Q140,40 200,30 Q260,40 320,150 Q380,280 360,460"
+                    fill="#EDE4D3" stroke="#D4C4A8" stroke-width="2" />
+              <!-- Gold cracks -->
+              <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M200,30 L185,120 L210,200 L190,310 L215,420"
+                      stroke="#C9932A" stroke-width="3" />
+                <path d="M185,120 L140,155 L115,210"
+                      stroke="#C9932A" stroke-width="2" />
+                <path d="M210,200 L260,230 L290,280"
+                      stroke="#C9932A" stroke-width="2" />
+                <path d="M190,310 L150,340 L130,390"
+                      stroke="#C9932A" stroke-width="1.5" />
+                <path d="M215,420 L250,400 L270,440"
+                      stroke="#C9932A" stroke-width="1.5" />
+                <!-- Gold dots at nodes -->
+                <circle cx="185" cy="120" r="3" fill="#C9932A" stroke="none" />
+                <circle cx="210" cy="200" r="3" fill="#C9932A" stroke="none" />
+                <circle cx="190" cy="310" r="3" fill="#C9932A" stroke="none" />
+                <circle cx="215" cy="420" r="3" fill="#C9932A" stroke="none" />
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 3. CORE CONCEPTS ────────────────────────────────── -->
+    <section class="section section--alt" aria-labelledby="concepts-title">
+      <div class="section__inner">
+        <div class="section__header" style="text-align:center;">
+          <span class="section-label" data-i18n="home.concepts.label">Core Concepts</span>
+          <h2 id="concepts-title" class="section__title" data-i18n="home.concepts.title">Explore</h2>
+          <span class="gold-line" aria-hidden="true"></span>
+        </div>
+
+        <div class="three-col">
+          <!-- History Card -->
+          <article class="card card--gold-top">
+            <div class="card__body">
+              <p class="card__label" data-i18n="home.concepts.history.title">History</p>
+              <h3 class="card__title" data-i18n="home.concepts.history.title">History</h3>
+              <p class="card__text" data-i18n="home.concepts.history.desc">
+                From Ashikaga's teacups to the global stage — trace 600 years of golden joinery.
+              </p>
+              <a href="/history.html" class="card__link" data-i18n="nav.history">History</a>
+            </div>
+          </article>
+
+          <!-- Philosophy Card -->
+          <article class="card card--gold-top">
+            <div class="card__body">
+              <p class="card__label" data-i18n="home.concepts.philosophy.title">Philosophy</p>
+              <h3 class="card__title" data-i18n="home.concepts.philosophy.title">Philosophy</h3>
+              <p class="card__text" data-i18n="home.concepts.philosophy.desc">
+                Wabi-Sabi, impermanence, and the courage to wear your history visibly.
+              </p>
+              <a href="/philosophy.html" class="card__link" data-i18n="nav.philosophy">Philosophy</a>
+            </div>
+          </article>
+
+          <!-- Technique Card -->
+          <article class="card card--gold-top">
+            <div class="card__body">
+              <p class="card__label" data-i18n="home.concepts.technique.title">Technique</p>
+              <h3 class="card__title" data-i18n="home.concepts.technique.title">Technique</h3>
+              <p class="card__text" data-i18n="home.concepts.technique.desc">
+                Urushi lacquer, 24K gold powder, patience — the traditional six-step process.
+              </p>
+              <a href="/technique.html" class="card__link" data-i18n="nav.technique">Technique</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 4. FEATURED QUOTE ───────────────────────────────── -->
+    <section class="quote-section" aria-label="Featured quote">
+      <div class="section__inner" style="text-align:center;">
+        <span class="gold-line" aria-hidden="true"></span>
+        <blockquote class="pull-quote">
+          <p data-i18n="home.quote.text">
+            "There is a crack in everything. That's how the light gets in."
+          </p>
+          <cite data-i18n="home.quote.author">— Leonard Cohen (paraphrased)</cite>
+        </blockquote>
+        <span class="gold-line" aria-hidden="true"></span>
+      </div>
+    </section>
+
+    <!-- ── 5. EXPLORE ──────────────────────────────────────── -->
+    <section class="section" aria-labelledby="explore-title">
+      <div class="section__inner section__inner--wide">
+        <div class="section__header" style="text-align:center;">
+          <span class="section-label" data-i18n="home.explore.label">All Pages</span>
+          <h2 id="explore-title" class="section__title" data-i18n="home.explore.title">Explore the World of Kintsugi</h2>
+        </div>
+
+        <div class="card-grid">
+          <!-- Artists -->
+          <article class="card">
+            <div class="card__body">
+              <p class="card__label" data-i18n="nav.artists">Artists</p>
+              <h3 class="card__title" data-i18n="home.explore.artists.title">Artists</h3>
+              <p class="card__text" data-i18n="home.explore.artists.desc">
+                Masters from Kyoto to Istanbul shaping the tradition today.
+              </p>
+              <a href="/artists.html" class="card__link" data-i18n="nav.artists">Artists</a>
+            </div>
+          </article>
+
+          <!-- Kintsugi Today -->
+          <article class="card">
+            <div class="card__body">
+              <p class="card__label" data-i18n="nav.today">Kintsugi Today</p>
+              <h3 class="card__title" data-i18n="home.explore.today.title">Kintsugi Today</h3>
+              <p class="card__text" data-i18n="home.explore.today.desc">
+                Workshops, psychotherapy, sustainability — a global movement.
+              </p>
+              <a href="/kintsugi-today.html" class="card__link" data-i18n="nav.today">Kintsugi Today</a>
+            </div>
+          </article>
+
+          <!-- Gallery -->
+          <article class="card">
+            <div class="card__body">
+              <p class="card__label" data-i18n="nav.gallery">Gallery</p>
+              <h3 class="card__title" data-i18n="home.explore.gallery.title">Gallery</h3>
+              <p class="card__text" data-i18n="home.explore.gallery.desc">
+                A visual journey through traditional and contemporary Kintsugi.
+              </p>
+              <a href="/gallery.html" class="card__link" data-i18n="nav.gallery">Gallery</a>
+            </div>
+          </article>
+
+          <!-- FAQ -->
+          <article class="card">
+            <div class="card__body">
+              <p class="card__label" data-i18n="nav.faq">FAQ</p>
+              <h3 class="card__title" data-i18n="home.explore.faq.title">FAQ</h3>
+              <p class="card__text" data-i18n="home.explore.faq.desc">
+                Practical answers: materials, safety, learning, and more.
+              </p>
+              <a href="/faq.html" class="card__link" data-i18n="nav.faq">FAQ</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════════════════════
+       SHARED TOOLTIP
+  ════════════════════════════════════════════════════════════ -->
+  <div id="tooltip" class="tooltip" role="tooltip" aria-live="polite">
+    <div class="tooltip__term"></div>
+    <div class="tooltip__definition"></div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════
+       SITE FOOTER
+  ════════════════════════════════════════════════════════════ -->
+  <footer class="site-footer">
+    <div class="footer__kanji" aria-hidden="true">金継ぎ</div>
+    <p class="footer__tagline" data-i18n="footer.tagline">Beauty in Imperfection</p>
+    <p class="footer__copy" data-i18n="footer.copy">© 2026 Kintsugi — Free educational resource</p>
+  </footer>
+
+  <script src="/assets/js/main.js" type="module"></script>
+
+  <!-- Inline styles for elements used only on this page -->
+  <style>
+    .hero__kanji {
+      font-family: var(--font-heading);
+      font-size: var(--text-2xl);
+      color: var(--color-gold);
+      letter-spacing: 0.3em;
+      margin-bottom: var(--space-4);
+      opacity: 0.8;
+    }
+
+    .hero__crack {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+    }
+
+    .what__visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+  </style>
+
+</body>
+</html>

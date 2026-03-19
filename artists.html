@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Meet the masters and contemporary artists keeping Kintsugi alive — from Kyoto studios to Istanbul workshops." />
+  <title data-i18n="artists.meta.title">Artists — Kintsugi</title>
+  <link rel="stylesheet" href="/assets/css/main.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div id="lang-announcer" role="status" aria-live="polite" class="sr-only"></div>
+
+  <!-- ═══ HEADER ═══ -->
+  <header class="site-header">
+    <a class="logo" href="/index.html" aria-label="Kintsugi — Home">
+      <span class="logo__kanji" aria-hidden="true">金継ぎ</span>
+      <span class="logo__text" data-i18n="site.name">Kintsugi</span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul role="list">
+        <li><a href="/index.html"          data-i18n="nav.home">Home</a></li>
+        <li><a href="/history.html"        data-i18n="nav.history">History</a></li>
+        <li><a href="/philosophy.html"     data-i18n="nav.philosophy">Philosophy</a></li>
+        <li><a href="/technique.html"      data-i18n="nav.technique">Technique</a></li>
+        <li><a href="/artists.html"        data-i18n="nav.artists">Artists</a></li>
+        <li><a href="/kintsugi-today.html" data-i18n="nav.today">Kintsugi Today</a></li>
+        <li><a href="/gallery.html"        data-i18n="nav.gallery">Gallery</a></li>
+        <li><a href="/faq.html"            data-i18n="nav.faq">FAQ</a></li>
+      </ul>
+    </nav>
+    <div class="lang-switcher" role="navigation" aria-label="Language selection">
+      <button class="lang-btn active" data-lang="en" onclick="Lang.set('en')" aria-pressed="true">EN</button>
+      <span class="lang-divider" aria-hidden="true">|</span>
+      <button class="lang-btn" data-lang="tr" onclick="Lang.set('tr')" aria-pressed="false">TR</button>
+      <span class="lang-divider" aria-hidden="true">|</span>
+      <button class="lang-btn" data-lang="ja" onclick="Lang.set('ja')" aria-pressed="false">日本語</button>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ═══ MAIN ═══ -->
+  <main id="main-content">
+
+    <!-- ── 1. PAGE HERO ─────────────────────────────────────── -->
+    <section class="hero hero--short" aria-label="Page hero">
+      <picture>
+        <img class="hero__bg" src="/assets/images/hero/artists-hero.svg" alt=""
+             role="presentation" width="1600" height="600" loading="eager" />
+      </picture>
+      <div class="hero__overlay" aria-hidden="true"></div>
+      <div class="hero__content">
+        <h1 class="hero__title" data-i18n="artists.hero.title">Artists</h1>
+        <p class="hero__subtitle" data-i18n="artists.hero.subtitle">Masters of the Golden Seam</p>
+      </div>
+    </section>
+
+    <!-- ── 2. TRADITIONAL JAPANESE MASTERS ──────────────────── -->
+    <section class="section" aria-labelledby="traditional-title">
+      <div class="section__inner section__inner--wide">
+        <div class="section__header">
+          <span class="section-label" data-i18n="artists.traditional.label">Traditional Masters</span>
+          <h2 id="traditional-title" class="section__title" data-i18n="artists.traditional.title">Japanese Masters</h2>
+          <span class="gold-line gold-line--left" aria-hidden="true"></span>
+        </div>
+
+        <div class="card-grid" role="list">
+
+          <!-- Nobuyasu Suginaka -->
+          <article class="artist-card" role="listitem">
+            <div class="artist-card__img-wrap">
+              <picture>
+                <img class="artist-card__img"
+                     src="/assets/images/artists/suginaka.svg"
+                     alt="Portrait of Nobuyasu Suginaka"
+                     data-alt-en="Portrait of Nobuyasu Suginaka"
+                     data-alt-tr="Nobuyasu Suginaka'nın portresi"
+                     data-alt-ja="杉中信保のポートレート"
+                     width="400" height="533" loading="lazy"
+                     onerror="this.parentElement.innerHTML='<div class=\'artist-card__placeholder\' aria-hidden=\'true\'>金</div>'" />
+              </picture>
+            </div>
+            <div class="artist-card__body">
+              <h3 class="artist-card__name" data-i18n="artists.traditional.items[0].name">Nobuyasu Suginaka</h3>
+              <p class="artist-card__role" data-i18n="artists.traditional.items[0].role">Traditional Kintsugi Master, Kyoto</p>
+              <p class="artist-card__bio" data-i18n="artists.traditional.items[0].bio">
+                A third-generation lacquerware artisan in Kyoto, Suginaka has spent over forty years
+                perfecting the traditional Hon-Kintsugi method.
+              </p>
+            </div>
+          </article>
+
+          <!-- Seisaku Nakajima -->
+          <article class="artist-card" role="listitem">
+            <div class="artist-card__img-wrap">
+              <div class="artist-card__placeholder" aria-hidden="true">継</div>
+            </div>
+            <div class="artist-card__body">
+              <h3 class="artist-card__name" data-i18n="artists.traditional.items[1].name">Seisaku Nakajima</h3>
+              <p class="artist-card__role" data-i18n="artists.traditional.items[1].role">Lacquer Artist &amp; Restorer</p>
+              <p class="artist-card__bio" data-i18n="artists.traditional.items[1].bio">
+                Nakajima specialises in the restoration of historic tea ceramics, applying Kintsugi only
+                where the original craftsmen would have sanctioned it.
+              </p>
+            </div>
+          </article>
+
+          <!-- Keiko Hata -->
+          <article class="artist-card" role="listitem">
+            <div class="artist-card__img-wrap">
+              <div class="artist-card__placeholder" aria-hidden="true">漆</div>
+            </div>
+            <div class="artist-card__body">
+              <h3 class="artist-card__name" data-i18n="artists.traditional.items[2].name">Keiko Hata</h3>
+              <p class="artist-card__role" data-i18n="artists.traditional.items[2].role">Ceramic Conservator, Tokyo National Museum</p>
+              <p class="artist-card__bio" data-i18n="artists.traditional.items[2].bio">
+                One of the few women to reach the highest levels of traditional Kintsugi, Hata has restored
+                pieces from the Edo period.
+              </p>
+            </div>
+          </article>
+
+          <!-- Maki Mizuno -->
+          <article class="artist-card" role="listitem">
+            <div class="artist-card__img-wrap">
+              <div class="artist-card__placeholder" aria-hidden="true">金</div>
+            </div>
+            <div class="artist-card__body">
+              <h3 class="artist-card__name" data-i18n="artists.traditional.items[3].name">Maki Mizuno</h3>
+              <p class="artist-card__role" data-i18n="artists.traditional.items[3].role">Contemporary Kintsugi Artist, Osaka</p>
+              <p class="artist-card__bio" data-i18n="artists.traditional.items[3].bio">
+                Mizuno blends traditional technique with a contemporary visual language, applying Kintsugi
+                to mass-produced ceramics to raise questions about value and perfection.
+              </p>
+            </div>
+          </article>
+
+          <!-- Rio Hashimoto -->
+          <article class="artist-card" role="listitem">
+            <div class="artist-card__img-wrap">
+              <div class="artist-card__placeholder" aria-hidden="true">継</div>
+            </div>
+            <div class="artist-card__body">
+              <h3 class="artist-card__name" data-i18n="artists.traditional.items[4].name">Rio Hashimoto</h3>
+              <p class="artist-card__role" data-i18n="artists.traditional.items[4].role">Kintsugi Educator &amp; Author</p>
+              <p class="artist-card__bio" data-i18n="artists.traditional.items[4].bio">
+                Hashimoto has written two influential books on Kintsugi technique and runs workshops
+                across Japan and internationally.
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 3. CONTEMPORARY ARTISTS ────────────────────────────── -->
+    <section class="section section--alt" aria-labelledby="contemporary-title">
+      <div class="section__inner section__inner--wide">
+        <div class="section__header">
+          <span class="section-label" data-i18n="artists.contemporary.label">Contemporary Artists</span>
+          <h2 id="contemporary-title" class="section__title" data-i18n="artists.contemporary.title">Beyond the Studio</h2>
+          <span class="gold-line gold-line--left" aria-hidden="true"></span>
+        </div>
+
+        <div class="card-grid" role="list">
+
+          <!-- Yoko Ono -->
+          <article class="artist-card" role="listitem">
+            <div class="artist-card__img-wrap">
+              <div class="artist-card__placeholder" aria-hidden="true">繕</div>
+            </div>
+            <div class="artist-card__body">
+              <h3 class="artist-card__name" data-i18n="artists.contemporary.items[0].name">Yoko Ono</h3>
+              <p class="artist-card__role" data-i18n="artists.contemporary.items[0].role">Conceptual Artist</p>
+              <div class="artist-card__bio" data-i18n-html="artists.contemporary.items[0].bio">
+                Yoko Ono's ceramic collection, particularly her ongoing project <em>Mend Piece</em>
+                (first shown in 1966), invites participants to mend broken cups using any available material.
+              </div>
+            </div>
+          </article>
+
+          <!-- Tomomi Kamoshita -->
+          <article class="artist-card" role="listitem">
+            <div class="artist-card__img-wrap">
+              <div class="artist-card__placeholder" aria-hidden="true">波</div>
+            </div>
+            <div class="artist-card__body">
+              <h3 class="artist-card__name" data-i18n="artists.contemporary.items[1].name">Tomomi Kamoshita</h3>
+              <p class="artist-card__role" data-i18n="artists.contemporary.items[1].role">Contemporary Ceramicist</p>
+              <div class="artist-card__bio" data-i18n-html="artists.contemporary.items[1].bio">
+                Known for her series <em>Gift From Ten Waves</em>, Kamoshita creates ceramics that appear
+                to have already been broken and repaired.
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 4. ARTISTS FROM TURKEY ─────────────────────────────── -->
+    <section class="section" aria-labelledby="turkey-title">
+      <div class="section__inner section__inner--wide">
+        <div class="section__header">
+          <span class="section-label" data-i18n="artists.turkey.label">Kintsugi in Turkey</span>
+          <h2 id="turkey-title" class="section__title" data-i18n="artists.turkey.title">Artists from Turkey</h2>
+          <span class="gold-line gold-line--left" aria-hidden="true"></span>
+        </div>
+
+        <!-- Featured artist — wider card -->
+        <article class="artist-featured" aria-label="Featured artist">
+          <div class="artist-featured__img-wrap">
+            <div class="artist-card__placeholder" aria-hidden="true" style="height:100%;display:flex;align-items:center;justify-content:center;font-size:var(--text-4xl);color:var(--color-gold);opacity:0.4;">金</div>
+          </div>
+          <div class="artist-featured__body">
+            <h3 class="artist-card__name" data-i18n="artists.turkey.items[0].name">Özlem Kevser Birkan</h3>
+            <p class="artist-card__role" data-i18n="artists.turkey.items[0].role">Kintsugi Master &amp; Educator, Istanbul</p>
+            <p class="artist-card__bio" data-i18n="artists.turkey.items[0].bio">
+              Özlem Kevser Birkan is widely credited with bringing authentic Kintsugi practice to Turkey.
+              Her path began with a deep interest in Japanese aesthetics, leading her to train in Japan
+              under traditional masters. On returning to Istanbul, she founded her studio and teaching
+              practice at Lotus5, introducing both the technique and the Wabi-Sabi philosophy to a new
+              audience.
+            </p>
+            <a href="/kintsugi-today.html#turkey" class="card__link" data-i18n="today.workshops.turkey.title">Workshops in Turkey</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══ TOOLTIP ═══ -->
+  <div id="tooltip" class="tooltip" role="tooltip" aria-live="polite">
+    <div class="tooltip__term"></div>
+    <div class="tooltip__definition"></div>
+  </div>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="site-footer">
+    <div class="footer__kanji" aria-hidden="true">金継ぎ</div>
+    <p class="footer__tagline" data-i18n="footer.tagline">Beauty in Imperfection</p>
+    <p class="footer__copy" data-i18n="footer.copy">© 2026 Kintsugi — Free educational resource</p>
+  </footer>
+
+  <script src="/assets/js/main.js" type="module"></script>
+  <style>
+    .sr-only {
+      position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+      overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+    }
+
+    /* Featured artist layout */
+    .artist-featured {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: var(--space-8);
+      background: var(--color-bg-primary);
+      border: 1px solid var(--color-border-accent);
+      border-radius: var(--border-radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+    }
+
+    .artist-featured__img-wrap {
+      background: var(--color-bg-secondary);
+      min-height: 320px;
+    }
+
+    .artist-featured__body {
+      padding: var(--space-8);
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-3);
+      justify-content: center;
+    }
+
+    .artist-featured__body .artist-card__bio {
+      margin-top: var(--space-2);
+    }
+
+    @media (max-width: 767px) {
+      .artist-featured {
+        grid-template-columns: 1fr;
+      }
+      .artist-featured__img-wrap {
+        min-height: 200px;
+      }
+    }
+  </style>
+</body>
+</html>

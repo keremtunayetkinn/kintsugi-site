@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#201408"/>
+      <stop offset="100%" stop-color="#0A0603"/>
+    </linearGradient>
+    <linearGradient id="bowl-grad" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#3A2818"/>
+      <stop offset="100%" stop-color="#1A1008"/>
+    </linearGradient>
+    <radialGradient id="gold-glow" cx="50%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="#C9932A" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#C9932A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#bg)"/>
+  <!-- Complete repair — bowl reunited through gold — triumphant, whole -->
+  <rect width="600" height="800" fill="url(#gold-glow)"/>
+  <!-- Bowl: complete and whole, glowing with gold seams -->
+  <ellipse cx="300" cy="265" rx="210" ry="32" fill="#2A1A08" stroke="#4A3520" stroke-width="2.5" opacity="0.85"/>
+  <path d="M 90 265 C 70 375 90 530 300 582 C 510 530 530 375 510 265"
+        fill="url(#bowl-grad)" stroke="#5A4028" stroke-width="2.5"/>
+  <ellipse cx="300" cy="265" rx="196" ry="27" fill="none" stroke="#4A3820" stroke-width="2" opacity="0.6"/>
+  <!-- Interior -->
+  <path d="M 105 278 C 90 380 108 518 300 565 C 492 518 510 380 495 278"
+        fill="#1A1008" opacity="0.55"/>
+  <!-- The complete repair — gold seams glowing as the finished piece -->
+  <!-- Glow effect on seams -->
+  <g fill="none" stroke-linecap="round">
+    <!-- Primary seam with golden glow -->
+    <path d="M 155 300 L 190 368 L 170 445 L 220 510 L 198 558"
+          stroke="#FFE580" stroke-width="6" opacity="0.2"/>
+    <path d="M 155 300 L 190 368 L 170 445 L 220 510 L 198 558"
+          stroke="#C9932A" stroke-width="2.5" opacity="0.95"/>
+    <!-- Secondary seam -->
+    <path d="M 360 280 L 390 360 L 370 445 L 410 525"
+          stroke="#FFE580" stroke-width="5" opacity="0.18"/>
+    <path d="M 360 280 L 390 360 L 370 445 L 410 525"
+          stroke="#C9932A" stroke-width="2" opacity="0.9"/>
+    <!-- Connecting seam -->
+    <path d="M 190 368 L 280 355 L 360 360"
+          stroke="#FFE580" stroke-width="4" opacity="0.15"/>
+    <path d="M 190 368 L 280 355 L 360 360"
+          stroke="#C9932A" stroke-width="1.5" opacity="0.85"/>
+    <path d="M 170 445 L 250 438 L 370 445"
+          stroke="#FFE580" stroke-width="4" opacity="0.15"/>
+    <path d="M 170 445 L 250 438 L 370 445"
+          stroke="#C9932A" stroke-width="1.5" opacity="0.8"/>
+    <!-- Branch cracks -->
+    <path d="M 190 368 L 140 355 L 110 345" stroke="#C9932A" stroke-width="1.5" opacity="0.65"/>
+    <path d="M 390 360 L 440 348 L 480 338" stroke="#C9932A" stroke-width="1.5" opacity="0.6"/>
+    <path d="M 220 510 L 270 502 L 370 510" stroke="#C9932A" stroke-width="1.5" opacity="0.7"/>
+  </g>
+  <!-- Gold nodes — bright, triumphant -->
+  <g fill="#C9932A">
+    <circle cx="190" cy="368" r="5" opacity="1"/>
+    <circle cx="170" cy="445" r="5" opacity="1"/>
+    <circle cx="220" cy="510" r="5" opacity="1"/>
+    <circle cx="390" cy="360" r="4.5" opacity="0.95"/>
+    <circle cx="370" cy="445" r="4.5" opacity="0.95"/>
+    <circle cx="280" cy="355" r="4" opacity="0.95"/>
+    <circle cx="250" cy="438" r="4" opacity="0.9"/>
+  </g>
+  <!-- Subtle shimmer — light catching the finished gold -->
+  <g fill="#FFE580" opacity="0.7">
+    <circle cx="190" cy="368" r="2" opacity="0.6"/>
+    <circle cx="220" cy="510" r="2" opacity="0.6"/>
+    <circle cx="390" cy="360" r="1.5" opacity="0.5"/>
+  </g>
+  <rect x="0" y="740" width="600" height="60" fill="#0A0603" opacity="0.85"/>
+  <line x1="40" y1="750" x2="560" y2="750" stroke="#C9932A" stroke-width="1" opacity="0.4"/>
+  <text x="300" y="778" text-anchor="middle" font-family="Georgia,serif" font-size="13"
+        fill="#C9932A" opacity="0.7" letter-spacing="4">PROCESS</text>
+</svg>

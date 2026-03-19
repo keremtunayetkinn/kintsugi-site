@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="How Kintsugi has spread worldwide — from Japanese studios to Turkish workshops, therapy rooms, and sustainability movements." />
+  <title data-i18n="today.meta.title">Kintsugi Today — Kintsugi</title>
+  <link rel="stylesheet" href="/assets/css/main.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div id="lang-announcer" role="status" aria-live="polite" class="sr-only"></div>
+
+  <!-- ═══ HEADER ═══ -->
+  <header class="site-header">
+    <a class="logo" href="/index.html" aria-label="Kintsugi — Home">
+      <span class="logo__kanji" aria-hidden="true">金継ぎ</span>
+      <span class="logo__text" data-i18n="site.name">Kintsugi</span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul role="list">
+        <li><a href="/index.html"          data-i18n="nav.home">Home</a></li>
+        <li><a href="/history.html"        data-i18n="nav.history">History</a></li>
+        <li><a href="/philosophy.html"     data-i18n="nav.philosophy">Philosophy</a></li>
+        <li><a href="/technique.html"      data-i18n="nav.technique">Technique</a></li>
+        <li><a href="/artists.html"        data-i18n="nav.artists">Artists</a></li>
+        <li><a href="/kintsugi-today.html" data-i18n="nav.today">Kintsugi Today</a></li>
+        <li><a href="/gallery.html"        data-i18n="nav.gallery">Gallery</a></li>
+        <li><a href="/faq.html"            data-i18n="nav.faq">FAQ</a></li>
+      </ul>
+    </nav>
+    <div class="lang-switcher" role="navigation" aria-label="Language selection">
+      <button class="lang-btn active" data-lang="en" onclick="Lang.set('en')" aria-pressed="true">EN</button>
+      <span class="lang-divider" aria-hidden="true">|</span>
+      <button class="lang-btn" data-lang="tr" onclick="Lang.set('tr')" aria-pressed="false">TR</button>
+      <span class="lang-divider" aria-hidden="true">|</span>
+      <button class="lang-btn" data-lang="ja" onclick="Lang.set('ja')" aria-pressed="false">日本語</button>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ═══ MAIN ═══ -->
+  <main id="main-content">
+
+    <!-- ── 1. PAGE HERO ─────────────────────────────────────── -->
+    <section class="hero hero--short" aria-label="Page hero">
+      <picture>
+        <img class="hero__bg" src="/assets/images/hero/today-hero.svg" alt=""
+             role="presentation" width="1600" height="600" loading="eager" />
+      </picture>
+      <div class="hero__overlay" aria-hidden="true"></div>
+      <div class="hero__content">
+        <h1 class="hero__title" data-i18n="today.hero.title">Kintsugi Today</h1>
+        <p class="hero__subtitle" data-i18n="today.hero.subtitle">A Global Practice of Repair</p>
+      </div>
+    </section>
+
+    <!-- ── 2. GLOBAL REACH ───────────────────────────────────── -->
+    <section class="section" aria-labelledby="global-title">
+      <div class="section__inner">
+        <div class="two-col">
+          <div>
+            <span class="section-label" data-i18n="today.global.label">Global Reach</span>
+            <h2 id="global-title" class="section__title" data-i18n="today.global.title">From Japan to the World</h2>
+            <span class="gold-line gold-line--left" aria-hidden="true"></span>
+            <p style="margin-top:var(--space-6);" data-i18n="today.global.body">
+              What began as a Japanese court art has become a worldwide practice. Kintsugi communities
+              exist in Japan, South Korea, Turkey, the United Kingdom, the United States, and Australia.
+            </p>
+          </div>
+
+          <!-- Decorative World Map SVG -->
+          <div class="world-map-wrap" aria-label="World map showing Kintsugi communities" role="img">
+            <svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <!-- Simplified world map paths (decorative) -->
+              <rect width="800" height="400" fill="var(--color-bg-secondary)" rx="8"/>
+
+              <!-- Continents — simplified shapes -->
+              <!-- North America -->
+              <path d="M80,80 L180,70 L200,120 L190,180 L150,200 L100,190 L70,150 Z"
+                    fill="#D4C4A8" opacity="0.6"/>
+              <!-- South America -->
+              <path d="M160,230 L200,220 L220,300 L200,360 L160,370 L140,320 L145,270 Z"
+                    fill="#D4C4A8" opacity="0.6"/>
+              <!-- Europe -->
+              <path d="M360,60 L420,55 L440,100 L400,130 L360,120 L345,90 Z"
+                    fill="#D4C4A8" opacity="0.6"/>
+              <!-- Africa -->
+              <path d="M370,145 L420,140 L440,200 L430,300 L390,320 L355,280 L350,200 Z"
+                    fill="#D4C4A8" opacity="0.6"/>
+              <!-- Asia -->
+              <path d="M450,50 L620,45 L650,120 L640,180 L580,200 L520,190 L470,160 L440,110 Z"
+                    fill="#D4C4A8" opacity="0.6"/>
+              <!-- Australia -->
+              <path d="M600,270 L680,265 L700,320 L660,350 L600,340 L580,310 Z"
+                    fill="#D4C4A8" opacity="0.6"/>
+
+              <!-- Highlighted countries with gold dots -->
+              <!-- Japan -->
+              <circle cx="640" cy="130" r="8" fill="#C9932A" opacity="0.9"/>
+              <text x="640" y="118" text-anchor="middle" font-size="9" fill="#C9932A" font-family="Georgia,serif">Japan</text>
+
+              <!-- Turkey -->
+              <circle cx="468" cy="108" r="7" fill="#C9932A" opacity="0.9"/>
+              <text x="468" y="97" text-anchor="middle" font-size="9" fill="#C9932A" font-family="Georgia,serif">Turkey</text>
+
+              <!-- UK -->
+              <circle cx="372" cy="78" r="6" fill="#E8BC6A" opacity="0.9"/>
+              <text x="372" y="67" text-anchor="middle" font-size="9" fill="#E8BC6A" font-family="Georgia,serif">UK</text>
+
+              <!-- USA -->
+              <circle cx="140" cy="140" r="7" fill="#E8BC6A" opacity="0.9"/>
+              <text x="140" y="129" text-anchor="middle" font-size="9" fill="#E8BC6A" font-family="Georgia,serif">USA</text>
+
+              <!-- Australia -->
+              <circle cx="645" cy="305" r="6" fill="#E8BC6A" opacity="0.9"/>
+              <text x="645" y="294" text-anchor="middle" font-size="9" fill="#E8BC6A" font-family="Georgia,serif">Australia</text>
+
+              <!-- Legend -->
+              <circle cx="50" cy="370" r="5" fill="#C9932A"/>
+              <text x="60" y="374" font-size="9" fill="var(--color-text-muted)" font-family="Georgia,serif">Major community</text>
+              <circle cx="180" cy="370" r="5" fill="#E8BC6A"/>
+              <text x="190" y="374" font-size="9" fill="var(--color-text-muted)" font-family="Georgia,serif">Growing community</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 3. WORKSHOPS & LEARNING ─────────────────────────────── -->
+    <section class="section section--alt" id="turkey" aria-labelledby="workshops-title">
+      <div class="section__inner section__inner--wide">
+        <div class="section__header">
+          <span class="section-label" data-i18n="today.workshops.label">Where to Learn</span>
+          <h2 id="workshops-title" class="section__title" data-i18n="today.workshops.title">Workshops &amp; Learning</h2>
+        </div>
+
+        <div class="workshop-grid">
+          <!-- Learn at Home -->
+          <div class="workshop-col">
+            <h3 class="workshop-col__title" data-i18n="today.workshops.home.title">Learn at Home</h3>
+            <ul class="workshop-col__list" role="list">
+              <li data-i18n="today.workshops.home.items[0]">DIY Kintsugi kits (eco resin-based) available online</li>
+              <li data-i18n="today.workshops.home.items[1]">YouTube tutorials in English, Japanese, and Turkish</li>
+              <li data-i18n="today.workshops.home.items[2]">Books: Rio Hashimoto's guides are widely recommended</li>
+              <li data-i18n="today.workshops.home.items[3]">Community forums and Discord groups for beginners</li>
+            </ul>
+          </div>
+
+          <!-- Kyoto -->
+          <div class="workshop-col">
+            <h3 class="workshop-col__title" data-i18n="today.workshops.kyoto.title">In Kyoto, Japan</h3>
+            <ul class="workshop-col__list" role="list">
+              <li data-i18n="today.workshops.kyoto.items[0]">Kintsugi Kyoto studio — hands-on day workshops</li>
+              <li data-i18n="today.workshops.kyoto.items[1]">Nishiki Kintsugi — traditional Hon-Kintsugi intensive</li>
+              <li data-i18n="today.workshops.kyoto.items[2]">Multiple studios offer English-language sessions</li>
+              <li data-i18n="today.workshops.kyoto.items[3]">Apprenticeship programmes for serious students</li>
+            </ul>
+          </div>
+
+          <!-- Turkey -->
+          <div class="workshop-col" style="border-top-color: var(--color-gold);">
+            <h3 class="workshop-col__title" data-i18n="today.workshops.turkey.title">In Turkey</h3>
+            <ul class="workshop-col__list" role="list">
+              <li data-i18n="today.workshops.turkey.items[0]">Lotus5 Studio, Istanbul — Özlem Kevser Birkan</li>
+              <li data-i18n="today.workshops.turkey.items[1]">Both traditional urushi and eco alternatives offered</li>
+              <li data-i18n="today.workshops.turkey.items[2]">Weekend and weekly workshop formats</li>
+              <li data-i18n="today.workshops.turkey.items[3]">Online sessions available for Turkey-wide participants</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 4. IN POPULAR CULTURE ──────────────────────────────── -->
+    <section class="section" aria-labelledby="culture-title">
+      <div class="section__inner">
+        <div class="section__header">
+          <span class="section-label" data-i18n="today.culture.label">Popular Culture</span>
+          <h2 id="culture-title" class="section__title" data-i18n="today.culture.title">Kintsugi Beyond Ceramics</h2>
+        </div>
+
+        <div class="culture-items">
+          <!-- Psychotherapy -->
+          <div class="culture-item">
+            <div class="culture-item__icon" aria-hidden="true">🧠</div>
+            <div>
+              <h3 class="culture-item__title" data-i18n="today.culture.items[0].title">Psychotherapy</h3>
+              <p class="culture-item__text" data-i18n="today.culture.items[0].text">
+                Therapists have adopted Kintsugi as a metaphor for trauma recovery — the idea that
+                healing does not mean returning to who you were before, but becoming stronger at the
+                broken places.
+              </p>
+            </div>
+          </div>
+
+          <!-- Jewellery & Design -->
+          <div class="culture-item">
+            <div class="culture-item__icon" aria-hidden="true">💍</div>
+            <div>
+              <h3 class="culture-item__title" data-i18n="today.culture.items[1].title">Jewellery &amp; Design</h3>
+              <p class="culture-item__text" data-i18n="today.culture.items[1].text">
+                The aesthetic of gold-veined ceramics has influenced jewellery design, fashion textiles,
+                and interior design worldwide.
+              </p>
+            </div>
+          </div>
+
+          <!-- Social Media -->
+          <div class="culture-item">
+            <div class="culture-item__icon" aria-hidden="true">📱</div>
+            <div>
+              <h3 class="culture-item__title" data-i18n="today.culture.items[2].title">Social Media</h3>
+              <p class="culture-item__text" data-i18n="today.culture.items[2].text">
+                The #kintsugi hashtag has millions of posts on Instagram — the image of golden cracks
+                has become one of the most recognisable symbols of resilience in digital culture.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 5. SUSTAINABILITY ───────────────────────────────────── -->
+    <section class="section section--alt" aria-labelledby="sustainability-title">
+      <div class="section__inner section__inner--text">
+        <span class="section-label" data-i18n="today.sustainability.label">Eco-Kintsugi</span>
+        <h2 id="sustainability-title" class="section__title" data-i18n="today.sustainability.title">Repair Culture &amp; Sustainability</h2>
+        <span class="gold-line gold-line--left" aria-hidden="true"></span>
+        <p style="margin-top:var(--space-6);" data-i18n="today.sustainability.body">
+          Traditional Kintsugi is inherently sustainable — it extends the life of an object rather than
+          discarding it. Modern eco-Kintsugi practitioners go further: replacing urushi with plant-based
+          or mineral adhesives, using mica instead of mined gold, and advocating for repair culture as a
+          response to consumer waste. The principle is unchanged: a broken thing, thoughtfully mended,
+          becomes more valuable than it was.
+        </p>
+
+        <div style="margin-top:var(--space-8);">
+          <a href="/technique.html" class="btn btn--primary" data-i18n="nav.technique">Learn the Technique</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══ TOOLTIP ═══ -->
+  <div id="tooltip" class="tooltip" role="tooltip" aria-live="polite">
+    <div class="tooltip__term"></div>
+    <div class="tooltip__definition"></div>
+  </div>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="site-footer">
+    <div class="footer__kanji" aria-hidden="true">金継ぎ</div>
+    <p class="footer__tagline" data-i18n="footer.tagline">Beauty in Imperfection</p>
+    <p class="footer__copy" data-i18n="footer.copy">© 2026 Kintsugi — Free educational resource</p>
+  </footer>
+
+  <script src="/assets/js/main.js" type="module"></script>
+  <style>
+    .sr-only {
+      position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+      overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+    }
+  </style>
+</body>
+</html>

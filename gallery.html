@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A visual journey through traditional and contemporary Kintsugi ceramics." />
+  <title data-i18n="gallery.meta.title">Gallery — Kintsugi</title>
+  <link rel="stylesheet" href="/assets/css/main.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div id="lang-announcer" role="status" aria-live="polite" class="sr-only"></div>
+
+  <!-- ═══ HEADER ═══ -->
+  <header class="site-header">
+    <a class="logo" href="/index.html" aria-label="Kintsugi — Home">
+      <span class="logo__kanji" aria-hidden="true">金継ぎ</span>
+      <span class="logo__text" data-i18n="site.name">Kintsugi</span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul role="list">
+        <li><a href="/index.html"          data-i18n="nav.home">Home</a></li>
+        <li><a href="/history.html"        data-i18n="nav.history">History</a></li>
+        <li><a href="/philosophy.html"     data-i18n="nav.philosophy">Philosophy</a></li>
+        <li><a href="/technique.html"      data-i18n="nav.technique">Technique</a></li>
+        <li><a href="/artists.html"        data-i18n="nav.artists">Artists</a></li>
+        <li><a href="/kintsugi-today.html" data-i18n="nav.today">Kintsugi Today</a></li>
+        <li><a href="/gallery.html"        data-i18n="nav.gallery">Gallery</a></li>
+        <li><a href="/faq.html"            data-i18n="nav.faq">FAQ</a></li>
+      </ul>
+    </nav>
+    <div class="lang-switcher" role="navigation" aria-label="Language selection">
+      <button class="lang-btn active" data-lang="en" onclick="Lang.set('en')" aria-pressed="true">EN</button>
+      <span class="lang-divider" aria-hidden="true">|</span>
+      <button class="lang-btn" data-lang="tr" onclick="Lang.set('tr')" aria-pressed="false">TR</button>
+      <span class="lang-divider" aria-hidden="true">|</span>
+      <button class="lang-btn" data-lang="ja" onclick="Lang.set('ja')" aria-pressed="false">日本語</button>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ═══ MAIN ═══ -->
+  <main id="main-content">
+
+    <!-- ── 1. PAGE HERO (text-only, minimal) ────────────────── -->
+    <section class="gallery-hero" aria-label="Page hero">
+      <div class="gallery-hero__content">
+        <h1 class="gallery-hero__title" data-i18n="gallery.hero.title">Gallery</h1>
+        <p class="gallery-hero__subtitle" data-i18n="gallery.hero.subtitle">The Seams of Gold</p>
+        <span class="gold-line" aria-hidden="true"></span>
+      </div>
+    </section>
+
+    <!-- ── 2. FILTER BAR + GRID ──────────────────────────────── -->
+    <section class="section" aria-labelledby="gallery-label">
+      <div class="section__inner section__inner--wide">
+        <h2 id="gallery-label" class="sr-only">Image Gallery</h2>
+
+        <!-- Filter Bar -->
+        <div class="filter-bar" role="group" aria-label="Filter gallery by category">
+          <button class="filter-btn active" data-filter="all"          data-i18n="gallery.filter.all"          aria-pressed="true">All</button>
+          <button class="filter-btn"        data-filter="traditional"  data-i18n="gallery.filter.traditional"  aria-pressed="false">Traditional</button>
+          <button class="filter-btn"        data-filter="contemporary" data-i18n="gallery.filter.contemporary" aria-pressed="false">Contemporary</button>
+          <button class="filter-btn"        data-filter="process"      data-i18n="gallery.filter.process"      aria-pressed="false">Process</button>
+          <button class="filter-btn"        data-filter="turkey"       data-i18n="gallery.filter.turkey"       aria-pressed="false">Turkey</button>
+        </div>
+
+        <!-- Image Grid -->
+        <div class="gallery-grid" id="gallery-grid" role="list">
+
+          <!-- Item 1 — traditional -->
+          <div class="gallery-item" data-category="traditional" role="listitem">
+            <button class="gallery-item__btn" aria-label="Open image: Traditional Kintsugi bowl">
+              <picture>
+                <img src="/assets/images/gallery/gallery-01.svg"
+                     alt="Traditional Kintsugi bowl, Edo period technique"
+                     data-alt-en="Traditional Kintsugi bowl, Edo period technique"
+                     data-alt-tr="Edo dönemi tekniğiyle geleneksel Kintsugi kâse"
+                     data-alt-ja="江戸時代の技法による伝統的な金継ぎ茶碗"
+                     width="600" height="800" loading="lazy" />
+              </picture>
+              <div class="gallery-item__caption" data-i18n="gallery.items[0].caption">
+                Traditional Kintsugi bowl, Edo period technique
+              </div>
+            </button>
+          </div>
+
+          <!-- Item 2 — contemporary -->
+          <div class="gallery-item" data-category="contemporary" role="listitem">
+            <button class="gallery-item__btn" aria-label="Open image: Contemporary celadon piece">
+              <picture>
+                <img src="/assets/images/gallery/gallery-02.svg"
+                     alt="Gold seam repair on a contemporary celadon piece"
+                     data-alt-en="Gold seam repair on a contemporary celadon piece"
+                     data-alt-tr="Çağdaş seladon parçada altın dikiş onarımı"
+                     data-alt-ja="現代の青磁器への金継ぎ修復"
+                     width="600" height="400" loading="lazy" />
+              </picture>
+              <div class="gallery-item__caption" data-i18n="gallery.items[1].caption">
+                Gold seam repair on a contemporary celadon piece
+              </div>
+            </button>
+          </div>
+
+          <!-- Item 3 — process -->
+          <div class="gallery-item" data-category="process" role="listitem">
+            <button class="gallery-item__btn" aria-label="Open image: Applying urushi lacquer">
+              <picture>
+                <img src="/assets/images/gallery/gallery-03.svg"
+                     alt="Applying urushi lacquer — the adhesion stage"
+                     data-alt-en="Applying urushi lacquer — the adhesion stage"
+                     data-alt-tr="Urushi lak uygulama — yapışma aşaması"
+                     data-alt-ja="漆の塗布――接着の段階"
+                     width="600" height="400" loading="lazy" />
+              </picture>
+              <div class="gallery-item__caption" data-i18n="gallery.items[2].caption">
+                Applying urushi lacquer — the adhesion stage
+              </div>
+            </button>
+          </div>
+
+          <!-- Item 4 — traditional -->
+          <div class="gallery-item" data-category="traditional" role="listitem">
+            <button class="gallery-item__btn" aria-label="Open image: 19th-century teacup close-up">
+              <picture>
+                <img src="/assets/images/gallery/gallery-04.svg"
+                     alt="Close-up of a gold seam on a 19th-century teacup"
+                     data-alt-en="Close-up of a gold seam on a 19th-century teacup"
+                     data-alt-tr="19. yüzyıl çay fincanında altın dikiş yakın çekimi"
+                     data-alt-ja="19世紀の茶碗の金継ぎのクローズアップ"
+                     width="600" height="400" loading="lazy" />
+              </picture>
+              <div class="gallery-item__caption" data-i18n="gallery.items[3].caption">
+                Close-up of a gold seam on a 19th-century teacup
+              </div>
+            </button>
+          </div>
+
+          <!-- Item 5 — contemporary -->
+          <div class="gallery-item" data-category="contemporary" role="listitem">
+            <button class="gallery-item__btn" aria-label="Open image: Contemporary vessel with gold veining">
+              <picture>
+                <img src="/assets/images/gallery/gallery-05.svg"
+                     alt="Contemporary vessel with deliberate gold veining"
+                     data-alt-en="Contemporary vessel with deliberate gold veining"
+                     data-alt-tr="Kasıtlı altın damarlı çağdaş kap"
+                     data-alt-ja="意図的な金の脈が入った現代の器"
+                     width="600" height="800" loading="lazy" />
+              </picture>
+              <div class="gallery-item__caption" data-i18n="gallery.items[4].caption">
+                Contemporary vessel with deliberate gold veining
+              </div>
+            </button>
+          </div>
+
+          <!-- Item 6 — process -->
+          <div class="gallery-item" data-category="process" role="listitem">
+            <button class="gallery-item__btn" aria-label="Open image: Dusting gold powder">
+              <picture>
+                <img src="/assets/images/gallery/gallery-06.svg"
+                     alt="Dusting gold powder onto a still-tacky lacquer seam"
+                     data-alt-en="Dusting gold powder onto a still-tacky lacquer seam"
+                     data-alt-tr="Hâlâ yapışkan lak dikişine altın tozu serpme"
+                     data-alt-ja="まだ粘着している漆の継ぎ目に金粉をふりかける"
+                     width="600" height="400" loading="lazy" />
+              </picture>
+              <div class="gallery-item__caption" data-i18n="gallery.items[5].caption">
+                Dusting gold powder onto a still-tacky lacquer seam
+              </div>
+            </button>
+          </div>
+
+          <!-- Item 7 — turkey -->
+          <div class="gallery-item" data-category="turkey" role="listitem">
+            <button class="gallery-item__btn" aria-label="Open image: Kintsugi plate from Istanbul">
+              <picture>
+                <img src="/assets/images/gallery/gallery-07.svg"
+                     alt="Kintsugi plate from a Turkish workshop, Istanbul"
+                     data-alt-en="Kintsugi plate from a Turkish workshop, Istanbul"
+                     data-alt-tr="Türk atölyesinden Kintsugi tabak, İstanbul"
+                     data-alt-ja="イスタンブールのトルコのワークショップからの金継ぎ皿"
+                     width="600" height="400" loading="lazy" />
+              </picture>
+              <div class="gallery-item__caption" data-i18n="gallery.items[6].caption">
+                Kintsugi plate from a Turkish workshop, Istanbul
+              </div>
+            </button>
+          </div>
+
+          <!-- Item 8 — traditional -->
+          <div class="gallery-item" data-category="traditional" role="listitem">
+            <button class="gallery-item__btn" aria-label="Open image: Multiple repairs">
+              <picture>
+                <img src="/assets/images/gallery/gallery-08.svg"
+                     alt="Multiple repairs creating a map of restoration"
+                     data-alt-en="Multiple repairs creating a map of restoration"
+                     data-alt-tr="Restorasyon haritası oluşturan çoklu onarımlar"
+                     data-alt-ja="修復の地図を描く複数の継ぎ目"
+                     width="600" height="800" loading="lazy" />
+              </picture>
+              <div class="gallery-item__caption" data-i18n="gallery.items[7].caption">
+                Multiple repairs creating a map of restoration
+              </div>
+            </button>
+          </div>
+
+          <!-- Item 9 — turkey -->
+          <div class="gallery-item" data-category="turkey" role="listitem">
+            <button class="gallery-item__btn" aria-label="Open image: Eco-Kintsugi Istanbul">
+              <picture>
+                <img src="/assets/images/gallery/gallery-09.svg"
+                     alt="Eco-Kintsugi with mica powder, Istanbul workshop"
+                     data-alt-en="Eco-Kintsugi with mica powder, Istanbul workshop"
+                     data-alt-tr="İstanbul atölyesinde mika tozuyla eko-Kintsugi"
+                     data-alt-ja="イスタンブールのワークショップでのマイカパウダーによるエコ金継ぎ"
+                     width="600" height="400" loading="lazy" />
+              </picture>
+              <div class="gallery-item__caption" data-i18n="gallery.items[8].caption">
+                Eco-Kintsugi with mica powder, Istanbul workshop
+              </div>
+            </button>
+          </div>
+
+          <!-- Item 10 — process -->
+          <div class="gallery-item" data-category="process" role="listitem">
+            <button class="gallery-item__btn" aria-label="Open image: Complete repair">
+              <picture>
+                <img src="/assets/images/gallery/gallery-10.svg"
+                     alt="The complete repair — bowl reunited through gold"
+                     data-alt-en="The complete repair — bowl reunited through gold"
+                     data-alt-tr="Tamamlanmış onarım — kâse altınla yeniden bütünleşti"
+                     data-alt-ja="完成した修復――茶碗が金で再び一つに"
+                     width="600" height="400" loading="lazy" />
+              </picture>
+              <div class="gallery-item__caption" data-i18n="gallery.items[9].caption">
+                The complete repair — bowl reunited through gold
+              </div>
+            </button>
+          </div>
+
+          <!-- Item 11 — contemporary -->
+          <div class="gallery-item" data-category="contemporary" role="listitem">
+            <button class="gallery-item__btn" aria-label="Open image: Silver-seamed earthenware">
+              <picture>
+                <img src="/assets/images/gallery/gallery-11.svg"
+                     alt="Silver-seamed contemporary earthenware"
+                     data-alt-en="Silver-seamed contemporary earthenware"
+                     data-alt-tr="Gümüş dikişli çağdaş toprak kap"
+                     data-alt-ja="銀の継ぎ目が入った現代の陶器"
+                     width="600" height="400" loading="lazy" />
+              </picture>
+              <div class="gallery-item__caption" data-i18n="gallery.items[10].caption">
+                Silver-seamed contemporary earthenware
+              </div>
+            </button>
+          </div>
+
+          <!-- Item 12 — traditional -->
+          <div class="gallery-item" data-category="traditional" role="listitem">
+            <button class="gallery-item__btn" aria-label="Open image: Kyoto tea bowl">
+              <picture>
+                <img src="/assets/images/gallery/gallery-12.svg"
+                     alt="Traditional Hon-Kintsugi tea bowl, Kyoto"
+                     data-alt-en="Traditional Hon-Kintsugi tea bowl, Kyoto"
+                     data-alt-tr="Geleneksel Hon-Kintsugi çay kâsesi, Kyoto"
+                     data-alt-ja="京都の伝統的な本金継ぎ茶碗"
+                     width="600" height="800" loading="lazy" />
+              </picture>
+              <div class="gallery-item__caption" data-i18n="gallery.items[11].caption">
+                Traditional Hon-Kintsugi tea bowl, Kyoto
+              </div>
+            </button>
+          </div>
+
+        </div><!-- /gallery-grid -->
+
+        <!-- Empty state -->
+        <p class="gallery-empty" id="gallery-empty" role="status" aria-live="polite" hidden>
+          No images in this category yet.
+        </p>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══ LIGHTBOX ═══ -->
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image lightbox" aria-hidden="true">
+    <div class="lightbox__inner">
+      <button class="lightbox__close" id="lightbox-close" aria-label="Close lightbox">×</button>
+      <img id="lightbox-img" class="lightbox__img" src="" alt="" />
+      <p id="lightbox-caption" class="lightbox__caption"></p>
+    </div>
+    <button class="lightbox__prev" id="lightbox-prev" aria-label="Previous image">‹</button>
+    <button class="lightbox__next" id="lightbox-next" aria-label="Next image">›</button>
+  </div>
+
+  <!-- ═══ TOOLTIP ═══ -->
+  <div id="tooltip" class="tooltip" role="tooltip" aria-live="polite">
+    <div class="tooltip__term"></div>
+    <div class="tooltip__definition"></div>
+  </div>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="site-footer">
+    <div class="footer__kanji" aria-hidden="true">金継ぎ</div>
+    <p class="footer__tagline" data-i18n="footer.tagline">Beauty in Imperfection</p>
+    <p class="footer__copy" data-i18n="footer.copy">© 2026 Kintsugi — Free educational resource</p>
+  </footer>
+
+  <script src="/assets/js/main.js" type="module"></script>
+
+  <script>
+  /* ── Gallery Filter ── */
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const galleryItems = document.querySelectorAll('.gallery-item');
+  const emptyMsg = document.getElementById('gallery-empty');
+
+  function applyMasonryTall() {
+    const visible = [...galleryItems].filter(item => !item.hidden);
+    visible.forEach((item, i) => {
+      item.classList.toggle('gallery-item--tall', i % 3 === 0);
+    });
+  }
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => {
+        b.classList.remove('active');
+        b.setAttribute('aria-pressed', 'false');
+      });
+      btn.classList.add('active');
+      btn.setAttribute('aria-pressed', 'true');
+
+      const filter = btn.dataset.filter;
+      let visibleCount = 0;
+
+      galleryItems.forEach(item => {
+        const show = filter === 'all' || item.dataset.category === filter;
+        item.hidden = !show;
+        if (show) visibleCount++;
+      });
+
+      applyMasonryTall();
+      emptyMsg.hidden = visibleCount > 0;
+    });
+  });
+
+  // Apply initial tall classes on page load
+  applyMasonryTall();
+
+  /* ── Lightbox ── */
+  const lightbox     = document.getElementById('lightbox');
+  const lightboxImg  = document.getElementById('lightbox-img');
+  const lightboxCap  = document.getElementById('lightbox-caption');
+  const btnClose     = document.getElementById('lightbox-close');
+  const btnPrev      = document.getElementById('lightbox-prev');
+  const btnNext      = document.getElementById('lightbox-next');
+
+  let currentIndex = 0;
+
+  function getVisibleItems() {
+    return [...galleryItems].filter(item => !item.hidden);
+  }
+
+  function openLightbox(index) {
+    const visible = getVisibleItems();
+    if (!visible[index]) return;
+    currentIndex = index;
+
+    const img = visible[index].querySelector('img');
+    const cap = visible[index].querySelector('.gallery-item__caption');
+
+    lightboxImg.src = img.src;
+    lightboxImg.alt = img.alt;
+    lightboxCap.textContent = cap ? cap.textContent.trim() : '';
+
+    lightbox.classList.add('open');
+    lightbox.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+
+    // Focus close button
+    btnClose.focus();
+  }
+
+  function closeLightbox() {
+    lightbox.classList.remove('open');
+    lightbox.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  }
+
+  function navigate(dir) {
+    const visible = getVisibleItems();
+    currentIndex = (currentIndex + dir + visible.length) % visible.length;
+    openLightbox(currentIndex);
+  }
+
+  // Open on gallery item click
+  galleryItems.forEach((item, i) => {
+    item.querySelector('.gallery-item__btn').addEventListener('click', () => {
+      const visible = getVisibleItems();
+      const visibleIndex = visible.indexOf(item);
+      openLightbox(visibleIndex);
+    });
+  });
+
+  btnClose.addEventListener('click', closeLightbox);
+  btnPrev.addEventListener('click', () => navigate(-1));
+  btnNext.addEventListener('click', () => navigate(1));
+
+  // Close on overlay click
+  lightbox.addEventListener('click', e => {
+    if (e.target === lightbox) closeLightbox();
+  });
+
+  // Keyboard
+  document.addEventListener('keydown', e => {
+    if (!lightbox.classList.contains('open')) return;
+    if (e.key === 'Escape')      closeLightbox();
+    if (e.key === 'ArrowLeft')   navigate(-1);
+    if (e.key === 'ArrowRight')  navigate(1);
+  });
+
+  // Focus trap
+  lightbox.addEventListener('keydown', e => {
+    if (e.key !== 'Tab') return;
+    const focusable = [...lightbox.querySelectorAll('button, [tabindex]:not([tabindex="-1"])')];
+    const first = focusable[0];
+    const last  = focusable[focusable.length - 1];
+    if (e.shiftKey ? document.activeElement === first : document.activeElement === last) {
+      e.preventDefault();
+      (e.shiftKey ? last : first).focus();
+    }
+  });
+  </script>
+
+  <style>
+    .sr-only {
+      position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+      overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+    }
+
+    /* Text-only minimal hero */
+    .gallery-hero {
+      background: var(--color-bg-dark);
+      padding: var(--space-16) var(--space-8) var(--space-12);
+      text-align: center;
+    }
+
+    .gallery-hero__title {
+      font-family: var(--font-heading);
+      font-size: var(--text-4xl);
+      color: var(--color-text-inverse);
+      letter-spacing: var(--tracking-wide);
+      margin-bottom: var(--space-4);
+    }
+
+    .gallery-hero__subtitle {
+      font-family: var(--font-body);
+      font-size: var(--text-xl);
+      color: var(--color-gold-light);
+      font-weight: 300;
+      letter-spacing: var(--tracking-wider);
+      margin-bottom: var(--space-6);
+      max-width: none;
+    }
+
+    /* Gallery item buttons */
+    .gallery-item__btn {
+      display: block;
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .gallery-item__btn img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform var(--transition-smooth);
+    }
+
+    .gallery-item__btn:hover img,
+    .gallery-item__btn:focus img {
+      transform: scale(1.04);
+    }
+
+    .gallery-item__btn:focus-visible {
+      outline: 3px solid var(--color-gold);
+      outline-offset: -3px;
+    }
+
+    /* Placeholder for missing images */
+    .gallery-item__btn img[src=""] {
+      background: var(--color-bg-secondary);
+      min-height: 200px;
+    }
+
+    .gallery-empty {
+      text-align: center;
+      padding: var(--space-16);
+      color: var(--color-text-muted);
+      font-style: italic;
+    }
+  </style>
+</body>
+</html>

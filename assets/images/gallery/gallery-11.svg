@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#141820"/>
+      <stop offset="100%" stop-color="#060810"/>
+    </linearGradient>
+    <linearGradient id="vessel-grad" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#222835"/>
+      <stop offset="100%" stop-color="#0E1018"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#bg)"/>
+  <!-- Contemporary earthenware — silver seams -->
+  <!-- Organic, irregular vessel shape -->
+  <path d="M 220 140 C 210 180 205 220 195 260 C 175 320 160 380 155 440 C 148 520 160 600 180 650 C 200 700 240 725 300 726 C 360 725 400 700 420 650 C 440 600 452 520 445 440 C 440 380 425 320 405 260 C 395 220 390 180 380 140 Z"
+        fill="url(#vessel-grad)" stroke="#303848" stroke-width="2"/>
+  <!-- Surface texture — subtle irregular rim at top -->
+  <path d="M 220 140 C 240 130 270 125 300 124 C 330 125 360 130 380 140"
+        fill="none" stroke="#3A4858" stroke-width="1.5" opacity="0.6"/>
+  <!-- Silver seams (lighter, cooler tone than gold) -->
+  <g fill="none" stroke-linecap="round">
+    <!-- Primary silver seam (uses silver/light gray) -->
+    <path d="M 290 148 L 280 230 L 295 320 L 275 420 L 290 530 L 275 640 L 285 720"
+          stroke="#C0C8D0" stroke-width="3" opacity="0.85"/>
+    <path d="M 280 230 L 230 220 L 190 215" stroke="#C0C8D0" stroke-width="1.5" opacity="0.6"/>
+    <path d="M 295 320 L 345 308 L 390 295" stroke="#C0C8D0" stroke-width="1.5" opacity="0.55"/>
+    <path d="M 275 420 L 225 415 L 185 410" stroke="#C0C8D0" stroke-width="1.5" opacity="0.55"/>
+    <path d="M 290 530 L 340 520 L 380 512" stroke="#C0C8D0" stroke-width="1.5" opacity="0.5"/>
+    <path d="M 275 640 L 225 635 L 190 628" stroke="#C0C8D0" stroke-width="1" opacity="0.45"/>
+    <!-- Secondary silver seam -->
+    <path d="M 370 165 L 382 260 L 365 370 L 382 480"
+          stroke="#C0C8D0" stroke-width="2" opacity="0.7"/>
+    <path d="M 382 260 L 415 248 L 440 238" stroke="#C0C8D0" stroke-width="1.5" opacity="0.5"/>
+  </g>
+  <!-- Silver dots (cooler color) -->
+  <g fill="#C0C8D0">
+    <circle cx="280" cy="230" r="3.5" opacity="0.9"/>
+    <circle cx="295" cy="320" r="4" opacity="0.92"/>
+    <circle cx="275" cy="420" r="4" opacity="0.92"/>
+    <circle cx="290" cy="530" r="3.5" opacity="0.9"/>
+    <circle cx="275" cy="640" r="3.5" opacity="0.88"/>
+    <circle cx="382" cy="260" r="3" opacity="0.85"/>
+    <circle cx="365" cy="370" r="3" opacity="0.85"/>
+    <circle cx="382" cy="480" r="3" opacity="0.85"/>
+  </g>
+  <rect x="0" y="740" width="600" height="60" fill="#060810" opacity="0.85"/>
+  <line x1="40" y1="750" x2="560" y2="750" stroke="#C0C8D0" stroke-width="1" opacity="0.4"/>
+  <text x="300" y="778" text-anchor="middle" font-family="Georgia,serif" font-size="13"
+        fill="#C0C8D0" opacity="0.7" letter-spacing="4">CONTEMPORARY</text>
+</svg>

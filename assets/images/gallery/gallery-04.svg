@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#221408"/>
+      <stop offset="100%" stop-color="#0C0804"/>
+    </linearGradient>
+    <linearGradient id="cup-grad" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#3A2818"/>
+      <stop offset="100%" stop-color="#1C1008"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#bg)"/>
+  <!-- 19th-century teacup — narrow, tall with handle -->
+  <!-- Handle -->
+  <path d="M 390 340 C 440 340 460 390 460 430 C 460 470 440 500 390 500"
+        fill="none" stroke="#3A2818" stroke-width="12"/>
+  <path d="M 390 340 C 440 340 450 390 450 430 C 450 470 440 490 390 500"
+        fill="none" stroke="#2A1A0C" stroke-width="7"/>
+  <!-- Cup body (cylindrical teacup) -->
+  <path d="M 160 280 C 155 420 160 560 170 600 L 430 600 C 440 560 445 420 440 280 Z"
+        fill="url(#cup-grad)" stroke="#4A3220" stroke-width="2"/>
+  <!-- Rim ellipse -->
+  <ellipse cx="300" cy="280" rx="140" ry="22" fill="#2E1E10" stroke="#4A3220" stroke-width="2"/>
+  <!-- Saucer -->
+  <ellipse cx="300" cy="620" rx="180" ry="22" fill="#2E1E10" stroke="#4A3220" stroke-width="1.5"/>
+  <ellipse cx="300" cy="618" rx="165" ry="18" fill="#261808" stroke="#3A2818" stroke-width="1"/>
+  <!-- Close-up gold seam — prominent single crack running down the cup -->
+  <g fill="none" stroke="#C9932A" stroke-linecap="round">
+    <path d="M 270 290 L 260 360 L 275 440 L 260 520 L 268 598"
+          stroke-width="3.5" opacity="0.92"/>
+    <path d="M 260 360 L 220 355 L 185 348" stroke-width="2" opacity="0.65"/>
+    <path d="M 275 440 L 310 433 L 350 428" stroke-width="2" opacity="0.6"/>
+    <path d="M 260 520 L 225 515 L 190 510" stroke-width="1.5" opacity="0.5"/>
+    <!-- Fine hairline cracks -->
+    <path d="M 258 392 L 240 396 L 225 398" stroke-width="1" opacity="0.4"/>
+    <path d="M 277 472 L 295 468 L 312 465" stroke-width="1" opacity="0.35"/>
+  </g>
+  <g fill="#C9932A">
+    <circle cx="260" cy="360" r="4" opacity="0.95"/>
+    <circle cx="275" cy="440" r="4.5" opacity="0.95"/>
+    <circle cx="260" cy="520" r="4" opacity="0.9"/>
+  </g>
+  <rect x="0" y="740" width="600" height="60" fill="#0C0804" opacity="0.85"/>
+  <line x1="40" y1="750" x2="560" y2="750" stroke="#C9932A" stroke-width="1" opacity="0.4"/>
+  <text x="300" y="778" text-anchor="middle" font-family="Georgia,serif" font-size="13"
+        fill="#C9932A" opacity="0.7" letter-spacing="4">TRADITIONAL</text>
+</svg>

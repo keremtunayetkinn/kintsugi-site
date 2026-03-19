@@ -1,0 +1,12 @@
+/* ============================================================
+   main.css — Global Import Manifest
+   Import order matters: reset → variables → typography → layout → components → modules
+   ============================================================ */
+
+@import url('reset.css');
+@import url('variables.css');
+@import url('typography.css');
+@import url('layout.css');
+@import url('components.css');
+@import url('tooltip.css');
+@import url('lang-switcher.css');

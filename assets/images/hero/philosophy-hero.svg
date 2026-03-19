@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#1A1208"/>
+      <stop offset="100%" stop-color="#080604"/>
+    </linearGradient>
+    <radialGradient id="center-glow" cx="50%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="#C9932A" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#C9932A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#center-glow)"/>
+  <!-- Large kanji: 侘 (wabi) -->
+  <text x="800" y="630" text-anchor="middle" font-family="Georgia,serif" font-size="490"
+        fill="#C9932A" opacity="0.055">侘</text>
+  <!-- Radiating crack lines from center — like a shattered mirror -->
+  <g fill="none" stroke="#C9932A" stroke-linecap="round">
+    <!-- Radial cracks from center (800, 450) -->
+    <path d="M 800 450 L 820 340 L 800 240 L 820 160"
+          stroke-width="2" opacity="0.6"/>
+    <path d="M 800 450 L 880 400 L 980 370 L 1100 320 L 1220 280"
+          stroke-width="2" opacity="0.55"/>
+    <path d="M 800 450 L 920 480 L 1060 510 L 1200 540 L 1380 560"
+          stroke-width="2" opacity="0.5"/>
+    <path d="M 800 450 L 860 560 L 840 680 L 860 780"
+          stroke-width="2" opacity="0.55"/>
+    <path d="M 800 450 L 720 500 L 600 540 L 460 570 L 300 590"
+          stroke-width="2" opacity="0.5"/>
+    <path d="M 800 450 L 680 400 L 560 360 L 400 310 L 240 270"
+          stroke-width="2" opacity="0.5"/>
+    <path d="M 800 450 L 740 340 L 700 240"
+          stroke-width="1.5" opacity="0.4"/>
+    <path d="M 800 450 L 760 560 L 720 660"
+          stroke-width="1.5" opacity="0.4"/>
+    <!-- Secondary cracks -->
+    <path d="M 880 400 L 900 360 L 920 320"
+          stroke-width="1" opacity="0.3"/>
+    <path d="M 920 480 L 960 460 L 1000 440"
+          stroke-width="1" opacity="0.3"/>
+    <path d="M 720 500 L 700 540 L 660 580"
+          stroke-width="1" opacity="0.3"/>
+    <path d="M 680 400 L 640 370 L 600 350"
+          stroke-width="1" opacity="0.3"/>
+  </g>
+  <!-- Center gold node -->
+  <circle cx="800" cy="450" r="5" fill="#C9932A" opacity="0.9"/>
+  <circle cx="800" cy="450" r="12" fill="none" stroke="#C9932A" stroke-width="1" opacity="0.4"/>
+  <line x1="640" y1="820" x2="960" y2="820" stroke="#C9932A" stroke-width="1" opacity="0.35"/>
+  <text x="800" y="850" text-anchor="middle" font-family="Georgia,serif" font-size="18"
+        fill="#C9932A" opacity="0.5" letter-spacing="8">侘寂 · PHILOSOPHY</text>
+</svg>

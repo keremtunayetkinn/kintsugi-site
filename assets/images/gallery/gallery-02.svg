@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#1E2A1A"/>
+      <stop offset="100%" stop-color="#080E06"/>
+    </linearGradient>
+    <linearGradient id="vase-grad" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#2E3E28"/>
+      <stop offset="100%" stop-color="#141E10"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#bg)"/>
+  <!-- Celadon vase silhouette — contemporary, oval form -->
+  <!-- Neck -->
+  <rect x="255" y="120" width="90" height="80" rx="10" fill="url(#vase-grad)" stroke="#3A5030" stroke-width="1.5"/>
+  <!-- Body -->
+  <path d="M 180 200 C 140 280 130 440 150 560 C 170 640 230 680 300 685 C 370 680 430 640 450 560 C 470 440 460 280 420 200 Z"
+        fill="url(#vase-grad)" stroke="#3A5030" stroke-width="1.5"/>
+  <!-- Vase surface sheen -->
+  <path d="M 200 240 C 180 320 175 460 190 550" fill="none" stroke="#4A6040" stroke-width="8" opacity="0.15"/>
+  <!-- Gold seam — vertical primary crack down the vase body -->
+  <g fill="none" stroke="#C9932A" stroke-linecap="round">
+    <path d="M 300 145 L 310 210 L 290 300 L 310 400 L 290 500 L 310 590 L 300 660"
+          stroke-width="3" opacity="0.9"/>
+    <path d="M 290 300 L 240 290 L 200 280" stroke-width="1.5" opacity="0.55"/>
+    <path d="M 310 400 L 360 385 L 400 375" stroke-width="1.5" opacity="0.55"/>
+    <path d="M 290 500 L 240 490 L 210 480" stroke-width="1.5" opacity="0.5"/>
+  </g>
+  <g fill="#C9932A">
+    <circle cx="310" cy="210" r="3" opacity="0.9"/>
+    <circle cx="290" cy="300" r="3.5" opacity="0.95"/>
+    <circle cx="310" cy="400" r="3.5" opacity="0.95"/>
+    <circle cx="290" cy="500" r="3" opacity="0.9"/>
+    <circle cx="310" cy="590" r="3" opacity="0.85"/>
+  </g>
+  <rect x="0" y="740" width="600" height="60" fill="#080E06" opacity="0.85"/>
+  <line x1="40" y1="750" x2="560" y2="750" stroke="#C9932A" stroke-width="1" opacity="0.4"/>
+  <text x="300" y="778" text-anchor="middle" font-family="Georgia,serif" font-size="13"
+        fill="#C9932A" opacity="0.7" letter-spacing="4">CONTEMPORARY</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E1408"/>
+      <stop offset="100%" stop-color="#0A0603"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <!-- Ambient warm glow -->
+  <ellipse cx="780" cy="420" rx="480" ry="320" fill="#8B4513" opacity="0.05"/>
+  <!-- Large kanji: 歴 (history) -->
+  <text x="800" y="640" text-anchor="middle" font-family="Georgia,serif" font-size="500"
+        fill="#C9932A" opacity="0.055" letter-spacing="0">歴</text>
+  <!-- Timeline-like crack lines — horizontal with branches -->
+  <g fill="none" stroke="#C9932A" stroke-linecap="round">
+    <!-- Main horizontal timeline crack -->
+    <path d="M 100 440 L 280 420 L 480 450 L 680 430 L 880 460 L 1080 440 L 1280 455 L 1500 440"
+          stroke-width="2" opacity="0.55"/>
+    <!-- Vertical offshoots like dates on a timeline -->
+    <path d="M 280 420 L 270 320 L 290 260"
+          stroke-width="1.5" opacity="0.5"/>
+    <path d="M 480 450 L 490 540 L 470 620 L 500 680"
+          stroke-width="1.5" opacity="0.45"/>
+    <path d="M 680 430 L 660 330 L 680 260"
+          stroke-width="1.5" opacity="0.5"/>
+    <path d="M 880 460 L 900 560 L 880 650"
+          stroke-width="1.5" opacity="0.45"/>
+    <path d="M 1080 440 L 1070 340 L 1090 270"
+          stroke-width="1.5" opacity="0.5"/>
+    <path d="M 1280 455 L 1300 555 L 1280 640"
+          stroke-width="1.5" opacity="0.45"/>
+    <!-- Horizontal branches -->
+    <path d="M 270 320 L 200 300 L 160 280"
+          stroke-width="1" opacity="0.35"/>
+    <path d="M 660 330 L 590 310"
+          stroke-width="1" opacity="0.3"/>
+    <path d="M 1070 340 L 1000 320 L 950 310"
+          stroke-width="1" opacity="0.3"/>
+  </g>
+  <!-- Node dots on timeline -->
+  <g fill="#C9932A">
+    <circle cx="280" cy="420" r="4" opacity="0.85"/>
+    <circle cx="480" cy="450" r="4" opacity="0.85"/>
+    <circle cx="680" cy="430" r="4" opacity="0.85"/>
+    <circle cx="880" cy="460" r="4" opacity="0.85"/>
+    <circle cx="1080" cy="440" r="4" opacity="0.85"/>
+    <circle cx="1280" cy="455" r="4" opacity="0.85"/>
+  </g>
+  <line x1="640" y1="820" x2="960" y2="820" stroke="#C9932A" stroke-width="1" opacity="0.35"/>
+  <text x="800" y="850" text-anchor="middle" font-family="Georgia,serif" font-size="18"
+        fill="#C9932A" opacity="0.5" letter-spacing="8">歴史 · HISTORY</text>
+</svg>

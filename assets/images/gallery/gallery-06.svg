@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#201408"/>
+      <stop offset="100%" stop-color="#0A0603"/>
+    </linearGradient>
+    <radialGradient id="dust-glow" cx="50%" cy="45%" r="45%">
+      <stop offset="0%" stop-color="#C9932A" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#C9932A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#bg)"/>
+  <rect width="600" height="800" fill="url(#dust-glow)"/>
+  <!-- Bowl from above (top-down view) — showing the lacquer seam with gold dust -->
+  <!-- Outer rim ellipse -->
+  <ellipse cx="300" cy="380" rx="220" ry="70" fill="#2C1C0C" stroke="#4A3218" stroke-width="2"/>
+  <!-- Inner bowl surface -->
+  <ellipse cx="300" cy="390" rx="200" ry="60" fill="#1E1008" stroke="#3A2410" stroke-width="1.5"/>
+  <!-- Seam still tacky — gold dust being applied -->
+  <g fill="none" stroke="#C9932A" stroke-linecap="round">
+    <!-- Seam line visible from top -->
+    <path d="M 110 360 L 160 380 L 220 372 L 300 382 L 380 372 L 440 380 L 490 360"
+          stroke-width="4" opacity="0.88"/>
+    <!-- Side view of bowl beneath (3/4 view suggestion) -->
+    <!-- Bowl sides descending -->
+    <path d="M 80 380 C 70 460 80 560 300 610 C 520 560 530 460 520 380"
+          fill="none" stroke="#3A2410" stroke-width="1.5" opacity="0.4"/>
+  </g>
+  <!-- Gold dust particles scattered around the seam -->
+  <g fill="#C9932A">
+    <!-- Large dust clusters on the seam -->
+    <circle cx="160" cy="380" r="3" opacity="0.95"/>
+    <circle cx="220" cy="372" r="3.5" opacity="0.95"/>
+    <circle cx="300" cy="382" r="4" opacity="0.95"/>
+    <circle cx="380" cy="372" r="3.5" opacity="0.95"/>
+    <circle cx="440" cy="380" r="3" opacity="0.95"/>
+    <!-- Scattered dust particles (random offsets) -->
+    <circle cx="142" cy="370" r="1.5" opacity="0.7"/>
+    <circle cx="175" cy="388" r="1" opacity="0.6"/>
+    <circle cx="198" cy="366" r="1.5" opacity="0.65"/>
+    <circle cx="238" cy="376" r="1" opacity="0.6"/>
+    <circle cx="262" cy="370" r="2" opacity="0.7"/>
+    <circle cx="320" cy="376" r="1.5" opacity="0.65"/>
+    <circle cx="345" cy="385" r="1" opacity="0.6"/>
+    <circle cx="365" cy="368" r="2" opacity="0.7"/>
+    <circle cx="402" cy="378" r="1.5" opacity="0.65"/>
+    <circle cx="422" cy="370" r="1" opacity="0.6"/>
+    <circle cx="458" cy="382" r="1.5" opacity="0.7"/>
+    <circle cx="475" cy="372" r="1" opacity="0.6"/>
+    <!-- Floating dust above seam -->
+    <circle cx="200" cy="355" r="1" opacity="0.4"/>
+    <circle cx="270" cy="350" r="1.5" opacity="0.35"/>
+    <circle cx="340" cy="352" r="1" opacity="0.4"/>
+    <circle cx="410" cy="356" r="1.5" opacity="0.35"/>
+    <circle cx="150" cy="400" r="1" opacity="0.45"/>
+    <circle cx="330" cy="398" r="1.5" opacity="0.4"/>
+    <circle cx="460" cy="395" r="1" opacity="0.4"/>
+  </g>
+  <!-- Subtle glow along the seam (the still-tacky lacquer catching light) -->
+  <path d="M 110 360 L 160 380 L 220 372 L 300 382 L 380 372 L 440 380 L 490 360"
+        fill="none" stroke="#FFD680" stroke-width="1" opacity="0.3"/>
+  <text x="300" y="640" text-anchor="middle" font-family="Georgia,serif" font-size="11"
+        fill="#C9932A" opacity="0.3" letter-spacing="2" font-style="italic">金粉 · gold powder</text>
+  <rect x="0" y="740" width="600" height="60" fill="#0A0603" opacity="0.85"/>
+  <line x1="40" y1="750" x2="560" y2="750" stroke="#C9932A" stroke-width="1" opacity="0.4"/>
+  <text x="300" y="778" text-anchor="middle" font-family="Georgia,serif" font-size="13"
+        fill="#C9932A" opacity="0.7" letter-spacing="4">PROCESS</text>
+</svg>

@@ -1,0 +1,54 @@
+/* ============================================================
+   tooltip.css — Tooltip / Term Popover Styles
+   ============================================================ */
+
+.term {
+  border-bottom: 1px dashed var(--color-gold);
+  cursor: help;
+  color: inherit;
+  transition: color var(--transition-fast), border-color var(--transition-fast);
+}
+
+.term:hover,
+.term:focus {
+  color: var(--color-gold-dark);
+  border-bottom-style: solid;
+  outline: none;
+}
+
+#tooltip {
+  position: absolute;
+  z-index: 1000;
+  max-width: 280px;
+  background: var(--color-tooltip-bg);
+  color: var(--color-tooltip-text);
+  border: 1px solid var(--color-tooltip-border);
+  border-radius: var(--border-radius-md);
+  padding: var(--space-3) var(--space-4);
+  pointer-events: none;
+  opacity: 0;
+  transform: translateX(-50%) translateY(4px);
+  transition: opacity var(--transition-base), transform var(--transition-base);
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  line-height: var(--leading-normal);
+  box-shadow: var(--shadow-lg);
+}
+
+#tooltip.visible {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+.tooltip__term {
+  font-weight: 600;
+  font-size: var(--text-base);
+  color: var(--color-gold-light);
+  margin-bottom: var(--space-1);
+  font-family: var(--font-heading);
+}
+
+.tooltip__definition {
+  font-weight: 300;
+  line-height: var(--leading-loose);
+}

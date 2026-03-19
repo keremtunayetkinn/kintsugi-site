@@ -1,0 +1,89 @@
+/* ============================================================
+   variables.css — Design Tokens (CSS Custom Properties)
+   ============================================================ */
+
+:root {
+  /* ── Backgrounds ── */
+  --color-bg-primary:    #F5F0E8;
+  --color-bg-secondary:  #EDE4D3;
+  --color-bg-dark:       #2C1F14;
+
+  /* ── Text ── */
+  --color-text-primary:  #2C1F14;
+  --color-text-secondary:#6B4F35;
+  --color-text-inverse:  #F5F0E8;
+  --color-text-muted:    #A08060;
+
+  /* ── Accent / Gold ── */
+  --color-gold:          #C9932A;
+  --color-gold-light:    #E8BC6A;
+  --color-gold-dark:     #8A6218;
+
+  /* ── UI ── */
+  --color-border:        #D4C4A8;
+  --color-border-accent: #C9932A;
+  --color-overlay:       rgba(44, 31, 20, 0.55);
+
+  /* ── Tooltip ── */
+  --color-tooltip-bg:    #2C1F14;
+  --color-tooltip-text:  #F5F0E8;
+  --color-tooltip-border:#C9932A;
+
+  /* ── Typography ── */
+  --font-heading: 'Shippori Mincho', 'Hiragino Mincho Pro', 'YuMincho', Georgia, serif;
+  --font-body:    'Cormorant Garamond', 'Shippori Mincho', Georgia, serif;
+  --font-mono:    'Courier Prime', 'Courier New', monospace;
+
+  /* Type Scale — Minor Third (1.200) */
+  --text-xs:   0.694rem;
+  --text-sm:   0.833rem;
+  --text-base: 1rem;
+  --text-md:   1.200rem;
+  --text-lg:   1.440rem;
+  --text-xl:   1.728rem;
+  --text-2xl:  2.074rem;
+  --text-3xl:  2.488rem;
+  --text-4xl:  2.986rem;
+
+  /* Leading */
+  --leading-tight:  1.2;
+  --leading-normal: 1.6;
+  --leading-loose:  1.9;
+
+  /* Tracking */
+  --tracking-wide:  0.05em;
+  --tracking-wider: 0.12em;
+
+  /* ── Spacing ── */
+  --space-1:  0.25rem;
+  --space-2:  0.5rem;
+  --space-3:  0.75rem;
+  --space-4:  1rem;
+  --space-6:  1.5rem;
+  --space-8:  2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-24: 6rem;
+  --space-32: 8rem;
+
+  /* ── Layout ── */
+  --max-width-text:    680px;
+  --max-width-content: 960px;
+  --max-width-wide:   1200px;
+
+  /* ── Radii ── */
+  --border-radius-sm:  4px;
+  --border-radius-md:  8px;
+  --border-radius-lg: 16px;
+
+  /* ── Shadows ── */
+  --shadow-sm: 0 1px 3px rgba(44,31,20,0.12);
+  --shadow-md: 0 4px 16px rgba(44,31,20,0.15);
+  --shadow-lg: 0 8px 32px rgba(44,31,20,0.20);
+
+  /* ── Motion ── */
+  --transition-fast:   150ms ease;
+  --transition-base:   300ms ease;
+  --transition-slow:   600ms ease;
+  --transition-smooth: 400ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
