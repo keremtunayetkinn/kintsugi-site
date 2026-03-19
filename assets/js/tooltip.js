@@ -49,24 +49,27 @@ export const Tooltip = (() => {
   function position(e) {
     const rect    = e.currentTarget.getBoundingClientRect();
     const scrollY = window.scrollY;
-    let left = rect.left + rect.width / 2;
 
     // Force layout so offsetWidth/offsetHeight are correct
     el.style.visibility = 'hidden';
     el.style.top  = '0';
     el.style.left = '0';
-    el.style.transform = '';
+    el.style.transform = 'none';        // suppress CSS transform during measurement
     const tooltipW = el.offsetWidth  || 280;
     const tooltipH = el.offsetHeight || 80;
+    el.style.transform = '';            // restore — CSS handles the translateY slide animation
     el.style.visibility = '';
 
+    // Center horizontally on the term (exact pixel; no JS translateX needed)
+    let left = rect.left + rect.width / 2 - tooltipW / 2;
+
     // Prevent overflow right
-    if (left + tooltipW / 2 > window.innerWidth - 16) {
-      left = window.innerWidth - tooltipW / 2 - 16;
+    if (left + tooltipW > window.innerWidth - 16) {
+      left = window.innerWidth - tooltipW - 16;
     }
     // Prevent overflow left
-    if (left - tooltipW / 2 < 16) {
-      left = tooltipW / 2 + 16;
+    if (left < 16) {
+      left = 16;
     }
 
     // Prefer below the term; flip above if it would overflow the viewport bottom
@@ -75,9 +78,9 @@ export const Tooltip = (() => {
       top = rect.top + scrollY - tooltipH - 8;
     }
 
-    el.style.top       = `${top}px`;
-    el.style.left      = `${left}px`;
-    el.style.transform = 'translateX(-50%)';
+    el.style.top  = `${top}px`;
+    el.style.left = `${left}px`;
+    // No inline transform — CSS owns the translateY slide-in/out animation
   }
 
   return { init };

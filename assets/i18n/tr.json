@@ -13,7 +13,7 @@
     "faq":         "SSS"
   },
   "footer": {
-    "tagline": "Kusursuzluğun Güzelliği",
+    "tagline": "Kusurluluğun Güzelliği",
     "copy":    "© 2026 Kintsugi — Ücretsiz eğitim kaynağı"
   },
   "hero": {
@@ -85,8 +85,8 @@
     },
     "legend": {
       "label": "Kökeni",
-      "title": "Ashikaga'nın Kırık Çay Bardağı",
-      "body":  "Kintsugi'nin hikâyesi, Ashikaga Shogunluğu'nun sekizinci shogun'u <strong>Ashikaga Yoshimasa</strong>'nın yönetimi döneminde, yaklaşık 1467 yılında başlar. Onun değerli Çin çay bardağı kırılır ve onarım için Çin'e gönderilir. Metal zımbalarla tutturulmuş hâlde geri döner. Memnun olmayan shogun, Japon zanaatkârlara daha güzel bir çözüm bulmaları görevini verir. Zanaatkârlar lak ve altınla karşılık verir — ve Kintsugi doğar. Estetik memnuniyetsizlikle başlayan şey, onarım, dayanıklılık ve güzellik felsefesine dönüşür."
+      "title": "Ashikaga'nın Kırık Çaydanlığı",
+      "body":  "Kintsugi'nin hikâyesi, Ashikaga Shogunluğu'nun sekizinci shogun'u <strong>Ashikaga Yoshimasa</strong>'nın yönetimi döneminde, yaklaşık 1467 yılında başlar. Onun değerli Çin çaydanlığı kırılır ve onarım için Çin'e gönderilir. Metal zımbalarla tutturulmuş hâlde geri döner. Memnun olmayan shogun, Japon zanaatkârlara daha güzel bir çözüm bulmaları görevini verir. Zanaatkârlar lak ve altınla karşılık verir — ve Kintsugi doğar. Estetik memnuniyetsizlikle başlayan şey, onarım, dayanıklılık ve güzellik felsefesine dönüşür."
     },
     "timeline": {
       "label": "Kronoloji",
@@ -122,7 +122,7 @@
     "culture": {
       "label": "Kültürel Bağlam",
       "title": "Kintsugi ve Çay Yolu",
-      "body":  "Kintsugi yalnız değildi. Japon <span class=\"term\" data-term=\"chado\" tabindex=\"0\">Chado</span>'nun — Çay Yolu'nun — zengin ekosisteminde büyüdü; bu uygulama, çay odasındaki her nesneyi manevi bir anlam taşıyan bir şeye yükseltti. Sen no Rikyū gibi çay ustaları Wabi-Sabi estetiğini savundu: kusursuzu, eskimiş olanı, onarılmış olanı safi ve yeninin önünde tercih ettiler. Altınla onarılmış bir kâse, kırılmamış bir kâseden daha fazla karakter, tarih ve ruh taşıyordu. Kintsugi bir uzlaşma değildi — bir yükselmeydi."
+      "body":  "Kintsugi yalnız değildi. Japon <span class=\"term\" data-term=\"chado\" tabindex=\"0\">Chado</span>'nun — Çay Yolu'nun — zengin ekosisteminde büyüdü; bu uygulama, çay odasındaki her nesneyi manevi bir anlam taşıyan bir şeye yükseltti. Sen no Rikyū gibi çay ustaları Wabi-Sabi estetiğini savundu: kusursuzu, eskimiş olanı, onarılmış olanı saf ve yeninin önünde tercih ettiler. Altınla onarılmış bir kâse, kırılmamış bir kâseden daha fazla karakter, tarih ve ruh taşıyordu. Kintsugi bir uzlaşma değildi — bir yükselmeydi."
     }
   },
   "philosophy": {
@@ -132,7 +132,7 @@
     },
     "hero": {
       "title":    "Felsefe",
-      "subtitle": "Kusursuzluğu Kucaklamanın Sanatı"
+      "subtitle": "Kusurluluğu Kucaklamanın Sanatı"
     },
     "wabi_sabi": {
       "label": "Temel Felsefe",

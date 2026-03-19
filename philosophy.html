@@ -198,6 +198,7 @@
       const isRevealed = answer.classList.contains('revealed');
       answer.classList.toggle('revealed', !isRevealed);
       btn.setAttribute('aria-expanded', !isRevealed ? 'true' : 'false');
+      btn.textContent = isRevealed ? 'Reveal' : 'Hide';
     }
   </script>
 

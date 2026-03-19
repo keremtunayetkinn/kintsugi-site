@@ -259,12 +259,12 @@
         {
           "name": "Nobuyasu Suginaka",
           "role": "Traditional Kintsugi Master, Kyoto",
-          "bio":  "A third-generation lacquerware artisan in Kyoto, Suginaka has spent over forty years perfecting the traditional Hon-Kintsugi method. His work is held in museum collections across Japan and he teaches the craft through a small, intensive apprenticeship programme."
+          "bio":  "A third-generation lacquerware artisan in Kyoto, Suginaka has spent over forty years perfecting the traditional Hon-Kintsugi method. His work is held in museum collections across Japan and he teaches the craft through a small, intensive apprenticeship program."
         },
         {
           "name": "Seisaku Nakajima",
           "role": "Lacquer Artist & Restorer",
-          "bio":  "Nakajima specialises in the restoration of historic tea ceramics, applying Kintsugi only where the original craftsmen would have sanctioned it. His approach is deeply reverential — the gold follows the exact line of the break, never added for decoration alone."
+          "bio":  "Nakajima specializes in the restoration of historic tea ceramics, applying Kintsugi only where the original craftsmen would have sanctioned it. His approach is deeply reverential — the gold follows the exact line of the break, never added for decoration alone."
         },
         {
           "name": "Keiko Hata",
@@ -363,17 +363,17 @@
         {
           "icon":  "🧠",
           "title": "Psychotherapy",
-          "text":  "Therapists have adopted Kintsugi as a metaphor for trauma recovery — the idea that healing does not mean returning to who you were before, but becoming stronger at the broken places. The metaphor is used in CBT, somatic therapy, and grief counselling."
+          "text":  "Therapists have adopted Kintsugi as a metaphor for trauma recovery — the idea that healing does not mean returning to who you were before, but becoming stronger at the broken places. The metaphor is used in CBT, somatic therapy, and grief counseling."
         },
         {
           "icon":  "💍",
-          "title": "Jewellery & Design",
-          "text":  "The aesthetic of gold-veined ceramics has influenced jewellery design, fashion textiles, and interior design. Cracked-glaze ceramics with golden fills are now commercially produced worldwide."
+          "title": "Jewelry & Design",
+          "text":  "The aesthetic of gold-veined ceramics has influenced jewelry design, fashion textiles, and interior design. Cracked-glaze ceramics with golden fills are now commercially produced worldwide."
         },
         {
           "icon":  "📱",
           "title": "Social Media",
-          "text":  "The #kintsugi hashtag has millions of posts on Instagram — a mixture of genuine practice, philosophical reflection, and the art's visual power. The image of golden cracks has become one of the most recognisable symbols of resilience in digital culture."
+          "text":  "The #kintsugi hashtag has millions of posts on Instagram — a mixture of genuine practice, philosophical reflection, and the art's visual power. The image of golden cracks has become one of the most recognizable symbols of resilience in digital culture."
         }
       ]
     },
@@ -433,7 +433,7 @@
         "answer":   "For eco-Kintsugi: a two-part epoxy resin, gold mica powder, nitrile gloves, soft brushes, and a broken ceramic piece. For traditional Kintsugi: urushi lacquer, gold powder (24K), wet sandpaper, a humidity chamber, and patience. Full kits for both methods are available online."
       },
       {
-        "question": "Can I practise Kintsugi at home?",
+        "question": "Can I practice Kintsugi at home?",
         "answer":   "Yes, especially with eco-friendly kits. Traditional urushi-based Kintsugi is more challenging at home — it requires humidity control and careful handling of the raw lacquer (urushiol allergy risk). Eco-resin methods are safe, affordable, and produce beautiful results."
       },
       {
