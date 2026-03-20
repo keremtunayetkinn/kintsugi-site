@@ -119,6 +119,7 @@
         }
       ]
     },
+    "key_terms_title": "Key Terms on This Page",
     "culture": {
       "label": "Cultural Context",
       "title": "Kintsugi and the Way of Tea",
@@ -156,6 +157,7 @@
       "title": "Against the Throwaway Culture",
       "body":  "Kintsugi is, among other things, a philosophy of repair over replacement. In an age of disposable consumer goods, the idea that a broken object is worth mending — and that mending can make it more valuable — is quietly revolutionary. Modern Kintsugi practitioners are increasingly drawn to eco-friendly alternatives to traditional urushi, making the practice accessible while honoring its core principle: nothing broken is beyond saving."
     },
+    "reflection_btn": "Reveal",
     "reflection_prompt": "What is one thing in your life that, once broken, became stronger at the break?",
     "reflection_answer": "Kintsugi teaches that our fractures are not failures — they are the places where light enters. The gold does not hide the break; it celebrates it. Your healed places are your strongest ones."
   },
@@ -388,6 +390,7 @@
       "title":       "Gallery — Kintsugi",
       "description": "A visual journey through traditional and contemporary Kintsugi ceramics."
     },
+    "empty": "No images in this category yet.",
     "hero": {
       "title":    "Gallery",
       "subtitle": "The Seams of Gold"
@@ -419,6 +422,7 @@
       "title":       "FAQ — Kintsugi",
       "description": "Practical answers to common questions about Kintsugi — materials, safety, learning, and workshops."
     },
+    "cta_text": "Ready to try Kintsugi yourself?",
     "hero": {
       "title":    "Frequently Asked Questions",
       "subtitle": "Practical Answers"

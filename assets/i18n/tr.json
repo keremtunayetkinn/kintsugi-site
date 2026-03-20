@@ -119,6 +119,7 @@
         }
       ]
     },
+    "key_terms_title": "Bu Sayfadaki Temel Terimler",
     "culture": {
       "label": "Kültürel Bağlam",
       "title": "Kintsugi ve Çay Yolu",
@@ -156,6 +157,7 @@
       "title": "Tüketim Kültürüne Karşı",
       "body":  "Kintsugi, her şeyden önce değiştirmek yerine onarmak felsefesidir. Tek kullanımlık tüketici ürünlerinin çağında, kırık bir nesneyi onarmaya değer olduğu — ve onarımın onu daha değerli kılabileceği — fikri sessiz bir devrimdir. Modern Kintsugi uygulayıcıları giderek daha fazla çevre dostu alternatiflere yöneliyor; pratiği erişilebilir kılarken temel ilkesine sadık kalıyorlar: kırılan hiçbir şey kurtarılamayacak kadar mahvolmuş değildir."
     },
+    "reflection_btn": "Göster",
     "reflection_prompt": "Hayatınızda kırıldıktan sonra kırıldığı yerden daha güçlü hâle gelen bir şey nedir?",
     "reflection_answer": "Kintsugi bize kırıklarımızın başarısızlık olmadığını öğretir — onlar ışığın girdiği yerlerdir. Altın kırığı gizlemez; onu kutlar. İyileşmiş yerleriniz en güçlü yerlerinizdir."
   },
@@ -388,6 +390,7 @@
       "title":       "Galeri — Kintsugi",
       "description": "Geleneksel ve çağdaş Kintsugi seramiklerinde görsel bir yolculuk."
     },
+    "empty": "Bu kategoride henüz görsel yok.",
     "hero": {
       "title":    "Galeri",
       "subtitle": "Altın Dikişler"
@@ -419,6 +422,7 @@
       "title":       "SSS — Kintsugi",
       "description": "Kintsugi hakkında sık sorulan sorulara pratik yanıtlar — malzemeler, güvenlik, öğrenim ve atölyeler."
     },
+    "cta_text": "Kintsugi'yi kendiniz denemek ister misiniz?",
     "hero": {
       "title":    "Sık Sorulan Sorular",
       "subtitle": "Pratik Yanıtlar"

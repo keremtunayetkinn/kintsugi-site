@@ -12,42 +12,48 @@ export const Tooltip = (() => {
     termEl = el.querySelector('.tooltip__term');
     defEl  = el.querySelector('.tooltip__definition');
 
-    document.querySelectorAll('.term').forEach(term => {
-      term.addEventListener('mouseenter', show);
-      term.addEventListener('mouseleave', hide);
-      term.addEventListener('focus',      show);
-      term.addEventListener('blur',       hide);
-      term.addEventListener('touchstart', toggle, { passive: true });
+    // Use event delegation so tooltips work on spans created after lang swap
+    document.addEventListener('mouseover', e => {
+      const term = e.target.closest('.term');
+      if (term) show(term);
     });
-
+    document.addEventListener('mouseout', e => {
+      const term = e.target.closest('.term');
+      if (term) hide();
+    });
+    document.addEventListener('focusin', e => {
+      const term = e.target.closest('.term');
+      if (term) show(term);
+    });
+    document.addEventListener('focusout', e => {
+      const term = e.target.closest('.term');
+      if (term) hide();
+    });
+    document.addEventListener('touchstart', e => {
+      const term = e.target.closest('.term');
+      if (term) el.classList.contains('visible') ? hide() : show(term);
+    }, { passive: true });
     document.addEventListener('click', e => {
       if (!e.target.closest('.term')) hide();
     });
-
     document.addEventListener('keydown', e => {
       if (e.key === 'Escape') hide();
     });
   }
 
-  function show(e) {
-    const target = e.currentTarget;
+  function show(target) {
     termEl.textContent = target.textContent.trim();
     defEl.textContent  = target.dataset.tooltipContent || '—';
-
     el.classList.add('visible');
-    position(e);
+    position(target);
   }
 
   function hide() {
     el.classList.remove('visible');
   }
 
-  function toggle(e) {
-    el.classList.contains('visible') ? hide() : show(e);
-  }
-
-  function position(e) {
-    const rect    = e.currentTarget.getBoundingClientRect();
+  function position(target) {
+    const rect    = target.getBoundingClientRect();
     const scrollY = window.scrollY;
 
     // Force layout so offsetWidth/offsetHeight are correct
