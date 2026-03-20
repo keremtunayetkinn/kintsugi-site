@@ -95,5 +95,5 @@ export const Lang = (() => {
     set(saved);
   }
 
-  return { set, init, getCurrent: () => current };
+  return { set, init, getCurrent: () => current, getStr: (key) => get(cache[current] || {}, key) };
 })();
