@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#1a1008" />
+  <meta name="color-scheme" content="light" />
   <meta name="description" content="Meet the masters and contemporary artists keeping Kintsugi alive — from Kyoto studios to Istanbul workshops." />
   <title data-i18n="artists.meta.title">Artists — Kintsugi</title>
   <link rel="stylesheet" href="/assets/css/main.css" />
@@ -268,51 +270,5 @@
   </footer>
 
   <script src="/assets/js/main.js" type="module"></script>
-  <style>
-    .sr-only {
-      position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
-      overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
-    }
-
-    /* Featured artist layout */
-    .artist-featured {
-      display: grid;
-      grid-template-columns: 280px 1fr;
-      gap: var(--space-8);
-      background: var(--color-bg-primary);
-      border: 1px solid var(--color-border-accent);
-      border-radius: var(--border-radius-lg);
-      overflow: hidden;
-      box-shadow: var(--shadow-md);
-    }
-
-    .artist-featured__img-wrap {
-      position: relative;
-      background: var(--color-bg-secondary);
-      min-height: 320px;
-      overflow: hidden;
-    }
-
-    .artist-featured__body {
-      padding: var(--space-8);
-      display: flex;
-      flex-direction: column;
-      gap: var(--space-3);
-      justify-content: center;
-    }
-
-    .artist-featured__body .artist-card__bio {
-      margin-top: var(--space-2);
-    }
-
-    @media (max-width: 767px) {
-      .artist-featured {
-        grid-template-columns: 1fr;
-      }
-      .artist-featured__img-wrap {
-        min-height: 200px;
-      }
-    }
-  </style>
 </body>
 </html>

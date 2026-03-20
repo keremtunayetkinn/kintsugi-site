@@ -78,9 +78,6 @@
   object-fit: cover;
 }
 
-.card__image--square {
-  aspect-ratio: 1 / 1;
-}
 
 .card__body {
   padding: var(--space-6);
@@ -358,7 +355,6 @@ blockquote.pull-quote {
   padding-top: 2px;
 }
 
-.timeline-item__content {}
 
 .timeline-item__title {
   font-size: var(--text-lg);
@@ -822,4 +818,183 @@ blockquote.pull-quote {
   width: 100%;
   max-width: 400px;
   margin: 0 auto;
+}
+
+/* ── Index page ───────────────────────────────────────────── */
+.hero__kanji {
+  font-family: var(--font-heading);
+  font-size: var(--text-2xl);
+  color: var(--color-gold);
+  letter-spacing: 0.3em;
+  margin-bottom: var(--space-4);
+  opacity: 0.8;
+}
+
+.hero__crack {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.what__visual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ── Philosophy page ──────────────────────────────────────── */
+.kanji-display {
+  display: flex;
+  gap: var(--space-8);
+  justify-content: center;
+  align-items: center;
+}
+
+.kanji-char {
+  font-family: var(--font-heading);
+  font-size: clamp(4rem, 12vw, 8rem);
+  color: var(--color-gold);
+  opacity: 0.6;
+  line-height: 1;
+}
+
+.kanji-label {
+  text-align: center;
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  letter-spacing: var(--tracking-wider);
+  color: var(--color-text-muted);
+  margin-top: var(--space-4);
+  max-width: none;
+}
+
+.imperfection__visual {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ── Technique page ───────────────────────────────────────── */
+.steps-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-6);
+  margin-top: var(--space-8);
+}
+@media (min-width: 640px) {
+  .steps-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (min-width: 1024px) {
+  .steps-grid { grid-template-columns: 1fr 1fr 1fr; }
+}
+
+/* ── Artists page ─────────────────────────────────────────── */
+.artist-featured {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: var(--space-8);
+  background: var(--color-bg-primary);
+  border: 1px solid var(--color-border-accent);
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+}
+
+.artist-featured__img-wrap {
+  position: relative;
+  background: var(--color-bg-secondary);
+  min-height: 320px;
+  overflow: hidden;
+}
+
+.artist-featured__body {
+  padding: var(--space-8);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  justify-content: center;
+}
+
+.artist-featured__body .artist-card__bio {
+  margin-top: var(--space-2);
+}
+
+@media (max-width: 767px) {
+  .artist-featured {
+    grid-template-columns: 1fr;
+  }
+  .artist-featured__img-wrap {
+    min-height: 200px;
+  }
+}
+
+/* ── Gallery hero (shared: gallery.html + faq.html) ───────── */
+.gallery-hero {
+  background: var(--color-bg-dark);
+  padding: var(--space-16) var(--space-8) var(--space-12);
+  text-align: center;
+}
+
+.gallery-hero__title {
+  font-family: var(--font-heading);
+  font-size: clamp(var(--text-2xl), 5vw, var(--text-4xl));
+  color: var(--color-text-inverse);
+  letter-spacing: var(--tracking-wide);
+  margin-bottom: var(--space-4);
+}
+
+.gallery-hero__subtitle {
+  font-family: var(--font-body);
+  font-size: var(--text-xl);
+  color: var(--color-gold-light);
+  font-weight: 300;
+  letter-spacing: var(--tracking-wider);
+  margin-bottom: var(--space-6);
+  max-width: none;
+}
+
+/* ── Gallery items & lightbox ─────────────────────────────── */
+.gallery-item__btn {
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-item__btn img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform var(--transition-smooth);
+}
+
+.gallery-item__btn:hover img,
+.gallery-item__btn:focus img {
+  transform: scale(1.04);
+}
+
+.gallery-item__btn:focus-visible {
+  outline: 3px solid var(--color-gold);
+  outline-offset: -3px;
+}
+
+.gallery-item__btn img[src=""] {
+  background: var(--color-bg-secondary);
+  min-height: 200px;
+}
+
+.gallery-empty {
+  text-align: center;
+  padding: var(--space-16);
+  color: var(--color-text-muted);
+  font-style: italic;
 }

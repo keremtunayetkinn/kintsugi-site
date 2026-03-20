@@ -220,9 +220,6 @@
   background-color: var(--color-bg-secondary);
 }
 
-.section--dark {
-  background-color: var(--color-bg-dark);
-}
 
 .section__inner {
   max-width: var(--max-width-content);
@@ -246,15 +243,6 @@
   margin-bottom: var(--space-4);
 }
 
-.section__title--light {
-  color: var(--color-text-inverse);
-}
-
-.section__lead {
-  font-size: var(--text-lg);
-  color: var(--color-text-secondary);
-  max-width: 60ch;
-}
 
 /* ── Two-Column Layout ──────────────────────────────────────── */
 .two-col {

@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#1a1008" />
+  <meta name="color-scheme" content="light" />
   <meta name="description" content="Explore the Wabi-Sabi philosophy behind Kintsugi and how it transforms our relationship with imperfection and repair." />
   <title data-i18n="philosophy.meta.title">Philosophy — Kintsugi</title>
   <link rel="stylesheet" href="/assets/css/main.css" />
@@ -194,56 +196,7 @@
   </footer>
 
   <script src="/assets/js/main.js" type="module"></script>
-  <script>
-    function revealAnswer(btn) {
-      const answer = document.getElementById('reflection-answer');
-      const isRevealed = answer.classList.contains('revealed');
-      answer.classList.toggle('revealed', !isRevealed);
-      btn.setAttribute('aria-expanded', !isRevealed ? 'true' : 'false');
-      const revealText = (window.Lang && window.Lang.getStr('philosophy.reflection_btn')) || 'Reveal';
-      const hideText  = (window.Lang && window.Lang.getStr('philosophy.reflection_btn_hide')) || 'Hide';
-      btn.textContent = isRevealed ? revealText : hideText;
-    }
-  </script>
-
-  <style>
-    .sr-only {
-      position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
-      overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
-    }
-
-    .kanji-display {
-      display: flex;
-      gap: var(--space-8);
-      justify-content: center;
-      align-items: center;
-    }
-
-    .kanji-char {
-      font-family: var(--font-heading);
-      font-size: clamp(4rem, 12vw, 8rem);
-      color: var(--color-gold);
-      opacity: 0.6;
-      line-height: 1;
-    }
-
-    .kanji-label {
-      text-align: center;
-      font-family: var(--font-body);
-      font-size: var(--text-sm);
-      letter-spacing: var(--tracking-wider);
-      color: var(--color-text-muted);
-      margin-top: var(--space-4);
-      max-width: none;
-    }
-
-    .imperfection__visual {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-  </style>
+  <script src="/assets/js/reveal.js" defer></script>
 
 </body>
 </html>

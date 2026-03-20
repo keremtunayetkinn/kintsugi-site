@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#1a1008" />
+  <meta name="color-scheme" content="light" />
   <meta name="description" content="Practical answers to common questions about Kintsugi — materials, safety, learning, and workshops." />
   <title data-i18n="faq.meta.title">FAQ — Kintsugi</title>
   <link rel="stylesheet" href="/assets/css/main.css" />
@@ -196,84 +198,6 @@
   </footer>
 
   <script src="/assets/js/main.js" type="module"></script>
-
-  <script>
-  /* Smooth height animation for <details> elements.
-     We intercept the summary click to control open/close ourselves,
-     because the browser hides content before the toggle event fires —
-     making it impossible to read scrollHeight for the closing animation. */
-  document.querySelectorAll('#faq-accordion details').forEach(details => {
-    const body    = details.querySelector('.accordion__body');
-    const summary = details.querySelector('summary');
-    if (!body || !summary) return;
-
-    summary.addEventListener('click', e => {
-      e.preventDefault(); // take full control of toggle behavior
-
-      if (details.open) {
-        /* ── Close: animate down then hide ── */
-        body.style.transition = 'max-height var(--transition-smooth)';
-        body.style.overflow   = 'hidden';
-        body.style.maxHeight  = body.scrollHeight + 'px';
-        body.getBoundingClientRect(); // force reflow
-        body.style.maxHeight  = '0';
-
-        body.addEventListener('transitionend', () => {
-          details.removeAttribute('open');
-          body.style.maxHeight = '';
-          body.style.overflow  = '';
-          body.style.transition = '';
-        }, { once: true });
-
-      } else {
-        /* ── Open: set attribute first so content is in DOM, then animate ── */
-        details.setAttribute('open', '');
-        body.style.transition = 'max-height var(--transition-smooth)';
-        body.style.overflow   = 'hidden';
-        body.style.maxHeight  = '0';
-        body.getBoundingClientRect(); // force reflow
-        body.style.maxHeight  = body.scrollHeight + 'px';
-
-        body.addEventListener('transitionend', () => {
-          body.style.maxHeight = 'none';
-          body.style.overflow  = '';
-          body.style.transition = '';
-        }, { once: true });
-      }
-    });
-  });
-  </script>
-
-  <style>
-    .sr-only {
-      position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
-      overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
-    }
-
-    /* Minimal hero — reused from gallery */
-    .gallery-hero {
-      background: var(--color-bg-dark);
-      padding: var(--space-16) var(--space-8) var(--space-12);
-      text-align: center;
-    }
-
-    .gallery-hero__title {
-      font-family: var(--font-heading);
-      font-size: clamp(var(--text-2xl), 5vw, var(--text-4xl));
-      color: var(--color-text-inverse);
-      letter-spacing: var(--tracking-wide);
-      margin-bottom: var(--space-4);
-    }
-
-    .gallery-hero__subtitle {
-      font-family: var(--font-body);
-      font-size: var(--text-xl);
-      color: var(--color-gold-light);
-      font-weight: 300;
-      letter-spacing: var(--tracking-wider);
-      margin-bottom: var(--space-6);
-      max-width: none;
-    }
-  </style>
+  <script src="/assets/js/accordion.js" defer></script>
 </body>
 </html>
