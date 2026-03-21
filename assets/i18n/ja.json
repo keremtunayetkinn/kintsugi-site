@@ -404,18 +404,18 @@
       "turkey":       "トルコ"
     },
     "items": [
-      { "caption": "江戸時代の技法による伝統的な金継ぎ茶碗",              "category": "traditional"  },
-      { "caption": "現代の青磁器への金継ぎ修復",                         "category": "contemporary" },
-      { "caption": "漆の塗布――接着の段階",                               "category": "process"      },
-      { "caption": "19世紀の茶碗の金継ぎのクローズアップ",               "category": "traditional"  },
-      { "caption": "意図的な金の脈が入った現代の器",                     "category": "contemporary" },
-      { "caption": "まだ粘着している漆の継ぎ目に金粉をふりかける",       "category": "process"      },
-      { "caption": "イスタンブールのトルコのワークショップからの金継ぎ皿", "category": "turkey"       },
-      { "caption": "修復の地図を描く複数の継ぎ目",                       "category": "traditional"  },
-      { "caption": "イスタンブールのワークショップでのマイカパウダーによるエコ金継ぎ", "category": "turkey" },
-      { "caption": "完成した修復――茶碗が金で再び一つに",                "category": "process"      },
-      { "caption": "銀の継ぎ目が入った現代の陶器",                       "category": "contemporary" },
-      { "caption": "京都の伝統的な本金継ぎ茶碗",                         "category": "traditional"  }
+      { "caption_name": "青磁壺",          "caption_sub": "稲妻が宿った場所",                    "category": "traditional"  },
+      { "caption_name": "釉薬掛け陶器皿",  "caption_sub": "日食、再び組み上がる",                "category": "contemporary" },
+      { "caption_name": "染付茶碗",        "caption_sub": "庭は割れた跡をすべて覚えている",      "category": "traditional"  },
+      { "caption_name": "呉須釉陶器碗",    "caption_sub": "深海の底を流れる川",                  "category": "traditional"  },
+      { "caption_name": "呼び継ぎ花瓶",    "caption_sub": "琥珀色の傷口",                        "category": "process"      },
+      { "caption_name": "多彩花文碗",      "caption_sub": "金で縫い合わせた花",                  "category": "contemporary" },
+      { "caption_name": "ターコイズ釉陶器碗", "caption_sub": "海は自らの傷を抱く",               "category": "contemporary" },
+      { "caption_name": "白磁茶碗",        "caption_sub": "沈黙、金に包まれる",                  "category": "traditional"  },
+      { "caption_name": "チニ皿",          "caption_sub": "ふたつの伝統がひとつに癒える場所",    "category": "turkey"       },
+      { "caption_name": "黒釉マット壺",    "caption_sub": "かつての闇の断層線",                  "category": "process"      },
+      { "caption_name": "白磁碗",          "caption_sub": "かつて繋ぎとめたものすべての地図",    "category": "traditional"  },
+      { "caption_name": "貫入茶碗",        "caption_sub": "貫入と癒し",                          "category": "traditional"  }
     ]
   },
   "faq": {

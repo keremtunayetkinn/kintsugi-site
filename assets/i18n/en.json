@@ -404,18 +404,18 @@
       "turkey":       "Turkey"
     },
     "items": [
-      { "caption": "Traditional Kintsugi bowl, Edo period technique",         "category": "traditional"  },
-      { "caption": "Gold seam repair on a contemporary celadon piece",        "category": "contemporary" },
-      { "caption": "Applying urushi lacquer — the adhesion stage",            "category": "process"      },
-      { "caption": "Close-up of a gold seam on a 19th-century teacup",       "category": "traditional"  },
-      { "caption": "Contemporary vessel with deliberate gold veining",        "category": "contemporary" },
-      { "caption": "Dusting gold powder onto a still-tacky lacquer seam",    "category": "process"      },
-      { "caption": "Kintsugi plate from a Turkish workshop, Istanbul",        "category": "turkey"       },
-      { "caption": "Multiple repairs creating a map of restoration",         "category": "traditional"  },
-      { "caption": "Eco-Kintsugi with mica powder, Istanbul workshop",       "category": "turkey"       },
-      { "caption": "The complete repair — bowl reunited through gold",       "category": "process"      },
-      { "caption": "Silver-seamed contemporary earthenware",                  "category": "contemporary" },
-      { "caption": "Traditional Hon-Kintsugi tea bowl, Kyoto",               "category": "traditional"  }
+      { "caption_name": "Seiji Tsubo",                    "caption_sub": "Where Lightning Chose to Rest",         "category": "traditional"  },
+      { "caption_name": "Glazed Stoneware Plate",         "caption_sub": "Eclipse, Reassembled",                  "category": "contemporary" },
+      { "caption_name": "Sometsuke Chawan",               "caption_sub": "The Garden Remembers Every Break",      "category": "traditional"  },
+      { "caption_name": "Gosu-yū Stoneware Bowl",         "caption_sub": "Rivers of the Deep Sea Floor",          "category": "traditional"  },
+      { "caption_name": "Yobitsugi Kabin",                "caption_sub": "A Wound the Color of Amber",            "category": "process"      },
+      { "caption_name": "Polychrome Floral Bowl",         "caption_sub": "Blossoms Stitched in Gold",             "category": "contemporary" },
+      { "caption_name": "Turquoise-Glazed Stoneware Bowl","caption_sub": "The Sea Holds Its Own Scars",           "category": "contemporary" },
+      { "caption_name": "Hakuji Chawan",                  "caption_sub": "Silence, Gilded",                       "category": "traditional"  },
+      { "caption_name": "Çini Tabak",                     "caption_sub": "Where Two Traditions Heal as One",      "category": "turkey"       },
+      { "caption_name": "Kuro-yū Matte Tsubo",            "caption_sub": "Fault Lines of a Former Darkness",      "category": "process"      },
+      { "caption_name": "Hakuji Bowl",                    "caption_sub": "A Map of Everything That Held",         "category": "traditional"  },
+      { "caption_name": "Kannyu Chawan",                  "caption_sub": "The Crazing and the Cure",              "category": "traditional"  }
     ]
   },
   "faq": {

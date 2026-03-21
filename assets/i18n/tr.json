@@ -404,18 +404,18 @@
       "turkey":       "Türkiye"
     },
     "items": [
-      { "caption": "Edo dönemi tekniğiyle geleneksel Kintsugi kâse",          "category": "traditional"  },
-      { "caption": "Çağdaş seladon parçada altın dikiş onarımı",             "category": "contemporary" },
-      { "caption": "Urushi lak uygulama — yapışma aşaması",                  "category": "process"      },
-      { "caption": "19. yüzyıl çay fincanında altın dikiş yakın çekimi",     "category": "traditional"  },
-      { "caption": "Kasıtlı altın damarlı çağdaş kap",                       "category": "contemporary" },
-      { "caption": "Hâlâ yapışkan lak dikişine altın tozu serpme",           "category": "process"      },
-      { "caption": "Türk atölyesinden Kintsugi tabak, İstanbul",             "category": "turkey"       },
-      { "caption": "Restorasyon haritası oluşturan çoklu onarımlar",         "category": "traditional"  },
-      { "caption": "İstanbul atölyesinde mika tozuyla eko-Kintsugi",         "category": "turkey"       },
-      { "caption": "Tamamlanmış onarım — kâse altınla yeniden bütünleşti",  "category": "process"      },
-      { "caption": "Gümüş dikişli çağdaş toprak kap",                        "category": "contemporary" },
-      { "caption": "Geleneksel Hon-Kintsugi çay kâsesi, Kyoto",              "category": "traditional"  }
+      { "caption_name": "Seiji Tsubo",                    "caption_sub": "Şimşeğin Dinlenmeyi Seçtiği Yer",        "category": "traditional"  },
+      { "caption_name": "Sırlı Taş Kap Tabak",            "caption_sub": "Tutulma, Yeniden Bir Araya Geldi",       "category": "contemporary" },
+      { "caption_name": "Sometsuke Chawan",               "caption_sub": "Bahçe Her Kırığı Hatırlar",              "category": "traditional"  },
+      { "caption_name": "Gosu-yū Taş Kap Kâse",           "caption_sub": "Derin Deniz Tabanının Nehirleri",         "category": "traditional"  },
+      { "caption_name": "Yobitsugi Kabin",                "caption_sub": "Kehribar Renginde Bir Yara",              "category": "process"      },
+      { "caption_name": "Çok Renkli Çiçekli Kâse",        "caption_sub": "Altın Dikişli Çiçekler",                  "category": "contemporary" },
+      { "caption_name": "Turkuaz Sırlı Kâse",             "caption_sub": "Deniz Kendi Yaralarını Saklar",           "category": "contemporary" },
+      { "caption_name": "Hakuji Chawan",                  "caption_sub": "Sessizlik, Yaldızlandı",                  "category": "traditional"  },
+      { "caption_name": "Çini Tabak",                     "caption_sub": "İki Geleneğin Birlikte İyileştiği Yer",   "category": "turkey"       },
+      { "caption_name": "Kuro-yū Mat Tsubo",              "caption_sub": "Eski Karanlığın Fay Hatları",             "category": "process"      },
+      { "caption_name": "Hakuji Kâse",                    "caption_sub": "Tutunan Her Şeyin Haritası",              "category": "traditional"  },
+      { "caption_name": "Kannyu Chawan",                  "caption_sub": "Çatlama ve İyileşme",                     "category": "traditional"  }
     ]
   },
   "faq": {
