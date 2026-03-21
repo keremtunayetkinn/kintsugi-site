@@ -6,12 +6,19 @@
   <meta name="theme-color" content="#1a1008" />
   <meta name="color-scheme" content="light" />
   <meta name="description" content="Practical answers to common questions about Kintsugi — materials, safety, learning, and workshops." />
+  <meta property="og:type"        content="website" />
+  <meta property="og:site_name"   content="Kintsugi" />
+  <meta property="og:title"       content="FAQ — Kintsugi" />
+  <meta property="og:description" content="Practical answers to common questions about Kintsugi — materials, safety, learning, and workshops." />
+  <meta name="twitter:card"        content="summary" />
+  <meta name="twitter:title"       content="FAQ — Kintsugi" />
+  <meta name="twitter:description" content="Practical answers to common questions about Kintsugi — materials, safety, learning, and workshops." />
   <title data-i18n="faq.meta.title">FAQ — Kintsugi</title>
   <link rel="stylesheet" href="/assets/css/main.css" />
 </head>
 <body>
 
-  <a class="skip-link" href="#main-content">Skip to content</a>
+  <a class="skip-link" href="#main-content" data-i18n="skip_link">Skip to content</a>
   <div id="lang-announcer" role="status" aria-live="polite" class="sr-only"></div>
 
   <!-- ═══ HEADER ═══ -->
@@ -20,7 +27,7 @@
       <span class="logo__kanji" aria-hidden="true">金継ぎ</span>
       <span class="logo__text" data-i18n="site.name">Kintsugi</span>
     </a>
-    <nav class="main-nav" aria-label="Main navigation">
+    <nav class="main-nav" id="main-nav" aria-label="Main navigation">
       <ul role="list">
         <li><a href="/index.html"          data-i18n="nav.home">Home</a></li>
         <li><a href="/history.html"        data-i18n="nav.history">History</a></li>
@@ -39,7 +46,7 @@
       <span class="lang-divider" aria-hidden="true">|</span>
       <button class="lang-btn" data-lang="ja" onclick="Lang.set('ja')" aria-pressed="false">日本語</button>
     </div>
-    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-nav">
       <span></span><span></span><span></span>
     </button>
   </header>

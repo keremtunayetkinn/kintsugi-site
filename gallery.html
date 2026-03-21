@@ -6,12 +6,19 @@
   <meta name="theme-color" content="#1a1008" />
   <meta name="color-scheme" content="light" />
   <meta name="description" content="A visual journey through traditional and contemporary Kintsugi ceramics." />
+  <meta property="og:type"        content="website" />
+  <meta property="og:site_name"   content="Kintsugi" />
+  <meta property="og:title"       content="Gallery — Kintsugi" />
+  <meta property="og:description" content="A visual journey through traditional and contemporary Kintsugi ceramics." />
+  <meta name="twitter:card"        content="summary" />
+  <meta name="twitter:title"       content="Gallery — Kintsugi" />
+  <meta name="twitter:description" content="A visual journey through traditional and contemporary Kintsugi ceramics." />
   <title data-i18n="gallery.meta.title">Gallery — Kintsugi</title>
   <link rel="stylesheet" href="/assets/css/main.css" />
 </head>
 <body>
 
-  <a class="skip-link" href="#main-content">Skip to content</a>
+  <a class="skip-link" href="#main-content" data-i18n="skip_link">Skip to content</a>
   <div id="lang-announcer" role="status" aria-live="polite" class="sr-only"></div>
 
   <!-- ═══ HEADER ═══ -->
@@ -20,7 +27,7 @@
       <span class="logo__kanji" aria-hidden="true">金継ぎ</span>
       <span class="logo__text" data-i18n="site.name">Kintsugi</span>
     </a>
-    <nav class="main-nav" aria-label="Main navigation">
+    <nav class="main-nav" id="main-nav" aria-label="Main navigation">
       <ul role="list">
         <li><a href="/index.html"          data-i18n="nav.home">Home</a></li>
         <li><a href="/history.html"        data-i18n="nav.history">History</a></li>
@@ -39,7 +46,7 @@
       <span class="lang-divider" aria-hidden="true">|</span>
       <button class="lang-btn" data-lang="ja" onclick="Lang.set('ja')" aria-pressed="false">日本語</button>
     </div>
-    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-nav">
       <span></span><span></span><span></span>
     </button>
   </header>
@@ -53,6 +60,7 @@
            src="/assets/images/gallery/gallery-09.webp"
            alt=""
            aria-hidden="true"
+           loading="eager"
            fetchpriority="high" />
       <div class="gallery-hero__content">
         <h1 class="gallery-hero__title" data-i18n="gallery.hero.title">Gallery</h1>
@@ -62,7 +70,7 @@
     </section>
 
     <!-- ── 2. FILTER BAR + GRID ──────────────────────────────── -->
-    <section class="section" aria-labelledby="gallery-label">
+    <section class="section section--gallery" aria-labelledby="gallery-label">
       <div class="section__inner section__inner--wide">
         <h2 id="gallery-label" class="sr-only">Image Gallery</h2>
 

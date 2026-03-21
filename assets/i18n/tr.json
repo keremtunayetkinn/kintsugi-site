@@ -100,7 +100,7 @@
         {
           "date":  "15. Yüzyıl",
           "title": "Kintsugi'nin Doğuşu",
-          "text":  "Shogun Ashikaga Yoshimasa'nın sarayında doğar. Bir Çin çay bardağının onarılması yeni bir sanat formunu ateşler."
+          "text":  "Shogun Ashikaga Yoshimasa'nın sarayında doğar. Bir Çin çaydanlığının onarılması yeni bir sanat formunu ateşler."
         },
         {
           "date":  "16–17. Yüzyıl",
@@ -185,11 +185,11 @@
           "desc":  "Kırık kenarlara urushi lak sürerek parçaları bir araya getirin. Hassas hizalama şarttır — urushi kürlendiğinde güçlü bir bağ oluşturur."
         },
         {
-          "title": "Kürleme",
+          "title": "Kürle",
           "desc":  "Birleştirilmiş parçayı %70–85 bağıl nem ve 20–25°C sıcaklığındaki bir nem odasına (muro) yerleştirin. Urushi, oksitatif polimerizasyon yoluyla kürlendiği için nem gerektirir — kurumaz, polymerize olur."
         },
         {
-          "title": "Zımpara",
+          "title": "Zımparala",
           "desc":  "Lak tam olarak kürlendikten sonra, birleşim yüzeyini giderek daha ince ıslak zımparalarla dikkatli şekilde zımparalayın. Bu işlem altındaki pürüzsüz dikişi ortaya çıkarır."
         },
         {
@@ -212,7 +212,7 @@
         ["Gümüş Tozu", "銀粉", "Altına alternatif", "Daha serin, daha ölçülü bir estetik yaratır."],
         ["Platin Tozu", "白金粉", "Nadir alternatif", "Üç metalin en dayanıklısı."],
         ["Yumuşak Fırça", "刷毛", "Lak ve metal tozu uygulama", "Doğal kıllı fırçalar kullanın; sentetikler dökebilir."],
-        ["Islak Zımpara", "耐水ペーパー", "Kürlenen dikişleri düzleştirme", "400–2000 kum; giderek daha ince taneler kullanın."]
+        ["Islak Zımpara", "耐水ペーパー", "Kürlenen dikişleri düzleştirme", "400–2000 numara; giderek daha ince taneler kullanın."]
       ]
     },
     "modern": {
@@ -243,7 +243,7 @@
     },
     "allergy": {
       "title": "⚠ Urushi Alerji Uyarısı",
-      "text":  "Urushi (ham lak) urushiol içerir — zehirli sarmaşıkta bulunan bileşikle aynıdır. Kürlenmemiş hâlde ciddi temas dermatitine neden olabilir. Nitril eldiven takın ve iyi havalandırılan bir alanda çalışın. Tam kürlendikten sonra urushi güvenli kabul edilir. Zehirli sarmaşık veya meşe için hassasiyetiniz varsa, urushi ile çalışmadan önce bir uzmanla görüşün."
+      "text":  "Urushi (ham lak) urushiol içerir — zehirli sarmaşıkta bulunan bileşikle aynıdır. Kürlenmemiş hâlde ciddi temas dermatitine neden olabilir. Nitril eldiven takın ve iyi havalandırılan bir alanda çalışın. Tam kürlendikten sonra urushi güvenli kabul edilir. Zehirli sarmaşık veya zehirli meşe için hassasiyetiniz varsa, urushi ile çalışmadan önce bir uzmanla görüşün."
     }
   },
   "artists": {
@@ -309,7 +309,7 @@
         {
           "name": "Özlem Kevser Birkan",
           "role": "Kintsugi Ustası ve Eğitimcisi, İstanbul",
-          "bio":  "Özlem Kevser Birkan, özgün Kintsugi pratiğini Türkiye'ye taşıyan kişi olarak geniş çevrelerce tanınır. Yolculuğu Japon estetiğine derin bir ilgiyle başladı ve onu Japonya'da geleneksel ustalar yanında eğitim almaya yöneltti. İstanbul'a döndüğünde Lotus5'te stüdyosunu ve öğretim pratiğini kurdu; tekniği ve Wabi-Sabi felsefesini yeni bir kitleyle buluşturdu. Hem geleneksel urushi hem de çevre dostu alternatifler kullanarak öğreterek sanatı erişilebilir kılarken özünü korur."
+          "bio":  "Özlem Kevser Birkan, özgün Kintsugi pratiğini Türkiye'ye taşıyan kişi olarak geniş çevrelerce tanınır. Yolculuğu Japon estetiğine derin bir ilgiyle başladı ve onu Japonya'da geleneksel ustalar yanında eğitim almaya yöneltti. İstanbul'a döndüğünde Lotus5'te stüdyosunu ve öğretim pratiğini kurdu; tekniği ve Wabi-Sabi felsefesini yeni bir kitleyle buluşturdu. Hem geleneksel urushi hem de çevre dostu alternatifleri kullanarak öğreterek sanatı erişilebilir kılarken özünü korur."
         }
       ]
     }
@@ -431,7 +431,7 @@
     "items": [
       {
         "question": "Kintsugi öğrenmesi zor mu?",
-        "answer":   "Temel teknik tek bir atölye oturumunda öğrenilebilir. Urushi lak kullanan geleneksel Hon-Kintsugi daha fazla pratik gerektirir — özellikle neme bağlı kürleme sürecini yönetmek. Ancak reçine yapıştırıcılı modern eko-Kintsugi, tam yeniler için bir gün içinde erişilebilir."
+        "answer":   "Temel teknik tek bir atölye oturumunda öğrenilebilir. Urushi lak kullanan geleneksel Hon-Kintsugi daha fazla pratik gerektirir — özellikle neme bağlı kürleme sürecini yönetmek. Ancak reçine yapıştırıcılı modern eko-Kintsugi, tam yeni başlayanlar için bir gün içinde erişilebilir."
       },
       {
         "question": "Başlamak için hangi malzemelere ihtiyacım var?",
@@ -443,7 +443,7 @@
       },
       {
         "question": "Urushi alerjisi tehlikeli mi?",
-        "answer":   "Ham urushi, zehirli sarmaşığa benzer temas dermatitine neden olan urushiol içerir — kaşıntı, kızarıklık, su toplaması. Nadir durumlarda tepkiler şiddetli olabilir. Her zaman nitril eldiven takın ve havalandırılan alanda çalışın. Tam kürlenen urushi inert ve güvenli kabul edilir. Zehirli sarmaşık veya meşeye bilinen bir hassasiyetiniz varsa modern alternatifleri kullanın."
+        "answer":   "Ham urushi, zehirli sarmaşığa benzer temas dermatitine neden olan urushiol içerir — kaşıntı, kızarıklık, su toplaması. Nadir durumlarda tepkiler şiddetli olabilir. Her zaman nitril eldiven takın ve havalandırılan alanda çalışın. Tam kürlenen urushi inert ve güvenli kabul edilir. Zehirli sarmaşık veya zehirli meşeye bilinen bir hassasiyetiniz varsa modern alternatifleri kullanın."
       },
       {
         "question": "Kintsugi ile onarılan kaplar gıdaya güvenli mi?",
