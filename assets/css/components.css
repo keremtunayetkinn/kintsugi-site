@@ -1003,6 +1003,12 @@ blockquote.pull-quote {
   overflow: hidden;
 }
 
+.gallery-item__btn picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 .gallery-item__btn img {
   width: 100%;
   height: 100%;
